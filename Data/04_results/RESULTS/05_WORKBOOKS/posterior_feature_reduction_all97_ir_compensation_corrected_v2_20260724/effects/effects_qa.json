@@ -1,0 +1,8 @@
+{
+  "failed_blocks_emit_effect_curves": false,
+  "n_adjusted_effect_grid_rows": 0,
+  "n_released_blocks": 0,
+  "release_requires_all_registered_block_checks": true,
+  "smoke": false,
+  "status": "pass"
+}

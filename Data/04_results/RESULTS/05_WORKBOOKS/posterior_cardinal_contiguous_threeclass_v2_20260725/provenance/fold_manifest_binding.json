@@ -1,0 +1,15 @@
+{
+  "classic_v1_manifests_reused": false,
+  "endpoint_specific_manifests": true,
+  "inner_high_off_validation_mass_range": [
+    1.018,
+    3.369625
+  ],
+  "inner_manifest_sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+  "matches_expected_full_hashes": true,
+  "outer_high_off_validation_mass_range": [
+    1.05725,
+    3.358625
+  ],
+  "outer_manifest_sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330"
+}

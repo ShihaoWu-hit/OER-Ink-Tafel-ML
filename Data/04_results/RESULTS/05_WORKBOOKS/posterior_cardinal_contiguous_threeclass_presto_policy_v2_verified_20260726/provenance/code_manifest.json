@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "Ink_Tafel_Study/config/contracts/posterior_cardinal_contiguous_threeclass_presto_policy_v2.yaml",
+      "sha256": "85694b3ff89b10458e56cf159fa8d2da2fa771948845469c8951a14a7ee93dcd",
+      "size_bytes": 6978
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contiguous_threeclass.py",
+      "sha256": "7ff7f468c0744fc028c82caf835c6de73f575762d59037eac5bfc36370a66be5",
+      "size_bytes": 105279
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contiguous_threeclass_presto_gate.py",
+      "sha256": "6c4cca8ef42f29d4aacc1560cd6afe5d863c580a1c064345fb7459cc357a1358",
+      "size_bytes": 81698
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contiguous_threeclass_presto_policy_v2.py",
+      "sha256": "b53265e5bee416acaf3eae68195f20d47ca69a1fda489199b260b0fac94adf0c",
+      "size_bytes": 60146
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/presto_ordinal.py",
+      "sha256": "47cf245c27ecc289aeb3a13c8e61bd350a9de7084b7e128e30be1047f117a834",
+      "size_bytes": 15269
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/provenance.py",
+      "sha256": "a1cd5460d47536567f17e0fa23719116e6048d0c5b6c9eed01b8ab869a625cb9",
+      "size_bytes": 10932
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/threeclass_sensitivity_models.py",
+      "sha256": "51293ba9b6c70ac64c9ac1e9d9898bdef6060c451200e96c8cab00bf788ecffd",
+      "size_bytes": 60521
+    }
+  ],
+  "tree_sha256": "af0b7740af411a9d0a0786b2fe0d8f9b26e686cbc33ddb999d0f1345a7f562f1"
+}

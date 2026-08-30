@@ -1,0 +1,517 @@
+{
+  "approved_count": 97,
+  "created_at_utc": "2026-07-23T06:16:35+00:00",
+  "files": [
+    {
+      "path": "PPC_SELECTION.csv",
+      "sha256": "7cf652f7f2ed82ce2d1e73168cec4a8826f3334835693ba6a39e48922d9f2577",
+      "size_bytes": 7437
+    },
+    {
+      "path": "README.md",
+      "sha256": "b44380eaccf6ee46648e91c0badf747f1ea90628b789189097847581e25bb130",
+      "size_bytes": 901
+    },
+    {
+      "path": "STATUS.csv",
+      "sha256": "2a6e5c4ae8aa5199f7ff550db40a901452c4e5c88fd6fd7ca48a4d5ec3d94dce",
+      "size_bytes": 198
+    },
+    {
+      "path": "ppc_review.csv",
+      "sha256": "cddb6a2001f84b897d697ce5f95cdea003e6896ff4db8b6e013c8186ad624dfa",
+      "size_bytes": 43483
+    },
+    {
+      "path": "record_001__curve_sr001__bayesian_local_line_regional_ppc.png",
+      "sha256": "7985016a45dd582bc91f15f5f7d9a8f27290045e3a658ade570d40309bc07ba7",
+      "size_bytes": 100283
+    },
+    {
+      "path": "record_002__curve_sr002__bayesian_local_line_regional_ppc.png",
+      "sha256": "b7f181feced9eb1847c4dadc4a7c931d4354f0a62b7c495db1f5ca6f1211aa71",
+      "size_bytes": 103375
+    },
+    {
+      "path": "record_003__curve_sr003__bayesian_local_line_regional_ppc.png",
+      "sha256": "b379add50f27a31e65ab276163c53ee3658c71049a91d18164e1d2b7bb0256a4",
+      "size_bytes": 106633
+    },
+    {
+      "path": "record_004__curve_sr004__bayesian_local_line_regional_ppc.png",
+      "sha256": "27ea7a52635c0ccb6964eda12431a8812ed44012b48456d687a75758f8f846ce",
+      "size_bytes": 98149
+    },
+    {
+      "path": "record_005__curve_sr005__bayesian_local_line_regional_ppc.png",
+      "sha256": "205793e819e675f1ebb68f1614d6078554636e6a495e64f3a3d369df85f69a93",
+      "size_bytes": 106953
+    },
+    {
+      "path": "record_006__curve_sr006__bayesian_local_line_regional_ppc.png",
+      "sha256": "32a87c944e407ca9ed57ce8d512cfa72d1dfef60666884f078d836ef714e9b5c",
+      "size_bytes": 101039
+    },
+    {
+      "path": "record_007__curve_sr007__bayesian_local_line_regional_ppc.png",
+      "sha256": "0f54c4f057153b03dc665c82c96dfe838dd9bf010b491785eca21998589dc83a",
+      "size_bytes": 103633
+    },
+    {
+      "path": "record_008__curve_sr008__bayesian_local_line_regional_ppc.png",
+      "sha256": "2d30bffb77ea365044cbea2bc0b9f7392296ca23e7e13d8bf1bb930f7270de9d",
+      "size_bytes": 111401
+    },
+    {
+      "path": "record_009__curve_sr009__bayesian_local_line_regional_ppc.png",
+      "sha256": "06a250d8145784f90c8fb4dfb17f5e07ed59d188fcc816b464ac64d67a526f10",
+      "size_bytes": 101273
+    },
+    {
+      "path": "record_010__curve_sr010__bayesian_local_line_regional_ppc.png",
+      "sha256": "7078b984522ef7eff75f1d7fb937f27dcf0205185f2b3885e4b6951c896c39d3",
+      "size_bytes": 103509
+    },
+    {
+      "path": "record_011__curve_sr011__bayesian_local_line_regional_ppc.png",
+      "sha256": "45387029df16c0f2e1a42ef693074c2d65f1c2a45856694eded10556054dbb02",
+      "size_bytes": 116844
+    },
+    {
+      "path": "record_012__curve_sr012__bayesian_local_line_regional_ppc.png",
+      "sha256": "16509f757f064caa904d1061ecefb13b4a5e6ec16bb39f81a00c472b977261cd",
+      "size_bytes": 105506
+    },
+    {
+      "path": "record_013__curve_sr013__bayesian_local_line_regional_ppc.png",
+      "sha256": "eadce2aa895b6fab304fc087220ecafe5af0bd8489322d0de1b394169fd28687",
+      "size_bytes": 100362
+    },
+    {
+      "path": "record_014__curve_sr014__bayesian_local_line_regional_ppc.png",
+      "sha256": "fc826ff29dd01b395c174feead5452c60befa3f204e13195d1d8b926457f6d08",
+      "size_bytes": 105543
+    },
+    {
+      "path": "record_015__curve_sr015__bayesian_local_line_regional_ppc.png",
+      "sha256": "b2474f4fc33ab2b149d4c3e965efd1de2cec181714cbd4d101ba417b7c43fd7c",
+      "size_bytes": 101880
+    },
+    {
+      "path": "record_016__curve_sr016__bayesian_local_line_regional_ppc.png",
+      "sha256": "46cbde7841de9d1ed0af27601aa107d1bbb70d7749b6577a09dd376fc539c17f",
+      "size_bytes": 106469
+    },
+    {
+      "path": "record_017__curve_sr017__bayesian_local_line_regional_ppc.png",
+      "sha256": "ba9d4fd91cb91cb083a90a599905f1ac7ecd57c17d3e63b6cfbee104e1f628f3",
+      "size_bytes": 114434
+    },
+    {
+      "path": "record_018__curve_sr018__bayesian_local_line_regional_ppc.png",
+      "sha256": "eb2c7e498532a8d3d32b618f8cffdc9867e49469235569e3792b7e77689037ba",
+      "size_bytes": 103115
+    },
+    {
+      "path": "record_019__curve_sr019__bayesian_local_line_regional_ppc.png",
+      "sha256": "35dfea885327d32d900cf5d0eb24a3b48a471607a98ec5b528d4ca73646c3a33",
+      "size_bytes": 106398
+    },
+    {
+      "path": "record_020__curve_sr020__bayesian_local_line_regional_ppc.png",
+      "sha256": "b5bd389fb498ba1128383055f93384429cdb8b5d149d44e5161fce46834c6ea8",
+      "size_bytes": 104343
+    },
+    {
+      "path": "record_021__curve_sr021__bayesian_local_line_regional_ppc.png",
+      "sha256": "b01e77bee42720947781679c7163029ed8ef187375ef2306e3d61f2d88e08cf7",
+      "size_bytes": 105631
+    },
+    {
+      "path": "record_022__curve_sr022__bayesian_local_line_regional_ppc.png",
+      "sha256": "f0cdc6ad14b05039af4fd2019db1f8219bd0436f866cc529664b23da27808478",
+      "size_bytes": 110578
+    },
+    {
+      "path": "record_023__curve_sr023__bayesian_local_line_regional_ppc.png",
+      "sha256": "f3284f9eb3ceb931e472585c96d7cc2eae876c2815a17e8af9bb68c4d14d3935",
+      "size_bytes": 116044
+    },
+    {
+      "path": "record_024__curve_sr024__bayesian_local_line_regional_ppc.png",
+      "sha256": "4bf98392d6962a654f333b9fa587635d3deb0097a0051e593b68ef8427da22aa",
+      "size_bytes": 101791
+    },
+    {
+      "path": "record_025__curve_sr025__bayesian_local_line_regional_ppc.png",
+      "sha256": "b51f9d414b6ebe57151c488c15cb042e476584212515619cb2f6b0a0c1f06872",
+      "size_bytes": 105861
+    },
+    {
+      "path": "record_026__curve_sr026__bayesian_local_line_regional_ppc.png",
+      "sha256": "c83857d31dc704124f3990f8cc2490df28e5e7ea4d8ad31a13ad03fa11288d97",
+      "size_bytes": 104374
+    },
+    {
+      "path": "record_027__curve_sr027__bayesian_local_line_regional_ppc.png",
+      "sha256": "fc8390337434e9133a90518a8467da67939fcd12320ff3fa96cd3e02094d4181",
+      "size_bytes": 104590
+    },
+    {
+      "path": "record_028__curve_sr028__bayesian_local_line_regional_ppc.png",
+      "sha256": "99b1a189fe28394be30b2a951849a2def00cc94d45ed9946eb39359939020ffa",
+      "size_bytes": 104965
+    },
+    {
+      "path": "record_029__curve_sr029__bayesian_local_line_regional_ppc.png",
+      "sha256": "167af9c2018efcad761256ef914687231108c84a0c3a0e7e73c748c89538e3a3",
+      "size_bytes": 105093
+    },
+    {
+      "path": "record_030__curve_sr030__bayesian_local_line_regional_ppc.png",
+      "sha256": "fccf0334de9172b8119ba60bed227e83fdbbc478aa673a39260bd0970777bdbe",
+      "size_bytes": 110522
+    },
+    {
+      "path": "record_031__curve_sr031__bayesian_local_line_regional_ppc.png",
+      "sha256": "d85d8e3e1195b25b4cc2183d20c79f2b32034b2ffd3c7694ff65ce678c4c8672",
+      "size_bytes": 106083
+    },
+    {
+      "path": "record_032__curve_sr032__bayesian_local_line_regional_ppc.png",
+      "sha256": "ff4b66ce587ea8bb647dffae46036180aaef7a427175b0155f861cdffde92718",
+      "size_bytes": 102919
+    },
+    {
+      "path": "record_033__curve_sr033__bayesian_local_line_regional_ppc.png",
+      "sha256": "3d22bc8c8b4cb790e190e1117f44ec22eb843a9c39641fa49ffc52b19fa86a58",
+      "size_bytes": 100445
+    },
+    {
+      "path": "record_034__curve_sr034__bayesian_local_line_regional_ppc.png",
+      "sha256": "3a2f6d71a07005816356287e7f59d1eab0acf49d97558db90a6db3a8f0c16c06",
+      "size_bytes": 101887
+    },
+    {
+      "path": "record_035__curve_sr035__bayesian_local_line_regional_ppc.png",
+      "sha256": "1baa26993b1ccd3e9535f2e93680b46e587ff6bb79eb6df3ecc985d52ed7e169",
+      "size_bytes": 106478
+    },
+    {
+      "path": "record_036__curve_sr036__bayesian_local_line_regional_ppc.png",
+      "sha256": "19569564a4b30e39cd06d9a359690c83710277ad771e8cd95b7b2e8e3f3eac92",
+      "size_bytes": 101308
+    },
+    {
+      "path": "record_037__curve_sr037__bayesian_local_line_regional_ppc.png",
+      "sha256": "4db30fc5fbf76d84704c0ca1a41abe4359a9ed020fca425cf170fcd277564d3f",
+      "size_bytes": 110502
+    },
+    {
+      "path": "record_038__curve_sr038__bayesian_local_line_regional_ppc.png",
+      "sha256": "f9b51edff85b2921e9354b0a3b5914098a2bc24a1a1ab62ce7fc9850dbb387df",
+      "size_bytes": 101888
+    },
+    {
+      "path": "record_039__curve_sr039__bayesian_local_line_regional_ppc.png",
+      "sha256": "e0d54da2df16846ff5eb3a944eee6deb0231de8726fa7e867d641783bb043e9b",
+      "size_bytes": 100397
+    },
+    {
+      "path": "record_040__curve_sr040__bayesian_local_line_regional_ppc.png",
+      "sha256": "195935509cc4bb23e9fa0ff8c79afb2822dc07cedf8ca102828c5cdf9c725cc9",
+      "size_bytes": 103232
+    },
+    {
+      "path": "record_041__curve_sr041__bayesian_local_line_regional_ppc.png",
+      "sha256": "92f074df5b7eab0e2c273de39541916f08b7d1a194cd2bd15e107901a2e81fab",
+      "size_bytes": 105329
+    },
+    {
+      "path": "record_042__curve_sr042_v1__bayesian_local_line_regional_ppc.png",
+      "sha256": "ba054a727279fe312ec7d7c89c23c0b904d5f102c80031bb8bd18f647ed6bc40",
+      "size_bytes": 103305
+    },
+    {
+      "path": "record_043__curve_sr042_v2__bayesian_local_line_regional_ppc.png",
+      "sha256": "e4b64892d74347a0ff1f578be8b9207b55f2da15364fee5344a7242aa9b411ff",
+      "size_bytes": 102450
+    },
+    {
+      "path": "record_044__curve_sr043__bayesian_local_line_regional_ppc.png",
+      "sha256": "daa28b014b1978fd046b2c59a5c0324d60e1791e13cc116748d4f518344bf0b3",
+      "size_bytes": 104903
+    },
+    {
+      "path": "record_045__curve_sr044__bayesian_local_line_regional_ppc.png",
+      "sha256": "b984cfd56f3d4e4c3dbc1a9f98f8a7ce84128cdb3ad4df5402d1619b8d7525ee",
+      "size_bytes": 106230
+    },
+    {
+      "path": "record_046__curve_sr045__bayesian_local_line_regional_ppc.png",
+      "sha256": "96e91fc976fcd121215372a6927db76bc9096a797d041d0bf52b1a3caaea31e8",
+      "size_bytes": 107833
+    },
+    {
+      "path": "record_047__curve_sr046__bayesian_local_line_regional_ppc.png",
+      "sha256": "50067abe3f0591437bd0b23f088f91c0b3cc616d93bff5f479836d7e661d6103",
+      "size_bytes": 110715
+    },
+    {
+      "path": "record_048__curve_sr047__bayesian_local_line_regional_ppc.png",
+      "sha256": "e3abe2eb2741b3679a54c9c62f5a61d98b7806af671dc783aea3f8e48b3d3c61",
+      "size_bytes": 110065
+    },
+    {
+      "path": "record_049__curve_sr048__bayesian_local_line_regional_ppc.png",
+      "sha256": "6a02c895d7289b031390013d3412b7dac13c414ca3870901a26187d78f99523d",
+      "size_bytes": 109439
+    },
+    {
+      "path": "record_050__curve_sr049__bayesian_local_line_regional_ppc.png",
+      "sha256": "b9b1cc87baf248b0defb081fbf293a2cee0905711d7b6825f3bb35ef40c95504",
+      "size_bytes": 98767
+    },
+    {
+      "path": "record_051__curve_sr051__bayesian_local_line_regional_ppc.png",
+      "sha256": "88606258451305e7d0d72a610d4c750f10c5e1cfa9dd0fd948076f40ba7ed2a3",
+      "size_bytes": 109276
+    },
+    {
+      "path": "record_052__curve_sr052__bayesian_local_line_regional_ppc.png",
+      "sha256": "2416a60cbf828136ffb9413ee9cee89d04ee51d962fa319bc0d7827b6be227f0",
+      "size_bytes": 99751
+    },
+    {
+      "path": "record_053__curve_sr053__bayesian_local_line_regional_ppc.png",
+      "sha256": "d7dd73d324679ebfcb4f7935d985b02b9b258f54b507e305a1dc179279683aab",
+      "size_bytes": 104483
+    },
+    {
+      "path": "record_054__curve_sr054__bayesian_local_line_regional_ppc.png",
+      "sha256": "c14f87a3b984cbf3217c6774b0ccc67c2eec0aed40013bb842c30a8f6b156488",
+      "size_bytes": 106745
+    },
+    {
+      "path": "record_055__curve_sr055__bayesian_local_line_regional_ppc.png",
+      "sha256": "fb39505874e36c73129cdad42918378504cd6c704f6ab7f7a124af0d59e7d812",
+      "size_bytes": 101379
+    },
+    {
+      "path": "record_056__curve_sr056__bayesian_local_line_regional_ppc.png",
+      "sha256": "8f51f6cd65f1285bd779f916cf7b0653af86d9a090e8828c6c160732d902836c",
+      "size_bytes": 103346
+    },
+    {
+      "path": "record_057__curve_sr057__bayesian_local_line_regional_ppc.png",
+      "sha256": "e38c17c246e7a78a758773f1d4d2547eb11c3094a01cc0ac8308d4c7a3a4fcbb",
+      "size_bytes": 95717
+    },
+    {
+      "path": "record_058__curve_sr058__bayesian_local_line_regional_ppc.png",
+      "sha256": "db238085d158920718cfe6341c4be854d9fa59d53c4e249a5732c8a1d8646442",
+      "size_bytes": 104778
+    },
+    {
+      "path": "record_059__curve_sr059__bayesian_local_line_regional_ppc.png",
+      "sha256": "028626c9251d92f179c636386fba3f05cf3a9e87c87c10d5fffcbb319da4e938",
+      "size_bytes": 107541
+    },
+    {
+      "path": "record_060__curve_sr060__bayesian_local_line_regional_ppc.png",
+      "sha256": "183cef83fd4fedf7656fea01240e981967e08de66ab2769e48b4ddf07a46f3b4",
+      "size_bytes": 110969
+    },
+    {
+      "path": "record_061__curve_sr061__bayesian_local_line_regional_ppc.png",
+      "sha256": "3af820fb36c9a15bbdd3360367de2255bf6f5054cad971fa9f9620eb5fdf51df",
+      "size_bytes": 105497
+    },
+    {
+      "path": "record_062__curve_sr062__bayesian_local_line_regional_ppc.png",
+      "sha256": "4729b5f77b57ab6f6651f2735c52b316588d118ba3413429d478db8029680ab0",
+      "size_bytes": 102334
+    },
+    {
+      "path": "record_063__curve_sr063__bayesian_local_line_regional_ppc.png",
+      "sha256": "338e40232d39624cd393fbcb405aedc60e15bd8f8f77727d00ddb1f164207dc4",
+      "size_bytes": 106226
+    },
+    {
+      "path": "record_064__curve_sr064__bayesian_local_line_regional_ppc.png",
+      "sha256": "b1a4e4e8121181fc09b1d1c06f0e417da356f07d24730323060690ac0ba33241",
+      "size_bytes": 105935
+    },
+    {
+      "path": "record_065__curve_sr065__bayesian_local_line_regional_ppc.png",
+      "sha256": "ead5d734e900c65413604a7b53758bed1ac183134b3c0b1a936f37ea6a788a4e",
+      "size_bytes": 101185
+    },
+    {
+      "path": "record_066__curve_sr066__bayesian_local_line_regional_ppc.png",
+      "sha256": "59799d1819eef97c49fb17199d97bcc4ca08befc46e3c3a70880e132c9077eb2",
+      "size_bytes": 106877
+    },
+    {
+      "path": "record_067__curve_sr067__bayesian_local_line_regional_ppc.png",
+      "sha256": "efbd437b6c5cc63181e3dc4ca176fbe147597a68607783109d5c797c54b9d5f0",
+      "size_bytes": 109633
+    },
+    {
+      "path": "record_068__curve_sr068__bayesian_local_line_regional_ppc.png",
+      "sha256": "824cc7c9b7e07a7d88f1059248820656c43dd3b860e2252f3a915db368e995bc",
+      "size_bytes": 106083
+    },
+    {
+      "path": "record_069__curve_sr069__bayesian_local_line_regional_ppc.png",
+      "sha256": "b1d0c10d986b8868a40b5721a6e0c70f34ff666a92ce8192fe76d0c3159a04e2",
+      "size_bytes": 100094
+    },
+    {
+      "path": "record_070__curve_sr070__bayesian_local_line_regional_ppc.png",
+      "sha256": "b59d4be77dbc839891c347e066b8b66ffe9887f32e12be407bb8a3ebb08c1fa4",
+      "size_bytes": 105774
+    },
+    {
+      "path": "record_071__curve_sr071__bayesian_local_line_regional_ppc.png",
+      "sha256": "34b5e4559a86be5e621803102abbf9a285e0616c1c1bd654ca1c4c60fe4f7400",
+      "size_bytes": 97784
+    },
+    {
+      "path": "record_072__curve_sr072__bayesian_local_line_regional_ppc.png",
+      "sha256": "e34da33796ed880f788cd4638ec3a5b16c828e5a4dbb14123c01019be28e7d4d",
+      "size_bytes": 103908
+    },
+    {
+      "path": "record_073__curve_sr073__bayesian_local_line_regional_ppc.png",
+      "sha256": "a02afeae76279dc796c63874b7d771721138d46850e09cdcf56444db4f58edc5",
+      "size_bytes": 101236
+    },
+    {
+      "path": "record_074__curve_sr074__bayesian_local_line_regional_ppc.png",
+      "sha256": "c5f3a16b993661c9cef3032e13d39a5bd32cbeefdb1a06b66ead50373f101ce3",
+      "size_bytes": 117571
+    },
+    {
+      "path": "record_075__curve_sr075__bayesian_local_line_regional_ppc.png",
+      "sha256": "dd0a6d995b3cbbbcf12fd99a358dec7cb77f0bf8682485b3514aee49c0f7c24e",
+      "size_bytes": 102646
+    },
+    {
+      "path": "record_076__curve_sr076__bayesian_local_line_regional_ppc.png",
+      "sha256": "34957341f2a8e4f51f15b0a5edf45d18cbc1568d4ace5995db4ed1b30c723e16",
+      "size_bytes": 106193
+    },
+    {
+      "path": "record_077__curve_sr077__bayesian_local_line_regional_ppc.png",
+      "sha256": "712a6541eac90ea465c2f8af42b9de8259f648207e8f2fc839fcb96473439619",
+      "size_bytes": 104621
+    },
+    {
+      "path": "record_078__curve_sr078__bayesian_local_line_regional_ppc.png",
+      "sha256": "9140a7e00546624ce59ad65fa3a4257e575554b090184f287b5a9bc3b148998e",
+      "size_bytes": 105808
+    },
+    {
+      "path": "record_079__curve_sr079__bayesian_local_line_regional_ppc.png",
+      "sha256": "2dd3a7b8c81493309786bc4545f5be662b22253c52e65d388c9765889dd166c9",
+      "size_bytes": 101851
+    },
+    {
+      "path": "record_080__curve_sr080__bayesian_local_line_regional_ppc.png",
+      "sha256": "8e8eda0c4fed9ee046c2265f3b4c5cd0c2396920788761a26039cd299aabfa4b",
+      "size_bytes": 102222
+    },
+    {
+      "path": "record_081__curve_sr081__bayesian_local_line_regional_ppc.png",
+      "sha256": "3b4821a54dec01f77c4caae131ff9d82f597bc89f2b4f8401391a49003978e71",
+      "size_bytes": 102588
+    },
+    {
+      "path": "record_082__curve_sr082__bayesian_local_line_regional_ppc.png",
+      "sha256": "28993041dd3ad963a301b4ff12305ae2b748cfef0741c3fefbc25e0b320b3434",
+      "size_bytes": 110012
+    },
+    {
+      "path": "record_083__curve_sr083__bayesian_local_line_regional_ppc.png",
+      "sha256": "f761062b58c8bc608d376b31e37671f090a481f38938897fdf58cc85ecf4a591",
+      "size_bytes": 103610
+    },
+    {
+      "path": "record_084__curve_sr084__bayesian_local_line_regional_ppc.png",
+      "sha256": "03b5b7a7d0084a4d386a0a5657f7694eced032ec8f7660f9b075bdcddd60993f",
+      "size_bytes": 106356
+    },
+    {
+      "path": "record_085__curve_sr085__bayesian_local_line_regional_ppc.png",
+      "sha256": "4681cc7d8d61fbc08c7881d3781661c06ec895617c58228f1142860467b494da",
+      "size_bytes": 107170
+    },
+    {
+      "path": "record_086__curve_sr086__bayesian_local_line_regional_ppc.png",
+      "sha256": "fd9f9869e635a760d4e01db327e5ddec71418eb2f63ff0e0e982512acd64ed78",
+      "size_bytes": 104276
+    },
+    {
+      "path": "record_087__curve_sr087__bayesian_local_line_regional_ppc.png",
+      "sha256": "77aa69e4057de59e9478214087d7b0f3787e8aefeeda391a2a65385655217206",
+      "size_bytes": 102866
+    },
+    {
+      "path": "record_088__curve_sr088__bayesian_local_line_regional_ppc.png",
+      "sha256": "e7123769005b50b01b962e5a5e3fcd33480ce8b5e50de5c62e1eb11e595a83a7",
+      "size_bytes": 104241
+    },
+    {
+      "path": "record_089__curve_sr089__bayesian_local_line_regional_ppc.png",
+      "sha256": "b26fc155ab9873721a9551cfd76c2cb55877ee5812c2e6e904b41d6cbd0c583c",
+      "size_bytes": 106944
+    },
+    {
+      "path": "record_090__curve_sr090__bayesian_local_line_regional_ppc.png",
+      "sha256": "3d46a2fbbc68d88be54f22eadd27bd04b63076e0deb56bc5f9f875d6bd83012d",
+      "size_bytes": 99952
+    },
+    {
+      "path": "record_091__curve_sr091__bayesian_local_line_regional_ppc.png",
+      "sha256": "ec063d61a3a92c06a5bb0cf7702787793450193d599c838eb4b15ac886442026",
+      "size_bytes": 99374
+    },
+    {
+      "path": "record_092__curve_sr092__bayesian_local_line_regional_ppc.png",
+      "sha256": "b3044062cd9a12f82ae57d367c5a5ff892bf81cc973e4f6d1342f5047077f12a",
+      "size_bytes": 108918
+    },
+    {
+      "path": "record_093__curve_sr093__bayesian_local_line_regional_ppc.png",
+      "sha256": "644f6d7990ba78eaba797044ff5f8042d69c00496c363d11fb29e788ee661061",
+      "size_bytes": 106998
+    },
+    {
+      "path": "record_094__curve_sr094__bayesian_local_line_regional_ppc.png",
+      "sha256": "333c3e3245f6f2a1d5b8f6da5edfbb428fd0afe56ad5b2dee9053d0b0a16703f",
+      "size_bytes": 106421
+    },
+    {
+      "path": "record_095__curve_sr095__bayesian_local_line_regional_ppc.png",
+      "sha256": "42250b9bfdcd17718ab1286bf0cb953476fcb780c627e31f1c5d19783c04ee56",
+      "size_bytes": 99535
+    },
+    {
+      "path": "record_096__curve_sr096__bayesian_local_line_regional_ppc.png",
+      "sha256": "6bf4a3c1277911813ab8e887a6f776f5e9098f900aad033a1d223aed378f3096",
+      "size_bytes": 101936
+    },
+    {
+      "path": "record_097__curve_sr097__bayesian_local_line_regional_ppc.png",
+      "sha256": "d8561180e9c9f580c8f7d1728a9ba6281ac390af89b5af214e02d39f3f4132d7",
+      "size_bytes": 105449
+    }
+  ],
+  "human_review_complete": true,
+  "human_review_transferred": false,
+  "review_date": "2026-07-23",
+  "reviewer": "Mo",
+  "source_formal_target": "Tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2",
+  "target_name": "b_bayesian_local_line_mV_dec"
+}

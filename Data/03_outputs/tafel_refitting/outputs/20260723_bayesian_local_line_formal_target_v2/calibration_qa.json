@@ -1,0 +1,33 @@
+{
+  "calibration_pass": true,
+  "calibration_version": "synthetic_recovery_contiguous_increase_v3_frozen_before_candidate_dry_run",
+  "false_extreme_rate": 0.0,
+  "interval_coverage": 1.0,
+  "maximum_scenario_median_relative_error": 0.014364638016930265,
+  "median_absolute_relative_error": 0.008098471054097011,
+  "progression_violation_rate": 0.0,
+  "recovery_start_and_end_pass_rate": 1.0,
+  "scenario_median_relative_errors": {
+    "clean_150": 0.008319288774224371,
+    "clean_300": 0.0032554051098137885,
+    "clean_400": 0.0018102894110027987,
+    "clean_60": 0.014364638016930265,
+    "early_floor_90": 0.00832798796534446,
+    "late_plateau_120": 0.008955089556900178,
+    "reversal_then_recovery_120": 0.012390689027537979,
+    "tie_then_recovery_120": 0.00892962850806107
+  },
+  "supported_selection_rate": 1.0,
+  "thresholds": {
+    "maximum_false_extreme_rate": 0.05,
+    "maximum_median_absolute_relative_error": 0.15,
+    "maximum_per_scenario_relative_error": 0.25,
+    "maximum_progression_violation_rate": 0.0,
+    "maximum_unsupported_false_positive_rate": 0.1,
+    "minimum_interval_coverage": 0.8,
+    "minimum_recovery_start_pass_rate": 0.9,
+    "minimum_supported_selection_rate": 0.9,
+    "replicates_per_scenario": 8
+  },
+  "unsupported_false_positive_rate": 0.0
+}

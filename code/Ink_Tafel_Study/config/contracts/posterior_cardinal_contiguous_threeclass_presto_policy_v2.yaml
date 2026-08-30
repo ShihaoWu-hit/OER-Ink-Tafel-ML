@@ -1,0 +1,157 @@
+contract_id: posterior_cardinal_contiguous_threeclass_presto_policy_v2
+contract_version: 2.0.0
+status: posthoc_global_postselection_development_frozen_before_packaged_v2_run
+frozen_date: 2026-07-26
+stage: posterior-cardinal-contiguous-threeclass-presto-policy-v2
+
+scientific_scope:
+  analysis_role: posthoc_global_postselection_policy_development_sensitivity
+  population: all97
+  expected_records: 97
+  expected_connected_groups: 80
+  response_source: b_bayesian_local_line_mV_dec_posterior_soft_distribution
+  one_ml_row_per_record: true
+  posterior_draws_expanded_as_samples: false
+  class_rows_expanded_as_samples: false
+  independent_confirmation: false
+  scientifically_releasable: false
+  may_replace_or_rescue_v4_result: false
+  may_replace_contiguous_v2_result: false
+  may_replace_direct_gower_v1_result: false
+  may_replace_presto_gate_v1_result: false
+  feature_claim_allowed: false
+  causal_claim_allowed: false
+  mechanistic_claim_allowed: false
+
+immutable_parent:
+  contract_id: posterior_cardinal_contiguous_threeclass_presto_gate_v1
+  contract_sha256: 964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c
+  default_run: Data/04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_gate_v1_20260726
+  expected_artifact_tree_sha256: 257c7438545007a3eada169a8d2cdbcccb59a30c3b2f89803128001cf422c0db
+  access: read_only
+  required_files:
+    inputs/records.csv: b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5
+    registry/contiguous_three_class_soft_labels.csv: 7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d
+    folds/outer_split_manifest.csv: 5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330
+    folds/inner_split_manifest.csv: 603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f
+    analyses/oof_probabilities.csv: cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3
+    analyses/oof_aggregated.csv: 7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a
+    analyses/presto_inner_oof_candidates.csv: 4c8301b3a70723324a8206d9df7add91e0c619a07f6d0bde8d53669e4e9fabc7
+    analyses/direct_gower_inner_oof.csv: 43ef0f7bf637b3efd227f5efe2af8e414e366f2dd67a2b68b36241bfd745265d
+    analyses/outer_selections.csv: c3c9251480cb53d3e785e80f3eb7c6cb58f8bd3abc0e335cd5926660633c5cf1
+    analyses/policy_oof_decisions.csv: e587ecb2cb8d5f27ec7dfbbe7d1878750b934498cbae1fe6ba01bbc905e4b5b9
+    analyses/policy_record_aggregated.csv: d31215edfae9dc167e5e489dd6f11d2d115992e8f30c716d26bcf1a46a2b4245
+    registry/contract_snapshot.yaml: 964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c
+  output_must_be_new_empty_and_disjoint_from_parent: true
+
+inherited_probability_model:
+  evaluation_model: presto_high_gate_direct_gower_conditional
+  source: immutable_parent_analyses_oof_probabilities
+  probability_refit_or_recalibration: forbidden
+  probability_values_must_match_parent_exactly: true
+  full_run_oof_csv_must_be_byte_identical_to_parent: true
+  probability_metrics_are_inherited_not_a_new_claim: true
+  soft_log_loss_and_brier_are_not_changed_by_policy: true
+
+label_scheme:
+  inherited_from_parent_without_change: true
+  supervised_class_order: [low_60_side, 120_side, high_off]
+  soft_label_columns: [q_low_60_side, q_120_side, q_high_off]
+  prediction_columns: [p_low_60_side, p_120_side, p_high_off]
+  posterior_argmax_training_or_policy_selection_use: forbidden
+
+validation:
+  outer_manifest_reused_exactly: true
+  outer_folds: 5
+  outer_repeats: 10
+  inner_manifest_reused_exactly: true
+  inner_folds: 4
+  grouping: publication_verified_laboratory_recipe_hash_connected_components
+  outer_test_used_for_penalty_threshold_or_aggregation_selection: false
+  aggregate_repeated_oof_by_record_before_inference: true
+
+policy_score_model:
+  estimator: presto_inspired_fused_continuation_ratio_policy_only_score
+  exact_presto_replication: false
+  preserved_parent_deviations_from_exact_presto:
+    - continuation_ratio_instead_of_nonparallel_cumulative_odds
+    - smooth_l1_instead_of_exact_l1
+    - posterior_soft_label_extension
+    - fixed_small_ridge_stabilizer
+    - x_only_gower_novelty_coordinate
+  probability_model_role: none
+  feature_input: inherited_fold_local_context_plus_polarity_gower_novelty
+  policy_penalty_grid: [0.003, 0.01, 0.03]
+  source_candidates: immutable_parent_grouped_inner_oof_presto_candidates
+  outer_refit_uses_parent_v1_presto_implementation: true
+  non_high_decision_source: inherited_parent_hybrid_low_vs_120_probabilities
+
+inner_policy_selection:
+  threshold_grid: [0.03, 0.05, 0.075, 0.10, 0.125, 0.15, 0.175, 0.20, 0.225, 0.25, 0.275, 0.30, 0.35, 0.40, 0.50, 0.75, 1.00]
+  expected_soft_fpr_cap: 0.20
+  utility: soft_f_beta
+  beta: 0.5
+  weights: equal_inner_fold_then_equal_record_within_fold
+  joint_penalty_threshold_selection: true
+  tiebreaks:
+    - higher_soft_high_recall
+    - lower_soft_high_false_positive_rate
+    - higher_threshold
+    - larger_penalty
+  selected_only_from_outer_training_grouped_inner_oof: true
+  hard_outer_labels_used: false
+
+repeat_aggregation:
+  primary:
+    rule: high_if_mean_raw_score_minus_selected_threshold_is_nonnegative
+    margin: policy_high_score_minus_inner_selected_threshold
+    otherwise: argmax_mean_inherited_low_vs_120_probabilities
+  sensitivities:
+    - high_if_at_least_5_of_10_repeat_votes
+    - high_if_at_least_6_of_10_repeat_votes
+  aggregation_rule_selected_after_closed_outer_results_seen: true
+
+metrics:
+  inherited_probability:
+    - full_coverage_three_class_soft_log_loss
+    - multiclass_brier
+  policy:
+    - modal_accuracy
+    - balanced_accuracy
+    - macro_f1
+    - posterior_expected_hard_accuracy
+    - modal_high_recall
+    - modal_high_precision
+    - modal_high_false_positive_rate
+    - posterior_expected_high_recall
+    - posterior_expected_high_precision
+    - posterior_expected_high_false_positive_rate
+    - predicted_high_count
+  probability_and_policy_metrics_must_not_be_conflated: true
+
+connected_group_inference:
+  bootstrap_repetitions: 2000
+  bootstrap_seed: 20260726
+  unit: connected_group
+  aggregate_repeated_oof_before_resampling: true
+  paired_comparator: parent_v1_presto_soft_f2_majority_vote_policy
+  global_policy_selection_not_covered_by_conditional_bootstrap: true
+
+development_boundary:
+  method_sources:
+    - https://proceedings.mlr.press/v202/faletto23a.html
+    - https://doi.org/10.1186/1471-2105-7-91
+  f0_5_utility_and_mean_margin_rule_selected_after_inspecting_closed_outer_results: true
+  nested_outer_cv_does_not_cover_global_method_selection: true
+  paired_bootstrap_is_conditional_on_selected_rule: true
+  independent_confirmation_requires_future_precommitted_data_or_evaluation: true
+  closed_dataset_has_no_independent_confirmation_set: true
+  result_is_post_selection_development_evidence: true
+  scientifically_releasable: false
+
+smoke_mode:
+  outer_repeats: 1
+  outer_splits: 5
+  bootstrap_repetitions: 100
+  probability_rows_are_exact_parent_subset: true
+  scientifically_releasable: false

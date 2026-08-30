@@ -1,0 +1,297 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\RESULTS\\04_WORKBOOKS\\posterior_cardinal_all97_v4_ir_compensation_corrected_20260724",
+  "created_at_utc": "2026-08-29T14:33:23.434104+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "677df7c971edea59796eb024e059ec3ea18c520629da35f828b18388e1eed775",
+  "file_count": 57,
+  "size_bytes": 54125827,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": "analyses/aggregate_metrics.csv",
+      "size_bytes": 21600,
+      "sha256": "ab09aabbf8f85fe764cc997c92de004f948fec351bd1dfac38f36ab9872be576"
+    },
+    {
+      "path": "analyses/analysis_qa.json",
+      "size_bytes": 2106,
+      "sha256": "94f38085219419500a771fff7f3d3061acc272f9484aed3865570669617c3402"
+    },
+    {
+      "path": "analyses/calibration.csv",
+      "size_bytes": 95502,
+      "sha256": "e6e3f2bf7781c508bacc2fd1293378e87af89b530942bd52b1ba9f8ee6fd9dac"
+    },
+    {
+      "path": "analyses/expected_confusion.csv",
+      "size_bytes": 115073,
+      "sha256": "8e048c4915758916747fc7bfd324e5a10f403456526af2ae50a2196c9bef4316"
+    },
+    {
+      "path": "analyses/inference/one_sided_holm_summary.csv",
+      "size_bytes": 833,
+      "sha256": "94714de7d573da706870247a5f31562f85d2a61153353100b7f76f7adc661357"
+    },
+    {
+      "path": "analyses/inference/repeat_deltas.csv",
+      "size_bytes": 93803,
+      "sha256": "be80b7f7012acb02f791f2f4652c9d9c0af95b5ffbdd71a3beafdfa1ecc17a3a"
+    },
+    {
+      "path": "analyses/inner_candidate_scores.csv",
+      "size_bytes": 8805528,
+      "sha256": "ab322319c6bcfd5712a45a4e7b0b20ac315829fccb5cafe39224d108eff88358"
+    },
+    {
+      "path": "analyses/model_fit_registry.csv",
+      "size_bytes": 1036929,
+      "sha256": "69259c14e212f5b38a7b27804dabf1317b057d0b1f60304771a33bc4b8858a35"
+    },
+    {
+      "path": "analyses/oof_aggregated.csv",
+      "size_bytes": 1008625,
+      "sha256": "236f0568415a144d68931aaeaf8dd912524007f3f2bceb270e266119ba7937d1"
+    },
+    {
+      "path": "analyses/oof_probabilities.csv",
+      "size_bytes": 12683966,
+      "sha256": "7c397ae3d513ac3aa505245de9eff416d72b737a40484dee7226235cd9fb3c29"
+    },
+    {
+      "path": "analyses/record_level_scores.csv",
+      "size_bytes": 631844,
+      "sha256": "91a8c7d69eeffbc19cc7ce656c0c39124405fdde1a18898c1cd740c923b87101"
+    },
+    {
+      "path": "analyses/repeat_metrics.csv",
+      "size_bytes": 211698,
+      "sha256": "f172efb1a2311e49a01fd3b970fb20d103b1581977f5ae891803d865122cd603"
+    },
+    {
+      "path": "analyses/split_metrics.csv",
+      "size_bytes": 1007246,
+      "sha256": "af9da63136f0d46034124355a06ace7e8a81d70fed9dbade49ed7dec3789a80c"
+    },
+    {
+      "path": "effects/adjusted_probability_curve_audit.csv",
+      "size_bytes": 360,
+      "sha256": "4c3b9e8d858d826078775060b8466a41662468796d654bf14ff6fe2cf490e607"
+    },
+    {
+      "path": "effects/adjusted_probability_curves.csv",
+      "size_bytes": 350,
+      "sha256": "c1ec6fde645e9aad30b5d242a6e8237d964d0c58e6d9aceb37674f3d4cbf8b55"
+    },
+    {
+      "path": "effects/feature_release_decisions.csv",
+      "size_bytes": 3462,
+      "sha256": "e9af88627661dac8516f5273d70174303c0985176de49f3bf15bd212f9111757"
+    },
+    {
+      "path": "effects/stopping_decision.json",
+      "size_bytes": 567,
+      "sha256": "499d656fde8528e1e2cf8e518395698c4f36893f04ff5064a8432e9e9fa303a0"
+    },
+    {
+      "path": "folds/inner_split_manifest.csv",
+      "size_bytes": 240286,
+      "sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4"
+    },
+    {
+      "path": "folds/outer_split_manifest.csv",
+      "size_bytes": 58953,
+      "sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a"
+    },
+    {
+      "path": "inputs/bayesian_audit.csv",
+      "size_bytes": 114349,
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86"
+    },
+    {
+      "path": "inputs/integration_input_manifest.json",
+      "size_bytes": 1005,
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2"
+    },
+    {
+      "path": "inputs/posterior_slope_draws.csv.gz",
+      "size_bytes": 27237289,
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5"
+    },
+    {
+      "path": "inputs/ppc_binding_audit.csv",
+      "size_bytes": 160313,
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69"
+    },
+    {
+      "path": "inputs/property_proxy_qa.json",
+      "size_bytes": 1001,
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9"
+    },
+    {
+      "path": "inputs/records.csv",
+      "size_bytes": 258556,
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c"
+    },
+    {
+      "path": "inputs/registered_panel_schema.csv",
+      "size_bytes": 13686,
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a"
+    },
+    {
+      "path": "inputs/source_input_manifest.json",
+      "size_bytes": 1284,
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf"
+    },
+    {
+      "path": "inputs/stage_refit.json",
+      "size_bytes": 2275,
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c"
+    },
+    {
+      "path": "inputs/target_qa.json",
+      "size_bytes": 1991,
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c"
+    },
+    {
+      "path": "inputs/target_registry.csv",
+      "size_bytes": 101544,
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753"
+    },
+    {
+      "path": "provenance/code_manifest.json",
+      "size_bytes": 11152,
+      "sha256": "9eefa5e2e2e8f6f52e2b15dd1d69adc7539a6ed37192dff98312b0c1011a4c7b"
+    },
+    {
+      "path": "provenance/environment_manifest.json",
+      "size_bytes": 6275,
+      "sha256": "01273a54bb437d49199ca5519696cf5748fb422403cc4e5e0a3dd6c4d16ac140"
+    },
+    {
+      "path": "provenance/input_manifest.json",
+      "size_bytes": 1284,
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf"
+    },
+    {
+      "path": "provenance/posterior_cardinal_input_binding.json",
+      "size_bytes": 12467,
+      "sha256": "de795ca76ef51f2dbc98a98015c99b9221cdb47a21b7fef9686212734f9b0afb"
+    },
+    {
+      "path": "provenance/reduced_feature_registry_binding.json",
+      "size_bytes": 1669,
+      "sha256": "245e28fc43ac12cf0413dfa8ac01150d6ac6e5a7afb31970ad3b72f0cdcf6d3c"
+    },
+    {
+      "path": "provenance/resolved_config.yaml",
+      "size_bytes": 21500,
+      "sha256": "2e46020ae1f447058e954310aa88164bad391071ad96226f537c84f969e30a59"
+    },
+    {
+      "path": "provenance/run_mode.json",
+      "size_bytes": 180,
+      "sha256": "5e332097ddc918cebeae57d400b774a5603a7d4d0921aa5c6185036256462b7d"
+    },
+    {
+      "path": "provenance/source_run_verification.json",
+      "size_bytes": 352,
+      "sha256": "7e0d04309c3d0878992260a3470be1cb634e75dcb4a9bfda82c66896b9785906"
+    },
+    {
+      "path": "provenance/stage_posterior_cardinal_classify.json",
+      "size_bytes": 3233,
+      "sha256": "5383365f671827480883fc64ba9b036b7a0a655c8a446cf499ffe6002414b5f5"
+    },
+    {
+      "path": "registry/posterior_cardinal_all97_v4.yaml",
+      "size_bytes": 11754,
+      "sha256": "dd93d316610201f4b03e676710b5315075b9728b77f3102da2df4d41c82dd8fe"
+    },
+    {
+      "path": "registry/width_15/hierarchical_class_support.csv",
+      "size_bytes": 2257,
+      "sha256": "53c6d5454b75d9972bb2a0051f4e1eb72df99c5588d08a591b5a67fc84c9ff37"
+    },
+    {
+      "path": "registry/width_15/hierarchical_soft_labels.csv",
+      "size_bytes": 17073,
+      "sha256": "9ecafaa8285452627d985adbf39fdaa63757000aab41207db31af8fd03d1a2bf"
+    },
+    {
+      "path": "registry/width_15/low_anchor_subdivision.csv",
+      "size_bytes": 8211,
+      "sha256": "0a118c53e9cbed95c95bc840fd7984c48a07dee986f89fc7fa197df7e52bc157"
+    },
+    {
+      "path": "registry/width_15/raw_anchor_soft_labels.csv",
+      "size_bytes": 12226,
+      "sha256": "084ee059e0268b539205f72d5e02ac9728dc241364d5270dc4de0d1e4e8d2311"
+    },
+    {
+      "path": "registry/width_15/raw_anchor_support.csv",
+      "size_bytes": 2535,
+      "sha256": "1bfd833c4dc59d08432c95c8733d192f8c63e005514caa69bc2575ea8bcaab4b"
+    },
+    {
+      "path": "registry/width_20/hierarchical_class_support.csv",
+      "size_bytes": 2153,
+      "sha256": "02c6834e4ca86e4cff8c1c6caf9a0247e21f196d8d1486bba5f979c2bb55e405"
+    },
+    {
+      "path": "registry/width_20/hierarchical_soft_labels.csv",
+      "size_bytes": 16844,
+      "sha256": "1c3a7180e236976600df7a2b874eb64a3441f45d0b19c72a3a1988bc04a64760"
+    },
+    {
+      "path": "registry/width_20/low_anchor_subdivision.csv",
+      "size_bytes": 8211,
+      "sha256": "6726f633955c9b27def0d49e7c4f4e54e2239c315025756d2f57774673930e13"
+    },
+    {
+      "path": "registry/width_20/raw_anchor_soft_labels.csv",
+      "size_bytes": 12137,
+      "sha256": "d5bc0423530f7a00ce3d44921f9fe688407f6f292dc1da2a303bcc781561e062"
+    },
+    {
+      "path": "registry/width_20/raw_anchor_support.csv",
+      "size_bytes": 2561,
+      "sha256": "11256baacb4f1cf1388726ed0f8dfff1231f014e38423e0db76f639d3c280a13"
+    },
+    {
+      "path": "registry/width_25/hierarchical_class_support.csv",
+      "size_bytes": 2095,
+      "sha256": "95838d36a4e24543a9ca47e3b73945b144b0244f9d3c35ac22d291b34f3a5649"
+    },
+    {
+      "path": "registry/width_25/hierarchical_soft_labels.csv",
+      "size_bytes": 16481,
+      "sha256": "ff9a5dbdd9c3e8a72774a27faabe080022f0a1c5deeeafeee1880420add543e2"
+    },
+    {
+      "path": "registry/width_25/low_anchor_subdivision.csv",
+      "size_bytes": 8026,
+      "sha256": "8c24bf480358ddff7a3732daf33461fd4f878fd47869935bbf90478a7a995df3"
+    },
+    {
+      "path": "registry/width_25/raw_anchor_soft_labels.csv",
+      "size_bytes": 11987,
+      "sha256": "9d063a2ca43b33db57a41235b37155da590b7ef38aa7a1b30c382aaeee0d9caf"
+    },
+    {
+      "path": "registry/width_25/raw_anchor_support.csv",
+      "size_bytes": 2422,
+      "sha256": "963880a2b73f799fab7e6ac4289cc5b0778372bbe75a4d1bd1a0556a38f562f7"
+    },
+    {
+      "path": "report/posterior_cardinal_report.md",
+      "size_bytes": 15742,
+      "sha256": "d2b9152dd925a864e9af0313bb005402e8468cdf11b729b6a576c4ed44bb2d9d"
+    },
+    {
+      "path": "report/validation_report.json",
+      "size_bytes": 2976,
+      "sha256": "2b9279ca247709b3f6a4de456034fb1ec7e9fa67e5f52e762bea50c739aa25f6"
+    }
+  ]
+}

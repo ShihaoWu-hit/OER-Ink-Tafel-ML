@@ -1,0 +1,75 @@
+{
+  "artifact_manifest_verification": {
+    "actual_file_count": 39,
+    "actual_tree_matches": true,
+    "actual_tree_sha256": "257c7438545007a3eada169a8d2cdbcccb59a30c3b2f89803128001cf422c0db",
+    "algorithm_matches": true,
+    "duplicate_recorded_paths": [],
+    "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_gate_v1_20260726/artifact_manifest.json",
+    "missing_files": [],
+    "modified_files": [],
+    "recorded_file_count": 39,
+    "recorded_file_count_matches": true,
+    "recorded_size_matches": true,
+    "recorded_tree_self_consistent": true,
+    "recorded_tree_sha256": "257c7438545007a3eada169a8d2cdbcccb59a30c3b2f89803128001cf422c0db",
+    "rows_well_formed": true,
+    "run_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_gate_v1_20260726",
+    "schema_matches": true,
+    "status": "pass",
+    "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+    "unexpected_files": []
+  },
+  "parent_run": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_gate_v1_20260726",
+  "required_files": [
+    {
+      "path": "inputs/records.csv",
+      "sha256": "b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5"
+    },
+    {
+      "path": "registry/contiguous_three_class_soft_labels.csv",
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d"
+    },
+    {
+      "path": "folds/outer_split_manifest.csv",
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330"
+    },
+    {
+      "path": "folds/inner_split_manifest.csv",
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f"
+    },
+    {
+      "path": "analyses/oof_probabilities.csv",
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3"
+    },
+    {
+      "path": "analyses/oof_aggregated.csv",
+      "sha256": "7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a"
+    },
+    {
+      "path": "analyses/presto_inner_oof_candidates.csv",
+      "sha256": "4c8301b3a70723324a8206d9df7add91e0c619a07f6d0bde8d53669e4e9fabc7"
+    },
+    {
+      "path": "analyses/direct_gower_inner_oof.csv",
+      "sha256": "43ef0f7bf637b3efd227f5efe2af8e414e366f2dd67a2b68b36241bfd745265d"
+    },
+    {
+      "path": "analyses/outer_selections.csv",
+      "sha256": "c3c9251480cb53d3e785e80f3eb7c6cb58f8bd3abc0e335cd5926660633c5cf1"
+    },
+    {
+      "path": "analyses/policy_oof_decisions.csv",
+      "sha256": "e587ecb2cb8d5f27ec7dfbbe7d1878750b934498cbae1fe6ba01bbc905e4b5b9"
+    },
+    {
+      "path": "analyses/policy_record_aggregated.csv",
+      "sha256": "d31215edfae9dc167e5e489dd6f11d2d115992e8f30c716d26bcf1a46a2b4245"
+    },
+    {
+      "path": "registry/contract_snapshot.yaml",
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c"
+    }
+  ],
+  "status": "pass"
+}

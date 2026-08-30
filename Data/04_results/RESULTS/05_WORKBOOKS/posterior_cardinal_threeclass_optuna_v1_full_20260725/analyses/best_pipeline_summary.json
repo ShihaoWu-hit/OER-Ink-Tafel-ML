@@ -1,0 +1,27 @@
+{
+  "feature_panel": {
+    "candidate": "context_core",
+    "selection_count": 20,
+    "selection_fraction": 0.4,
+    "stable": false
+  },
+  "global_single_best_claim_authorized": false,
+  "joint_pipeline": {
+    "candidate": "context_core::two_stage_soft_extra_trees",
+    "selection_count": 15,
+    "selection_fraction": 0.3,
+    "stable": false
+  },
+  "model_family": {
+    "candidate": "two_stage_soft_extra_trees",
+    "selection_count": 32,
+    "selection_fraction": 0.64,
+    "stable": true
+  },
+  "outer_test_metrics_used_to_choose_winner": false,
+  "overall_status": "no_stable_joint_winner",
+  "selection_basis": "frequency_of_inner_CV_selections_across_outer_training_splits",
+  "separate_validation_available": false,
+  "smoke_structural_only": false,
+  "stability_threshold": 0.5
+}

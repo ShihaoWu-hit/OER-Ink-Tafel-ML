@@ -1,0 +1,11 @@
+{
+  "fitted_smoother_used": false,
+  "interpretation": "marginal descriptive association; not adjusted, causal, mechanistic, or a feature-selection ranking",
+  "n_draw_level_association_rows": 2800,
+  "n_features": 28,
+  "n_scope_record_feature_rows": 2716,
+  "n_scopes": 1,
+  "posterior_draws_used_as_independent_ml_samples": false,
+  "status": "pass",
+  "target_interval_displayed": "formal posterior 95% interval"
+}

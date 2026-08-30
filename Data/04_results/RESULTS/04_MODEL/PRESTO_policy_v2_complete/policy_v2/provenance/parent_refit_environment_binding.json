@@ -1,0 +1,103 @@
+{
+  "verified_after_modeling": {
+    "all_required_package_versions_match": true,
+    "current_platform": "macOS-26.5.2-arm64-arm-64bit",
+    "current_python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_gate_v1_20260726/provenance/environment_manifest.json",
+    "manifest_sha256": "fb8bf8f2d8c593fb617577ab670de92f8e18e76fbd3fc8567d02ffa92ee0c119",
+    "package_comparisons": [
+      {
+        "current_version": "2.5.1",
+        "matches": true,
+        "package": "numpy",
+        "parent_version": "2.5.1"
+      },
+      {
+        "current_version": "3.0.3",
+        "matches": true,
+        "package": "pandas",
+        "parent_version": "3.0.3"
+      },
+      {
+        "current_version": "1.18.0",
+        "matches": true,
+        "package": "scipy",
+        "parent_version": "1.18.0"
+      },
+      {
+        "current_version": "1.9.0",
+        "matches": true,
+        "package": "scikit-learn",
+        "parent_version": "1.9.0"
+      },
+      {
+        "current_version": "6.0.3",
+        "matches": true,
+        "package": "PyYAML",
+        "parent_version": "6.0.3"
+      }
+    ],
+    "parent_platform": "macOS-26.5.2-arm64-arm-64bit",
+    "parent_python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "python_matches": true,
+    "required_packages": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "scikit-learn",
+      "PyYAML"
+    ],
+    "status": "pass"
+  },
+  "verified_before_policy_refits": {
+    "all_required_package_versions_match": true,
+    "current_platform": "macOS-26.5.2-arm64-arm-64bit",
+    "current_python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_gate_v1_20260726/provenance/environment_manifest.json",
+    "manifest_sha256": "fb8bf8f2d8c593fb617577ab670de92f8e18e76fbd3fc8567d02ffa92ee0c119",
+    "package_comparisons": [
+      {
+        "current_version": "2.5.1",
+        "matches": true,
+        "package": "numpy",
+        "parent_version": "2.5.1"
+      },
+      {
+        "current_version": "3.0.3",
+        "matches": true,
+        "package": "pandas",
+        "parent_version": "3.0.3"
+      },
+      {
+        "current_version": "1.18.0",
+        "matches": true,
+        "package": "scipy",
+        "parent_version": "1.18.0"
+      },
+      {
+        "current_version": "1.9.0",
+        "matches": true,
+        "package": "scikit-learn",
+        "parent_version": "1.9.0"
+      },
+      {
+        "current_version": "6.0.3",
+        "matches": true,
+        "package": "PyYAML",
+        "parent_version": "6.0.3"
+      }
+    ],
+    "parent_platform": "macOS-26.5.2-arm64-arm-64bit",
+    "parent_python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "python_matches": true,
+    "required_packages": [
+      "numpy",
+      "pandas",
+      "scipy",
+      "scikit-learn",
+      "PyYAML"
+    ],
+    "status": "pass"
+  },
+  "versions_unchanged_during_run": true
+}

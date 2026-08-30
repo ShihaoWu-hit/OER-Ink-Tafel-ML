@@ -1,0 +1,207 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\RESULTS\\04_MODEL\\PRESTO_policy_v2_complete\\probability_engine",
+  "created_at_utc": "2026-08-29T14:33:23.364168+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "6d9fe8cdd48607b31a04c7ce57711244ba9e9f8d6af6c7b24db511521a8ba0ef",
+  "file_count": 39,
+  "size_bytes": 9772987,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": "analyses/aggregate_metrics.csv",
+      "size_bytes": 2182,
+      "sha256": "71e1810947ec216892ec56d938106b36324f3a037e49ee66bace575e4d3c034c"
+    },
+    {
+      "path": "analyses/analysis_qa.json",
+      "size_bytes": 2510,
+      "sha256": "2088336ac240c05be0ee2ddd697041592548d4eb6569b569de40189b82ddd19e"
+    },
+    {
+      "path": "analyses/calibration.csv",
+      "size_bytes": 4885,
+      "sha256": "074924c5930dc87928907adf5d4d6413a3b9728f435270645caa7338857635b9"
+    },
+    {
+      "path": "analyses/direct_gower_inner_oof.csv",
+      "size_bytes": 427046,
+      "sha256": "43ef0f7bf637b3efd227f5efe2af8e414e366f2dd67a2b68b36241bfd745265d"
+    },
+    {
+      "path": "analyses/expected_confusion.csv",
+      "size_bytes": 4043,
+      "sha256": "69e3a49b3de6e4e7339fe39843ff2ba27daedb936f73089a71fd2cfbb6609e38"
+    },
+    {
+      "path": "analyses/oof_aggregated.csv",
+      "size_bytes": 56702,
+      "sha256": "7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a"
+    },
+    {
+      "path": "analyses/oof_probabilities.csv",
+      "size_bytes": 592004,
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3"
+    },
+    {
+      "path": "analyses/outer_fit_audits.json",
+      "size_bytes": 2693024,
+      "sha256": "d4d1887196714dae7e7d3578c42a1da66fa43caa89d1588ecf9fe96e500e3dc4"
+    },
+    {
+      "path": "analyses/outer_selections.csv",
+      "size_bytes": 46325,
+      "sha256": "c3c9251480cb53d3e785e80f3eb7c6cb58f8bd3abc0e335cd5926660633c5cf1"
+    },
+    {
+      "path": "analyses/penalty_inner_oof_metrics.csv",
+      "size_bytes": 22524,
+      "sha256": "1cf00b1e95145adb1cfd60aefe7757c752d6907dc2909472428c03422d82540f"
+    },
+    {
+      "path": "analyses/policy_aggregate_metrics.csv",
+      "size_bytes": 1396,
+      "sha256": "1a6ff352860472e6224702631c32f33c441c63a1d9f9baf91496de88de97c57b"
+    },
+    {
+      "path": "analyses/policy_connected_group_bootstrap.csv",
+      "size_bytes": 428748,
+      "sha256": "db4c92059898c5f7515babcf6c65e6ced62920d56ed3a31e28b9b6e9557f93c8"
+    },
+    {
+      "path": "analyses/policy_connected_group_bootstrap_summary.csv",
+      "size_bytes": 2901,
+      "sha256": "56a4c519f3531ed90e13d63340667ed332a07bb790bad0c8edb3bdcc0af3340f"
+    },
+    {
+      "path": "analyses/policy_oof_decisions.csv",
+      "size_bytes": 454769,
+      "sha256": "e587ecb2cb8d5f27ec7dfbbe7d1878750b934498cbae1fe6ba01bbc905e4b5b9"
+    },
+    {
+      "path": "analyses/policy_record_aggregated.csv",
+      "size_bytes": 47216,
+      "sha256": "d31215edfae9dc167e5e489dd6f11d2d115992e8f30c716d26bcf1a46a2b4245"
+    },
+    {
+      "path": "analyses/policy_repeat_metrics.csv",
+      "size_bytes": 6288,
+      "sha256": "c98c6f1b352976fb80436849c54f9bc6a29f52e85309386278a3ba385a465852"
+    },
+    {
+      "path": "analyses/policy_split_metrics.csv",
+      "size_bytes": 24971,
+      "sha256": "475dd9306c77d5020abbcfd885015f48df2773d96cf60c2958d8cc02e51b1ff2"
+    },
+    {
+      "path": "analyses/presto_inner_oof_candidates.csv",
+      "size_bytes": 2825108,
+      "sha256": "4c8301b3a70723324a8206d9df7add91e0c619a07f6d0bde8d53669e4e9fabc7"
+    },
+    {
+      "path": "analyses/probability_argmax_metrics.csv",
+      "size_bytes": 1493,
+      "sha256": "81777f25fdbae55dc594ccd5d85cfc9b40f6d9b255c9e705a23e743871456a30"
+    },
+    {
+      "path": "analyses/probability_connected_group_bootstrap.csv",
+      "size_bytes": 691537,
+      "sha256": "1906ff5ecc3d5e3ab07cc7a7964fbc372c66b808bde2813ee7f74b1569d565eb"
+    },
+    {
+      "path": "analyses/probability_connected_group_bootstrap_summary.csv",
+      "size_bytes": 1980,
+      "sha256": "d63750e02e268b1a49bdfdc41f2437f4b189a235c6867a89224d8050d34bfe0e"
+    },
+    {
+      "path": "analyses/probability_record_level_contrasts.csv",
+      "size_bytes": 35662,
+      "sha256": "3c65d182328a6303beb09d0fe6f716539578d7097ac608ed26ae789d03a510aa"
+    },
+    {
+      "path": "analyses/repeat_metrics.csv",
+      "size_bytes": 16637,
+      "sha256": "9a07809d53dbba4bc19da2a5a6ab874da463e41b340a4d10664ec92e10e8c502"
+    },
+    {
+      "path": "analyses/split_metrics.csv",
+      "size_bytes": 78605,
+      "sha256": "7a7a1edc7c937c40156a93c4806bd5656cfd85038d60317ae5214840c3b7659b"
+    },
+    {
+      "path": "analyses/threshold_inner_oof_metrics.csv",
+      "size_bytes": 267743,
+      "sha256": "266724fc9d7dffb70a754e2e20a00a070cb3daafca4cfafb3dca97df3b788e01"
+    },
+    {
+      "path": "folds/inner_split_manifest.csv",
+      "size_bytes": 232526,
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f"
+    },
+    {
+      "path": "folds/outer_split_manifest.csv",
+      "size_bytes": 57013,
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330"
+    },
+    {
+      "path": "inputs/parent_contract_snapshot.yaml",
+      "size_bytes": 5464,
+      "sha256": "9467f660eff0efa2e664b290037a002b826234dd869a3440fd27141ca83d973c"
+    },
+    {
+      "path": "inputs/parent_oof_probabilities.csv",
+      "size_bytes": 433294,
+      "sha256": "0dff43ad66487a63635cfd2142dfe995460e185c97d7b610dfe9df9593cac9d9"
+    },
+    {
+      "path": "inputs/records.csv",
+      "size_bytes": 258556,
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c"
+    },
+    {
+      "path": "provenance/code_manifest.json",
+      "size_bytes": 3001,
+      "sha256": "c61c4b54bf794a23a5351c662140e2fe664bec8f822d33c8b83117d04cbddad6"
+    },
+    {
+      "path": "provenance/contract_binding.json",
+      "size_bytes": 334,
+      "sha256": "10b234fa0a167db7ab225498a58e1ec9daaacf489d150738d3c48443945b0824"
+    },
+    {
+      "path": "provenance/environment_manifest.json",
+      "size_bytes": 8886,
+      "sha256": "2e767ec061490ef5ff358e92c6d780b55add428815a37289b7da5f6ea73dff77"
+    },
+    {
+      "path": "provenance/parent_binding.json",
+      "size_bytes": 2483,
+      "sha256": "0719ae0745bcbdeec881526d3f4613f8b6a24b1ad3f23b071475331c73157c41"
+    },
+    {
+      "path": "provenance/run_mode.json",
+      "size_bytes": 133,
+      "sha256": "96f23c2308f08232943c2a9264cf33ea4b4cf381b60539d0815255c760b63a70"
+    },
+    {
+      "path": "registry/contiguous_three_class_soft_labels.csv",
+      "size_bytes": 17173,
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d"
+    },
+    {
+      "path": "registry/contract_snapshot.yaml",
+      "size_bytes": 8442,
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c"
+    },
+    {
+      "path": "report/posterior_cardinal_contiguous_threeclass_presto_gate_report.md",
+      "size_bytes": 6154,
+      "sha256": "e5ecda50aa67f753fb24c7519d73a8a011fe1519472b17cd84a3c3a95906aa9a"
+    },
+    {
+      "path": "report/validation_report.json",
+      "size_bytes": 3229,
+      "sha256": "5e59cba3bb1fb11b3bacf7376e59cd712d241024c35d1d4e329ded33b2e9cc9f"
+    }
+  ]
+}

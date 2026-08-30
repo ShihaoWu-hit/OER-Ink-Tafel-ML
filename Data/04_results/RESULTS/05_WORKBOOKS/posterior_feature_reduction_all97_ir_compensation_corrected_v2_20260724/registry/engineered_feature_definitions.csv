@@ -1,0 +1,15 @@
+feature_name,block,kind,formula,source_columns,fit_scope,target_derived
+catalyst_family,context,categorical,Ir and IrO2 -> IrO2_plus_Ir; RuO2 -> RuO2,catalyst_active_material_type,fixed X-only mapping; original identity remains in source records,False
+log10_catalyst_loading_mg_cm2,context,numeric,log10(catalyst_loading_mg_cm2_selected),catalyst_loading_mg_cm2_selected,training-fold median imputation,False
+log10_electrolyte_molarity_M,context,numeric,log10(electrolyte_molarity_M),electrolyte_molarity_M,training-fold median imputation,False
+log1p_rpm,context,numeric,log1p(rpm),rpm,training-fold median imputation,False
+log10_scan_rate_mV_s,context,numeric,log10(scan_rate_mV_s),scan_rate_mV_s,training-fold median imputation,False
+ir_correction_status,context,categorical,reviewed three-state iR status,ir_correction_status,training-fold rare-level pooling,False
+electrolyte_scope,context,categorical,electrolyte_scope,electrolyte_scope,training-fold rare-level pooling and constant removal,False
+log10_catalyst_concentration_mg_mL,ink_amount,numeric,log10(catalyst_concentration_mg_mL),catalyst_concentration_mg_mL,training-fold median imputation,False
+log1p_ionomer_to_solvent_ratio,ink_amount,numeric,log1p(ionomer_to_solvent_ratio),ionomer_to_solvent_ratio,training-fold median imputation,False
+log10_water_to_organic_balance,composition,numeric,log10((F_water+delta_train)/(F_organic+delta_train)),solvent_fraction_acetone|solvent_fraction_water|solvent_fraction_ethanol|solvent_fraction_isopropanol|solvent_fraction_methanol,closure and zero delta fitted on training fold,False
+log10_ethanol_to_isopropanol_balance,composition,numeric,log10((F_ethanol+delta_train)/(F_isopropanol+delta_train)),solvent_fraction_acetone|solvent_fraction_water|solvent_fraction_ethanol|solvent_fraction_isopropanol|solvent_fraction_methanol,closure and zero delta fitted on training fold,False
+log10_solvent_viscosity_mPa_s,property,numeric,log10(solvent mixture viscosity proxy),solvent_mixture_property_proxy_viscosity_mPa_s,training-fold median imputation,False
+solvent_polarity_coordinate,property,numeric,"PCA1(standardized surface tension,density,best-available dielectric)",solvent_mixture_property_proxy_surface_tension_mN_m|solvent_mixture_property_proxy_density_kg_m3|solvent_mixture_property_proxy_dielectric_constant_best_available,"training-fold median, scaling and sign-anchored PCA",False
+conductive_agent_present,conductive_agent,categorical,reported conductive-agent presence,conductive_agent_present,training-fold rare-level pooling; sensitivity only,False

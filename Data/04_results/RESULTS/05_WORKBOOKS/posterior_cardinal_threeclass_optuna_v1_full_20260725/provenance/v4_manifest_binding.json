@@ -1,0 +1,8 @@
+{
+  "expected_full_inner_manifest_sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4",
+  "expected_full_outer_manifest_sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a",
+  "full_run_reuses_exact_v4_manifests": true,
+  "inner_manifest_sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4",
+  "matches_expected_full_hashes": true,
+  "outer_manifest_sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a"
+}

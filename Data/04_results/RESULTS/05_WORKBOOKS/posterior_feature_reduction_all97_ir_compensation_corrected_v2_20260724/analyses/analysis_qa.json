@@ -1,0 +1,30 @@
+{
+  "all_preprocessing_fit_inside_training_fold": true,
+  "analysis_scopes": [
+    "all97"
+  ],
+  "atlas_fitted_smoother_used": false,
+  "causal_claim_allowed": false,
+  "connected_group_holdout": true,
+  "failed_blocks_emitted_adjusted_effects": false,
+  "formal_source_run_unchanged": true,
+  "input_snapshot_verified": true,
+  "mechanistic_claim_allowed": false,
+  "models_and_panels_fixed": true,
+  "n_adjusted_effect_grid_rows": 0,
+  "n_fixed_models": 2,
+  "n_frozen_panels": 8,
+  "n_outer_prediction_rows": 17460,
+  "n_records_primary_all97": 97,
+  "n_registered_candidate_predictors": 28,
+  "n_released_effect_blocks": 0,
+  "n_validated_blocks": 0,
+  "one_feature_per_augmented_panel": true,
+  "outcome_driven_feature_selection_used": false,
+  "posterior_draws_expanded_as_ml_samples": false,
+  "primary_scope": "all97",
+  "scientifically_releasable": true,
+  "smoke": false,
+  "status": "pass",
+  "target_blind_support_redundancy_audit": true
+}

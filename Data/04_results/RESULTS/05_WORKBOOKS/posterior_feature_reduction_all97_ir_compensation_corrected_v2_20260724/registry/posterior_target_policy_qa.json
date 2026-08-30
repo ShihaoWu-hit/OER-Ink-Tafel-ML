@@ -1,0 +1,15 @@
+{
+  "draws_per_record": 8000,
+  "minimum_positive_draw_fraction_per_record": 0.984375,
+  "n_nonpositive_draws": 1760,
+  "n_posterior_draws": 776000,
+  "n_records": 97,
+  "nonpositive_draw_fraction": 0.002268041237113402,
+  "nonpositive_draw_policy_log_metrics": "excluded_and_mass_reported",
+  "nonpositive_draw_policy_original_scale": "retained",
+  "posterior_draws_expanded_as_ml_samples": false,
+  "score_level_draw_repetitions": 100,
+  "target_name": "b_bayesian_local_line_mV_dec",
+  "training_rows_per_record": 1,
+  "training_target": "log10 formal posterior median"
+}

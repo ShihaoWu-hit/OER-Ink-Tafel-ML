@@ -1,0 +1,117 @@
+{
+  "created_at_utc": "2026-08-29T18:15:02.610232+00:00",
+  "file_count": 21,
+  "files": [
+    {
+      "path": "bayesian_audit.csv",
+      "sha256": "3bd0cf97571423816f884a40e4f671844901498c9b3100506d85097276e196bb",
+      "size_bytes": 114931
+    },
+    {
+      "path": "bayesian_target_registry.csv",
+      "sha256": "a81d76bd6d185a92acd100929ee83c46cec678912bf460a8fbeb7120633e4758",
+      "size_bytes": 102223
+    },
+    {
+      "path": "bayesian_targets.csv",
+      "sha256": "2e3c00c01d830b43d1fc667e9d79002578530b6e6469587007962267f47f3366",
+      "size_bytes": 76979
+    },
+    {
+      "path": "canonical_master.csv",
+      "sha256": "1b1f465ce4b468a7d015a8ac5947b8cc2493180d1fe07218f84999a8ec4f49d0",
+      "size_bytes": 280168
+    },
+    {
+      "path": "corrections.csv",
+      "sha256": "1f659f0ddbc8e23b18b17cf8d38855499dcef0f769156aaea9de9c5da296f664",
+      "size_bytes": 11565
+    },
+    {
+      "path": "curve_manifest.csv",
+      "sha256": "4b909021afa0747b587316bcdf11163964a225688ecbdc004dbaa8fc70a65393",
+      "size_bytes": 122109
+    },
+    {
+      "path": "data_decisions.csv",
+      "sha256": "c5ce96f5a07e8bfe59fe80bbe82f7b7a89604a6467426e9af907843e06afbce9",
+      "size_bytes": 2311
+    },
+    {
+      "path": "feature_registry.csv",
+      "sha256": "c486c6d0705fc17e05b5ffcd7533555fcafae543eca2cdbeeb31f1510428546c",
+      "size_bytes": 9095
+    },
+    {
+      "path": "ir_semantic_revision.json",
+      "sha256": "2d62b8a062afc023c1fdce23674bcfeb8ecda45841d21a2f248d54f5b4de33ba",
+      "size_bytes": 825
+    },
+    {
+      "path": "low_potential_target_audit.csv",
+      "sha256": "2e3c00c01d830b43d1fc667e9d79002578530b6e6469587007962267f47f3366",
+      "size_bytes": 76979
+    },
+    {
+      "path": "master.csv",
+      "sha256": "c75e2d23d0a11868b1293bdb0948087f46477ff57198ab14c18f194c8c33b0fc",
+      "size_bytes": 287281
+    },
+    {
+      "path": "master.parquet",
+      "sha256": "1bff264e79a857f0780d83177e2bcbc12e67e1c8411ec6ddbf095e52187e9040",
+      "size_bytes": 240051
+    },
+    {
+      "path": "ml_ready.csv",
+      "sha256": "39f752afe69b7a8cc030bd2e4bb9cf48a9a67c69de70f8b02245eaad80dbaaa0",
+      "size_bytes": 57207
+    },
+    {
+      "path": "panel_schema.csv",
+      "sha256": "559447a83fecbfcd054055f5648891d3ca9c8f9c517b957532fcf34dac72e187",
+      "size_bytes": 13395
+    },
+    {
+      "path": "posterior_slope_draws.csv.gz",
+      "sha256": "42188225abd6a1a76e3b08cb6e310ab322260b6b10ee9f409975d310505e24a4",
+      "size_bytes": 27237263
+    },
+    {
+      "path": "qa.json",
+      "sha256": "4e9654ba9e93cc2e2d307e53713dad5b9365b2bb396af8776c96fe1c306e05dc",
+      "size_bytes": 2668
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3cd9ed2dd7d5486c09ae17cf07a68b9af1199a2434176ccc16cb4ca7959ea09",
+      "size_bytes": 721
+    },
+    {
+      "path": "records.csv",
+      "sha256": "8e8503cab504a47f39d67fa1be4c39318821b88e7077fc1a4017a7aaec25cfdf",
+      "size_bytes": 251736
+    },
+    {
+      "path": "registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "sources.csv",
+      "sha256": "fdcf187c3def53b8442a5c14fe5011c7c20f330230baa60c9033388654f7ab95",
+      "size_bytes": 16864
+    },
+    {
+      "path": "target_registry.csv",
+      "sha256": "a81d76bd6d185a92acd100929ee83c46cec678912bf460a8fbeb7120633e4758",
+      "size_bytes": 102223
+    }
+  ],
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\Tafel_new\\Data\\canonical_dataset_ir_corrected_v2",
+  "self_excluded_path": "artifact_manifest.json",
+  "size_bytes": 29020280,
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "86bddedf6e9bfbc917b5284ab4c6964baa098b27fc8e0006d47807fbb94bd0fb"
+}

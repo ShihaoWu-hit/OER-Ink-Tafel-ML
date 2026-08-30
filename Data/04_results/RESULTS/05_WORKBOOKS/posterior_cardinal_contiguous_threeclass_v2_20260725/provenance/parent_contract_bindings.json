@@ -1,0 +1,77 @@
+{
+  "classic_threeclass_v1": {
+    "artifact_manifest_verification": {
+      "actual_file_count": 58,
+      "actual_tree_matches": true,
+      "actual_tree_sha256": "5b4914090d6143c75af08397141a681922c568920821ee09a5a00ddae0c3dc2d",
+      "algorithm_matches": true,
+      "duplicate_recorded_paths": [],
+      "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/artifact_manifest.json",
+      "missing_files": [],
+      "modified_files": [],
+      "recorded_file_count": 58,
+      "recorded_file_count_matches": true,
+      "recorded_size_matches": true,
+      "recorded_tree_self_consistent": true,
+      "recorded_tree_sha256": "5b4914090d6143c75af08397141a681922c568920821ee09a5a00ddae0c3dc2d",
+      "rows_well_formed": true,
+      "run_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725",
+      "schema_matches": true,
+      "status": "pass",
+      "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+      "unexpected_files": []
+    },
+    "contract_id": "posterior_cardinal_threeclass_optuna_v1",
+    "frozen_fold_manifest_verification": {
+      "files": {
+        "classic_inner_manifest": {
+          "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/folds/inner_split_manifest.csv",
+          "sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4",
+          "size_bytes": 240286
+        },
+        "classic_outer_manifest": {
+          "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/folds/outer_split_manifest.csv",
+          "sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a",
+          "size_bytes": 58953
+        }
+      },
+      "status": "pass"
+    },
+    "result_root": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725",
+    "result_tree_sha256": "94b051dd62ca769ccd7222c53912270c3c4b802bfb4adb2a45b8a879a22fafca",
+    "sha256": "f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be",
+    "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/config/contracts/posterior_cardinal_threeclass_optuna_v1.yaml"
+  },
+  "parents_unchanged": {
+    "classic_threeclass_result": true,
+    "v4_result": true
+  },
+  "v4": {
+    "artifact_manifest_verification": {
+      "actual_file_count": 68,
+      "actual_tree_matches": true,
+      "actual_tree_sha256": "37e1e2b27dd76fa8be58256a65ad26e1aadeddf7575c5c47c21b12d62561fcc3",
+      "algorithm_matches": true,
+      "duplicate_recorded_paths": [],
+      "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/artifact_manifest.json",
+      "missing_files": [],
+      "modified_files": [],
+      "recorded_file_count": 68,
+      "recorded_file_count_matches": true,
+      "recorded_size_matches": true,
+      "recorded_tree_self_consistent": true,
+      "recorded_tree_sha256": "37e1e2b27dd76fa8be58256a65ad26e1aadeddf7575c5c47c21b12d62561fcc3",
+      "rows_well_formed": true,
+      "run_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724",
+      "schema_matches": true,
+      "status": "pass",
+      "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+      "unexpected_files": []
+    },
+    "contract_id": "posterior_cardinal_all97_v4",
+    "result_root": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724",
+    "result_tree_sha256": "8dad177e38bbffb780f541a7b2d9cedf6171e5b76f8b19eb789e9c88551b1ca8",
+    "sha256": "dd93d316610201f4b03e676710b5315075b9728b77f3102da2df4d41c82dd8fe",
+    "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/config/contracts/posterior_cardinal_all97_v4.yaml"
+  }
+}

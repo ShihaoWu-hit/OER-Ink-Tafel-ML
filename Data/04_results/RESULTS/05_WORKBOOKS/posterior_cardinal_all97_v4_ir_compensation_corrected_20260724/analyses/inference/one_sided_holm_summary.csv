@@ -1,0 +1,7 @@
+feature,observed_mean_delta,p_value_lower_tail,lower_tail_count_including_ties,n_randomizations,n_records,n_connected_groups,shared_group_signs_across_features,holm_adjusted_p,panel
+catalyst_concentration,0.0031019769893958996,0.9252037398130093,18504,20000,97,80,True,1.0,context_plus_catalyst_concentration
+ionomer_ratio,0.0017914168634432623,0.8507074646267687,17014,20000,97,80,True,1.0,context_plus_ionomer_ratio
+water_organic,0.0007075004322917014,0.5975701214939253,11951,20000,97,80,True,1.0,context_plus_water_organic
+ethanol_isopropanol,0.0013315928367392236,0.7373131343432828,14746,20000,97,80,True,1.0,context_plus_ethanol_isopropanol
+viscosity,0.003625799956103321,1.0,20000,20000,97,80,True,1.0,context_plus_viscosity
+polarity,-0.00034888058199863985,0.4632268386580671,9264,20000,97,80,True,1.0,context_plus_polarity

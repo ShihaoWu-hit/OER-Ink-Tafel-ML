@@ -1,0 +1,18 @@
+{
+  "dataset_artifact_manifest_sha256": "f8d4dbb0aeeb506a77656102c5cca0cb5e03cd4f6ad46288d3e9277c615068af",
+  "dataset_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_dataset_ir_corrected_v2",
+  "source_files": {
+    "data_quality_qa": {
+      "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_dataset_ir_corrected_v2/qa.json",
+      "sha256": "4e9654ba9e93cc2e2d307e53713dad5b9365b2bb396af8776c96fe1c306e05dc"
+    },
+    "feature_registry": {
+      "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_dataset_ir_corrected_v2/feature_registry.csv",
+      "sha256": "c486c6d0705fc17e05b5ffcd7533555fcafae543eca2cdbeeb31f1510428546c"
+    },
+    "master": {
+      "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_dataset_ir_corrected_v2/master.csv",
+      "sha256": "3d95a6df945d25f6b9d5cd066f89b093c5084788954c247671a2f658b2eb4386"
+    }
+  }
+}

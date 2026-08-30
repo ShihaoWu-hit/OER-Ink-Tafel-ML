@@ -1,0 +1,2332 @@
+{
+  "created_at_utc": "2026-08-29T18:41:24.012786+00:00",
+  "file_count": 464,
+  "files": [
+    {
+      "path": "01_raw/data_excel/01_raw_formulation_experiment.xlsx",
+      "sha256": "a9ee21ff95bb81928b64eea652b80b981cc7caf93d0d9fc9a16b3db793d9a9ef",
+      "size_bytes": 5808689
+    },
+    {
+      "path": "01_raw/data_excel/02_raw_digitized_tafel_curves.xlsx",
+      "sha256": "84154eaf487fb05739eebdf76ac0a80c1d86ac4e4b6201d2bc8eadfb415b2d88",
+      "size_bytes": 280550
+    },
+    {
+      "path": "01_raw/data_excel/03_raw_ink_property_inputs.xlsx",
+      "sha256": "02d7983614b863b72090ecca982c556b830aa191811d4f4aae7b83b1e830017c",
+      "size_bytes": 119281
+    },
+    {
+      "path": "01_raw/data_excel/04_model_descriptor_inputs.xlsx",
+      "sha256": "48a8d208fb4c6dac74a034c8594e4f729e3546f6b189558fe0a4db92f8b1cbe5",
+      "size_bytes": 360650
+    },
+    {
+      "path": "01_raw/data_excel/05_bayesian_targets_posterior_draws.xlsx",
+      "sha256": "573838458ce7e46287a1aeaacb97ce72478ab6f1a3e1e5194b9d826245a96ac3",
+      "size_bytes": 80821424
+    },
+    {
+      "path": "01_raw/data_excel/06_runtime_curation_source.xlsx",
+      "sha256": "16e1b8d65e063015131456a45975f4894c0ae82df2184a0f9fd5cba9e5250439",
+      "size_bytes": 5799067
+    },
+    {
+      "path": "01_raw/data_excel/07_runtime_tafel_curve_source.xlsx",
+      "sha256": "0481c59882ed5646c4d17919c7c181a69f8df96ddb5cec7f6ad28ea6dffeebe9",
+      "size_bytes": 280577
+    },
+    {
+      "path": "01_raw/formulation_source.xlsx",
+      "sha256": "6b87401da5295f38d7296deb67c0c08348544a304247dc1367991e591968e40f",
+      "size_bytes": 52850
+    },
+    {
+      "path": "01_raw/ink_provenance.csv",
+      "sha256": "2cd981ee984c399c68956717b8c9889f36049b1d52bda54041024bf254167924",
+      "size_bytes": 37192
+    },
+    {
+      "path": "01_raw/raw_formulation_registry.csv",
+      "sha256": "a397097757d6a2c83390d8333bed5fee46e440302f69551f365f97811d6db4a0",
+      "size_bytes": 33343
+    },
+    {
+      "path": "01_raw/raw_formulation_sheet1.csv",
+      "sha256": "3c9916e49ef9675380efd889cde6e4c017dfe0ad5971495da802f007bcbba751",
+      "size_bytes": 35940
+    },
+    {
+      "path": "01_raw/raw_formulation_source_dois.csv",
+      "sha256": "303428edc9b4e85af6fbf338dbbefca3f06aca7934b00e8ddbede40f368c35ab",
+      "size_bytes": 2257
+    },
+    {
+      "path": "01_raw/raw_property_inputs/authoritative_property_measurem.csv",
+      "sha256": "2f170c7364d0e8ec0cffcc0018e7eeac20a8048e28bc302796a77ac5cd2581ce",
+      "size_bytes": 135265
+    },
+    {
+      "path": "01_raw/raw_property_inputs/authoritative_property_measurements_config.csv",
+      "sha256": "dbaf8f6d155ca0706e84827f44e6f8f75facae93bd49b99e7ca0906b2953ffc5",
+      "size_bytes": 135273
+    },
+    {
+      "path": "01_raw/raw_property_inputs/ink_provenance.csv",
+      "sha256": "bd9f6338d39811fe1adf4b06b75689fbafb6abe79a577e05f4210b2037eeae4d",
+      "size_bytes": 33488
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_component_constants.csv",
+      "sha256": "a43f148f95484ae6c6802c0d9dc0b7243966588167e9940dc59f6c34d420fb77",
+      "size_bytes": 2993
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_component_constants_config.csv",
+      "sha256": "68546408cc224196221d22728d050076a7ddc3f16fbefe99ad7427319754e4e7",
+      "size_bytes": 2995
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_dielectric_validation.csv",
+      "sha256": "b213c4aa3ea087bb8d3a3fc69fe7052f6ffce0b1a54271158fcb70b038326547",
+      "size_bytes": 1036
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_measurement_series.csv",
+      "sha256": "2f170c7364d0e8ec0cffcc0018e7eeac20a8048e28bc302796a77ac5cd2581ce",
+      "size_bytes": 135265
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_measurement_series_config.csv",
+      "sha256": "dbaf8f6d155ca0706e84827f44e6f8f75facae93bd49b99e7ca0906b2953ffc5",
+      "size_bytes": 135273
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_source_files.csv",
+      "sha256": "88619dcd311f1f43c3ce2beb05bf90c9d58f303adec11a4d17450389787d7271",
+      "size_bytes": 6733
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_source_gaps.csv",
+      "sha256": "d87493bfe3690bce1b2550bbd88337317c3f517a9c8a0f3a101ebe7f0f973dba",
+      "size_bytes": 1681
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_source_note.csv",
+      "sha256": "8425070f8b53b5392864992f03846e4f3212b699a8076b5a306925aebce86abc",
+      "size_bytes": 3166
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_sources.csv",
+      "sha256": "d60589ca26ed6189b8ef3aaaf5204afa67c1d44527f319dda64fa2f19ab40986",
+      "size_bytes": 11639
+    },
+    {
+      "path": "01_raw/raw_property_inputs/property_value_source_map.csv",
+      "sha256": "a97a5025d46ff5af91a2c3650ab282ad50421fc4b5c789bd265c8b869003a045",
+      "size_bytes": 9092
+    },
+    {
+      "path": "01_raw/tafel_refitting/tafel_curve_source.xlsx",
+      "sha256": "0481c59882ed5646c4d17919c7c181a69f8df96ddb5cec7f6ad28ea6dffeebe9",
+      "size_bytes": 280577
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/artifact_manifest.json",
+      "sha256": "b5b84304045d8b860a81d81ca956449eb14c95abd7dca19281d60799de29853b",
+      "size_bytes": 3920
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/bayesian_audit.csv",
+      "sha256": "3bd0cf97571423816f884a40e4f671844901498c9b3100506d85097276e196bb",
+      "size_bytes": 114931
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/bayesian_target_registry.csv",
+      "sha256": "a81d76bd6d185a92acd100929ee83c46cec678912bf460a8fbeb7120633e4758",
+      "size_bytes": 102223
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/bayesian_targets.csv",
+      "sha256": "2e3c00c01d830b43d1fc667e9d79002578530b6e6469587007962267f47f3366",
+      "size_bytes": 76979
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/canonical_master.csv",
+      "sha256": "1b1f465ce4b468a7d015a8ac5947b8cc2493180d1fe07218f84999a8ec4f49d0",
+      "size_bytes": 280168
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/corrections.csv",
+      "sha256": "1f659f0ddbc8e23b18b17cf8d38855499dcef0f769156aaea9de9c5da296f664",
+      "size_bytes": 11565
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/curve_manifest.csv",
+      "sha256": "4b909021afa0747b587316bcdf11163964a225688ecbdc004dbaa8fc70a65393",
+      "size_bytes": 122109
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/data_decisions.csv",
+      "sha256": "c5ce96f5a07e8bfe59fe80bbe82f7b7a89604a6467426e9af907843e06afbce9",
+      "size_bytes": 2311
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/feature_registry.csv",
+      "sha256": "c486c6d0705fc17e05b5ffcd7533555fcafae543eca2cdbeeb31f1510428546c",
+      "size_bytes": 9095
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/ir_semantic_revision.json",
+      "sha256": "2d62b8a062afc023c1fdce23674bcfeb8ecda45841d21a2f248d54f5b4de33ba",
+      "size_bytes": 825
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/low_potential_target_audit.csv",
+      "sha256": "2e3c00c01d830b43d1fc667e9d79002578530b6e6469587007962267f47f3366",
+      "size_bytes": 76979
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/master.csv",
+      "sha256": "c75e2d23d0a11868b1293bdb0948087f46477ff57198ab14c18f194c8c33b0fc",
+      "size_bytes": 287281
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/master.parquet",
+      "sha256": "1bff264e79a857f0780d83177e2bcbc12e67e1c8411ec6ddbf095e52187e9040",
+      "size_bytes": 240051
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/ml_ready.csv",
+      "sha256": "39f752afe69b7a8cc030bd2e4bb9cf48a9a67c69de70f8b02245eaad80dbaaa0",
+      "size_bytes": 57207
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/panel_schema.csv",
+      "sha256": "559447a83fecbfcd054055f5648891d3ca9c8f9c517b957532fcf34dac72e187",
+      "size_bytes": 13395
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/posterior_slope_draws.csv.gz",
+      "sha256": "42188225abd6a1a76e3b08cb6e310ab322260b6b10ee9f409975d310505e24a4",
+      "size_bytes": 27237263
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/qa.json",
+      "sha256": "4e9654ba9e93cc2e2d307e53713dad5b9365b2bb396af8776c96fe1c306e05dc",
+      "size_bytes": 2668
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/README.md",
+      "sha256": "e3cd9ed2dd7d5486c09ae17cf07a68b9af1199a2434176ccc16cb4ca7959ea09",
+      "size_bytes": 721
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/records.csv",
+      "sha256": "8e8503cab504a47f39d67fa1be4c39318821b88e7077fc1a4017a7aaec25cfdf",
+      "size_bytes": 251736
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/sources.csv",
+      "sha256": "fdcf187c3def53b8442a5c14fe5011c7c20f330230baa60c9033388654f7ab95",
+      "size_bytes": 16864
+    },
+    {
+      "path": "02_inputs/canonical_dataset_ir_corrected_v2/target_registry.csv",
+      "sha256": "a81d76bd6d185a92acd100929ee83c46cec678912bf460a8fbeb7120633e4758",
+      "size_bytes": 102223
+    },
+    {
+      "path": "02_inputs/ml_dataset_context_plus_ink.csv",
+      "sha256": "7b06f9987d57a077cf02c7635656daa7eb82f5a61d0f86b3a3ec03d248aef450",
+      "size_bytes": 27465
+    },
+    {
+      "path": "02_inputs/ml_dataset_context_plus_property_proxy_4p_estimated.csv",
+      "sha256": "a6bc4a95be71f5a57a7c5145e6970478cadca77a304c28f8426911a735f37bde",
+      "size_bytes": 30543
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/curation_manifest.csv",
+      "sha256": "70abbbb85f15ac19655916006a9a841a27ad82a8d41bea47e66e0bbf99f46408",
+      "size_bytes": 2131
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/curation_qa.json",
+      "sha256": "f5c9f9454eeb91cfbd508ad10362d1e773bf396011ae223166493b8e015b20fb",
+      "size_bytes": 3585
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/curve_registry.csv",
+      "sha256": "c9131c0eac507784c07b0a519bb76a93c40371772d8ca260c4b75c68553c50ea",
+      "size_bytes": 889
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/feature_registry.csv",
+      "sha256": "a722590aa3a92de33844bb8a157683ebeeaa513930359fd8c568e30226ba8349",
+      "size_bytes": 9075
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/integration_input_manifest.json",
+      "sha256": "7b8d2a91e70e7e45505e6f7b10ec72994d55babfbf32e5605c0f8e6069b07a3b",
+      "size_bytes": 937
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/property_proxy_qa.json",
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+      "size_bytes": 1001
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/source_data_quality_qa.json",
+      "sha256": "269b8b059231c4f87e22a40b58e04648a493ee1f99108778b6d1fafb42198d79",
+      "size_bytes": 2668
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/sources.csv",
+      "sha256": "fdcf187c3def53b8442a5c14fe5011c7c20f330230baa60c9033388654f7ab95",
+      "size_bytes": 16864
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/code_manifest.json",
+      "sha256": "99029ee8e58a67ca65ce97a461c9ef20cde8251b68257a04af94562e2bff0153",
+      "size_bytes": 11152
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/environment_manifest.json",
+      "sha256": "8f5777d578c79aaf9f9e28ad016eeea50b87cc2e14e0e3efaa7b20d8218d8d5d",
+      "size_bytes": 6059
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/input_manifest.json",
+      "sha256": "86f2b466214596c7dd7f68037bfaeda4794bdf0977eac68b41e47fee6c4b3909",
+      "size_bytes": 1267
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/resolved_config.yaml",
+      "sha256": "cb7fa13257b9873dada53cbc71d952a30d99348e3f43fc1467c617854720ba87",
+      "size_bytes": 21466
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/run_mode.json",
+      "sha256": "5e332097ddc918cebeae57d400b774a5603a7d4d0921aa5c6185036256462b7d",
+      "size_bytes": 180
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/stage_curate.json",
+      "sha256": "39b84ed801084040a12ea5cecb57566acefd4a7a6e2d22a808c035ff6a567a81",
+      "size_bytes": 3840
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/stage_refit.json",
+      "sha256": "816d00051b3dadeb1600ea243ea668f2521786ffffb3d343c4376b9f3c703faa",
+      "size_bytes": 2258
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/bayesian_audit.csv",
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+      "size_bytes": 114349
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/bayesian_pending_queue.csv",
+      "sha256": "b8c6641e75d963ce20a130ead3a8da1793eedc7312f7de3b9dfc9a61b34a371e",
+      "size_bytes": 1620
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/posterior_slope_draws.csv.gz",
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+      "size_bytes": 27237289
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/ppc_binding_audit.csv",
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+      "size_bytes": 160313
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/target_qa.json",
+      "sha256": "7c2807f5d72658447990b1bc2f23e75246644ffda18046b122310638de566193",
+      "size_bytes": 1974
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/target_registry.csv",
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+      "size_bytes": 101544
+    },
+    {
+      "path": "03_outputs/study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/targets_wide.csv",
+      "sha256": "2e9951e00afb61a03e460a3427190209156cffc54f1ae7e0d5bf962e2cf7e82d",
+      "size_bytes": 5799
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/.DS_Store",
+      "sha256": "4dca66c54920122fbb8084a11a1b44e39e5b25e5107c5000830b7b4811b40dc9",
+      "size_bytes": 10244
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/artifact_manifest.json",
+      "sha256": "b48e605332c0f041367b3193aa7f2195b528b75f1356ed82551bde28c3c3855f",
+      "size_bytes": 3385
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/calibration_qa.json",
+      "sha256": "00bf74fb322c5ef953e37a6a34e80fc1740bced5e857b4ee997e67b6d3e59356",
+      "size_bytes": 1290
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/calibration_results.csv",
+      "sha256": "799778b3ebdf473628c0d47442b63e96ad321e3a7dfd2b862728f5de36d58a73",
+      "size_bytes": 55650
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/fallback_calibration_qa.json",
+      "sha256": "322ca3e254a1ab4728840235fad543d4d6e063d8248ead2591ee30db9de6ea69",
+      "size_bytes": 379
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/fallback_calibration_results.csv",
+      "sha256": "6d599d68f03742bf12b6af49931524e789f540248b83d34853c8364f12e76e17",
+      "size_bytes": 1606
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/figures/bayesian_local_line_tafel_slope_kde_data.csv",
+      "sha256": "07d46edbde3e311ae49bc9c6cab1818bace878376076305a67439530268a934e",
+      "size_bytes": 36077
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/figures/bayesian_local_line_tafel_slope_kde_metadata.json",
+      "sha256": "7d74b80bc84406148e034b7a7f045721a1de5a606612a1b31700739c033d5f61",
+      "size_bytes": 749
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/posterior_target_draws.csv.gz",
+      "sha256": "8a3c3a1daba707d8595b9322e04e9f3b29169294374093c7e46f7bb8c52f3256",
+      "size_bytes": 23592979
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/ppc_review.csv",
+      "sha256": "e9d079ea6603a9ffac1bc63b630be73bf06ba972aae24dbce78cb0f6c161d5c0",
+      "size_bytes": 22854
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/qa.json",
+      "sha256": "233343bdfbccee4723623db7490cc043bdfc368eeb41b30552d21932b669b8ed",
+      "size_bytes": 1598
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/README.md",
+      "sha256": "d95c2b149051b312e6dad4814443c0f674c31d4c8bf9e6544693773da6bde761",
+      "size_bytes": 898
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/run_config.json",
+      "sha256": "fafe508c6b93d716cead90b2a48adf2016302ae696dd6700196a9b01de1fc4b9",
+      "size_bytes": 959
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/run_status.json",
+      "sha256": "f852bd76489f81ffcf6ab0c1b2ebfcacbc7920a2840585fd997e051cc44545af",
+      "size_bytes": 1656
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/selected_region_points.csv.gz",
+      "sha256": "e581e17c126b62f31341821f7e931966a26393476a6c86eb09a73a429059979c",
+      "size_bytes": 548386
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/source_hashes.json",
+      "sha256": "d7764ddda3d9fbf2558499fbadbaf444a2ee048951474179fab35c639ccf2945",
+      "size_bytes": 292
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/target_summary.csv",
+      "sha256": "f7ba5a01793af2ea1f301d68a8f88b205daf464f86596b7d10de1205d30c7d3e",
+      "size_bytes": 63362
+    },
+    {
+      "path": "03_outputs/tafel_refitting/outputs/20260723_bayesian_local_line_formal_target_v2/window_selection_replicates.csv.gz",
+      "sha256": "4a5ed8323a33f95beb21814b4d14e2b2cd5faa4162d01f033bb675387ec0a9be",
+      "size_bytes": 79728
+    },
+    {
+      "path": "04_results/RESULTS/01_PPC_REVIEW/ppc_review.csv",
+      "sha256": "cddb6a2001f84b897d697ce5f95cdea003e6896ff4db8b6e013c8186ad624dfa",
+      "size_bytes": 43483
+    },
+    {
+      "path": "04_results/RESULTS/01_PPC_REVIEW/PPC_SELECTION.csv",
+      "sha256": "7cf652f7f2ed82ce2d1e73168cec4a8826f3334835693ba6a39e48922d9f2577",
+      "size_bytes": 7437
+    },
+    {
+      "path": "04_results/RESULTS/01_PPC_REVIEW/publication_manifest.json",
+      "sha256": "d3e4028686e90c09e9b8078bd0caf86238045401c473a2b7506af4766845542e",
+      "size_bytes": 20660
+    },
+    {
+      "path": "04_results/RESULTS/01_PPC_REVIEW/README.md",
+      "sha256": "b44380eaccf6ee46648e91c0badf747f1ea90628b789189097847581e25bb130",
+      "size_bytes": 901
+    },
+    {
+      "path": "04_results/RESULTS/01_PPC_REVIEW/STATUS.csv",
+      "sha256": "2a6e5c4ae8aa5199f7ff550db40a901452c4e5c88fd6fd7ca48a4d5ec3d94dce",
+      "size_bytes": 198
+    },
+    {
+      "path": "04_results/RESULTS/02_TAFEL_CURVE_QC/curve_fit_summary.csv",
+      "sha256": "2009b8c71a3f6be0cc887c261be83ce37b19a871b79c1b59b35340018d250b60",
+      "size_bytes": 105817
+    },
+    {
+      "path": "04_results/RESULTS/02_TAFEL_CURVE_QC/curve_manifest.csv",
+      "sha256": "4b909021afa0747b587316bcdf11163964a225688ecbdc004dbaa8fc70a65393",
+      "size_bytes": 122109
+    },
+    {
+      "path": "04_results/RESULTS/02_TAFEL_CURVE_QC/model_comparison.csv",
+      "sha256": "9d204285f7d9bb07b3bdd8bc777203ee7e7ed702f0381f052c5e977290597bfa",
+      "size_bytes": 162965
+    },
+    {
+      "path": "04_results/RESULTS/02_TAFEL_CURVE_QC/qc_review_queue.csv",
+      "sha256": "1a8edd5af4a8d90c833d1b334d5b21082b01793ba5126a5eefb631f566e92d09",
+      "size_bytes": 12110
+    },
+    {
+      "path": "04_results/RESULTS/02_TAFEL_CURVE_QC/README.md",
+      "sha256": "05d27fc43654c8c0ab56ddaee78110cbce58eae466cb271df796104d2eaa9649",
+      "size_bytes": 1037
+    },
+    {
+      "path": "04_results/RESULTS/02_TAFEL_CURVE_QC/refit_summary.md",
+      "sha256": "75f704fa0a5d1286a6d56284dddfe0ac14bf90bd7188a5863e832572d7b5a0fa",
+      "size_bytes": 468
+    },
+    {
+      "path": "04_results/RESULTS/03_TARGET_COMPARISON/artifact_manifest.json",
+      "sha256": "b8fc71876d87500a6c34c33e4674e96a1c4006af68bbabf6c3d7b5f64f292076",
+      "size_bytes": 1126
+    },
+    {
+      "path": "04_results/RESULTS/03_TARGET_COMPARISON/bayesian_local_line_target.csv",
+      "sha256": "f7ba5a01793af2ea1f301d68a8f88b205daf464f86596b7d10de1205d30c7d3e",
+      "size_bytes": 63362
+    },
+    {
+      "path": "04_results/RESULTS/03_TARGET_COMPARISON/bayesian_local_line_vs_literature.csv",
+      "sha256": "74baf217786d0c040c94b88dd4287b93a7205af9336da5e72f85aa4fd4df4519",
+      "size_bytes": 6933
+    },
+    {
+      "path": "04_results/RESULTS/03_TARGET_COMPARISON/README.md",
+      "sha256": "4d3ee745e5f29b15ea5dbcd2f19e828f61b283dfa9cffd123d49354e8dd8d502",
+      "size_bytes": 806
+    },
+    {
+      "path": "04_results/RESULTS/03_TARGET_COMPARISON/summary.json",
+      "sha256": "0ccb1f17da3fb4febc9d024912a336ddc458f317b2baa802c0e6c7d1b62198da",
+      "size_bytes": 566
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/aggregate_metrics.csv",
+      "sha256": "46f4ff02481f127d76004262d940d45b8fc66f75dce63cb4928f56d7d4fed5e5",
+      "size_bytes": 2186
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/analysis_qa.json",
+      "sha256": "c1a17d2a4509f3684fc3a23a636a8e2ee48301adde02479d0817022c34416999",
+      "size_bytes": 2693
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/calibration.csv",
+      "sha256": "e011e9884847b980b1d2ed08c633722f4dfed8322fbe5c0d668389e7beb99e4d",
+      "size_bytes": 4885
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/expected_confusion.csv",
+      "sha256": "7ce01cd0d84f57706bbe0c2799d7da5db33fbfce13210cfa92ffa6c48bc65403",
+      "size_bytes": 4035
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/oof_aggregated.csv",
+      "sha256": "7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a",
+      "size_bytes": 56702
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/oof_probabilities.csv",
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3",
+      "size_bytes": 592004
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/outer_fit_audits.json",
+      "sha256": "96360cd82faa2e81c04e596221760d5543afe84b3e704165bd620906072d8894",
+      "size_bytes": 190976
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/outer_selections.csv",
+      "sha256": "aabe1c89c7a58ecdcda491097d2ba7fa2cb0ab1aa0b98ee2bc8e28d5916df8b0",
+      "size_bytes": 22413
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_aggregate_metrics.csv",
+      "sha256": "33193dbf690235b46664eece313facc2189da5be57936b1d7b9c960334259d11",
+      "size_bytes": 2020
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_connected_group_bootstrap.csv",
+      "sha256": "196af927efa59373f5ea8e547c087710f8206abda701fcd045b87c61896a1b9b",
+      "size_bytes": 1784124
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_connected_group_bootstrap_summary.csv",
+      "sha256": "84f95f7a55dfdf308e40d97c85c464a6b5c2c2c8751c2694d63cc26862b829d5",
+      "size_bytes": 8412
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_inner_selection_grid.csv",
+      "sha256": "230eb546f0ef85a744083123be4a3018b0dbe79624a3fe89a6cb78b8b5baed12",
+      "size_bytes": 270074
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_oof_decisions.csv",
+      "sha256": "f7889304fb07a58c42972d78527931d34caf6bf108cb78b266c2f4a75cd408ca",
+      "size_bytes": 532190
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_record_aggregated.csv",
+      "sha256": "fd1ba7f0a0eaf7ba563aca6e1f65fabd49f9cb5712271aedfd5e4aa833b103c7",
+      "size_bytes": 110908
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_repeat_metrics.csv",
+      "sha256": "12816bdc99e10c444098e63441677cb06df32991cce14c01a281e7b99cbc76f2",
+      "size_bytes": 6309
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/policy_split_metrics.csv",
+      "sha256": "efb654168dc9001271a9ee8cfac5ce09d52f767511c8e7bbf5ea59827d3b7035",
+      "size_bytes": 24078
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/probability_argmax_metrics.csv",
+      "sha256": "81777f25fdbae55dc594ccd5d85cfc9b40f6d9b255c9e705a23e743871456a30",
+      "size_bytes": 1493
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/repeat_metrics.csv",
+      "sha256": "0a81811d135b9ef087d12e24d4c6ec6cdb0a2c8c9f9c8866198cdc14384b0766",
+      "size_bytes": 16649
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/analyses/split_metrics.csv",
+      "sha256": "58844123417b0a9c8c4f0e9eb4207b48d6d86f2f53d6a5848c8c4351e5506ade",
+      "size_bytes": 78582
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/artifact_manifest.json",
+      "sha256": "25a5d8800da26956f61e59412d738d55b5728249b8c51e60aaf9ea607fe38a41",
+      "size_bytes": 7487
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/folds/inner_split_manifest.csv",
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+      "size_bytes": 232526
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/folds/outer_split_manifest.csv",
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330",
+      "size_bytes": 57013
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/parent_code_manifest.json",
+      "sha256": "c61c4b54bf794a23a5351c662140e2fe664bec8f822d33c8b83117d04cbddad6",
+      "size_bytes": 3001
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/parent_contract_snapshot.yaml",
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c",
+      "size_bytes": 8442
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/parent_environment_manifest.json",
+      "sha256": "2e767ec061490ef5ff358e92c6d780b55add428815a37289b7da5f6ea73dff77",
+      "size_bytes": 8886
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/parent_oof_probabilities.csv",
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3",
+      "size_bytes": 592004
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/parent_policy_oof_decisions.csv",
+      "sha256": "e587ecb2cb8d5f27ec7dfbbe7d1878750b934498cbae1fe6ba01bbc905e4b5b9",
+      "size_bytes": 454769
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/parent_presto_inner_oof_candidates.csv",
+      "sha256": "4c8301b3a70723324a8206d9df7add91e0c619a07f6d0bde8d53669e4e9fabc7",
+      "size_bytes": 2825108
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/code_manifest.json",
+      "sha256": "459dcd069ae4c365cb28db00e41d66288f76a7488d8f4e1ee8491cf816874769",
+      "size_bytes": 1623
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/contract_binding.json",
+      "sha256": "bd8b0b32f1f91b480cfce8bcf58987dd67e1a56ce9a882cccac3d476b0c39ba3",
+      "size_bytes": 338
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/environment_manifest.json",
+      "sha256": "7f26f5d0ab8e21e01ac921bb17d48005248c78d272d169339c7c8893cf9625be",
+      "size_bytes": 10001
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/parent_binding.json",
+      "sha256": "9f80ff4569afe3b58a3133a837e89837f25b188de46e4c39dda2a674eaa7c542",
+      "size_bytes": 3033
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/parent_refit_code_binding.json",
+      "sha256": "e6fab70da4014bb75725aa120a8feea564d8fc71aa318b6b4035121b39436911",
+      "size_bytes": 11011
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/parent_refit_environment_binding.json",
+      "sha256": "37accaa41c482be81ecd075537bb2e855c20c0d2e25540d02112dfa6a571bcf1",
+      "size_bytes": 3244
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/provenance/run_mode.json",
+      "sha256": "96f23c2308f08232943c2a9264cf33ea4b4cf381b60539d0815255c760b63a70",
+      "size_bytes": 133
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/registry/contiguous_three_class_soft_labels.csv",
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d",
+      "size_bytes": 17173
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/registry/contract_snapshot.yaml",
+      "sha256": "85694b3ff89b10458e56cf159fa8d2da2fa771948845469c8951a14a7ee93dcd",
+      "size_bytes": 6978
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/report/presto_policy_v2_report.md",
+      "sha256": "451d47141a1661ae42ca4d9e11b8651f4aec2d5b0087cdb3d52b69427fb7a48f",
+      "size_bytes": 1960
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/report/validation_report.json",
+      "sha256": "a88c836d710188eccca43f5112777d7505e5273e539738ea854bee8a3b808f98",
+      "size_bytes": 3242
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/aggregate_metrics.csv",
+      "sha256": "71e1810947ec216892ec56d938106b36324f3a037e49ee66bace575e4d3c034c",
+      "size_bytes": 2182
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/analysis_qa.json",
+      "sha256": "2088336ac240c05be0ee2ddd697041592548d4eb6569b569de40189b82ddd19e",
+      "size_bytes": 2510
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/calibration.csv",
+      "sha256": "074924c5930dc87928907adf5d4d6413a3b9728f435270645caa7338857635b9",
+      "size_bytes": 4885
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/direct_gower_inner_oof.csv",
+      "sha256": "43ef0f7bf637b3efd227f5efe2af8e414e366f2dd67a2b68b36241bfd745265d",
+      "size_bytes": 427046
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/expected_confusion.csv",
+      "sha256": "69e3a49b3de6e4e7339fe39843ff2ba27daedb936f73089a71fd2cfbb6609e38",
+      "size_bytes": 4043
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/oof_aggregated.csv",
+      "sha256": "7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a",
+      "size_bytes": 56702
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/oof_probabilities.csv",
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3",
+      "size_bytes": 592004
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/outer_fit_audits.json",
+      "sha256": "d4d1887196714dae7e7d3578c42a1da66fa43caa89d1588ecf9fe96e500e3dc4",
+      "size_bytes": 2693024
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/outer_selections.csv",
+      "sha256": "c3c9251480cb53d3e785e80f3eb7c6cb58f8bd3abc0e335cd5926660633c5cf1",
+      "size_bytes": 46325
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/penalty_inner_oof_metrics.csv",
+      "sha256": "1cf00b1e95145adb1cfd60aefe7757c752d6907dc2909472428c03422d82540f",
+      "size_bytes": 22524
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_aggregate_metrics.csv",
+      "sha256": "1a6ff352860472e6224702631c32f33c441c63a1d9f9baf91496de88de97c57b",
+      "size_bytes": 1396
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_connected_group_bootstrap.csv",
+      "sha256": "db4c92059898c5f7515babcf6c65e6ced62920d56ed3a31e28b9b6e9557f93c8",
+      "size_bytes": 428748
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_connected_group_bootstrap_summary.csv",
+      "sha256": "56a4c519f3531ed90e13d63340667ed332a07bb790bad0c8edb3bdcc0af3340f",
+      "size_bytes": 2901
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_oof_decisions.csv",
+      "sha256": "e587ecb2cb8d5f27ec7dfbbe7d1878750b934498cbae1fe6ba01bbc905e4b5b9",
+      "size_bytes": 454769
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_record_aggregated.csv",
+      "sha256": "d31215edfae9dc167e5e489dd6f11d2d115992e8f30c716d26bcf1a46a2b4245",
+      "size_bytes": 47216
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_repeat_metrics.csv",
+      "sha256": "c98c6f1b352976fb80436849c54f9bc6a29f52e85309386278a3ba385a465852",
+      "size_bytes": 6288
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/policy_split_metrics.csv",
+      "sha256": "475dd9306c77d5020abbcfd885015f48df2773d96cf60c2958d8cc02e51b1ff2",
+      "size_bytes": 24971
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/presto_inner_oof_candidates.csv",
+      "sha256": "4c8301b3a70723324a8206d9df7add91e0c619a07f6d0bde8d53669e4e9fabc7",
+      "size_bytes": 2825108
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/probability_argmax_metrics.csv",
+      "sha256": "81777f25fdbae55dc594ccd5d85cfc9b40f6d9b255c9e705a23e743871456a30",
+      "size_bytes": 1493
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/probability_connected_group_bootstrap.csv",
+      "sha256": "1906ff5ecc3d5e3ab07cc7a7964fbc372c66b808bde2813ee7f74b1569d565eb",
+      "size_bytes": 691537
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/probability_connected_group_bootstrap_summary.csv",
+      "sha256": "d63750e02e268b1a49bdfdc41f2437f4b189a235c6867a89224d8050d34bfe0e",
+      "size_bytes": 1980
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/probability_record_level_contrasts.csv",
+      "sha256": "3c65d182328a6303beb09d0fe6f716539578d7097ac608ed26ae789d03a510aa",
+      "size_bytes": 35662
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/repeat_metrics.csv",
+      "sha256": "9a07809d53dbba4bc19da2a5a6ab874da463e41b340a4d10664ec92e10e8c502",
+      "size_bytes": 16637
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/split_metrics.csv",
+      "sha256": "7a7a1edc7c937c40156a93c4806bd5656cfd85038d60317ae5214840c3b7659b",
+      "size_bytes": 78605
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/analyses/threshold_inner_oof_metrics.csv",
+      "sha256": "266724fc9d7dffb70a754e2e20a00a070cb3daafca4cfafb3dca97df3b788e01",
+      "size_bytes": 267743
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/artifact_manifest.json",
+      "sha256": "19e610a4d76173486a1535010c9ea3b5a4253a64f9a38d5f47ff19033a1c9a21",
+      "size_bytes": 7558
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/folds/inner_split_manifest.csv",
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+      "size_bytes": 232526
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/folds/outer_split_manifest.csv",
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330",
+      "size_bytes": 57013
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/inputs/parent_contract_snapshot.yaml",
+      "sha256": "9467f660eff0efa2e664b290037a002b826234dd869a3440fd27141ca83d973c",
+      "size_bytes": 5464
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/inputs/parent_oof_probabilities.csv",
+      "sha256": "0dff43ad66487a63635cfd2142dfe995460e185c97d7b610dfe9df9593cac9d9",
+      "size_bytes": 433294
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/provenance/code_manifest.json",
+      "sha256": "c61c4b54bf794a23a5351c662140e2fe664bec8f822d33c8b83117d04cbddad6",
+      "size_bytes": 3001
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/provenance/contract_binding.json",
+      "sha256": "10b234fa0a167db7ab225498a58e1ec9daaacf489d150738d3c48443945b0824",
+      "size_bytes": 334
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/provenance/environment_manifest.json",
+      "sha256": "2e767ec061490ef5ff358e92c6d780b55add428815a37289b7da5f6ea73dff77",
+      "size_bytes": 8886
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/provenance/parent_binding.json",
+      "sha256": "0719ae0745bcbdeec881526d3f4613f8b6a24b1ad3f23b071475331c73157c41",
+      "size_bytes": 2483
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/provenance/run_mode.json",
+      "sha256": "96f23c2308f08232943c2a9264cf33ea4b4cf381b60539d0815255c760b63a70",
+      "size_bytes": 133
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/registry/contiguous_three_class_soft_labels.csv",
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d",
+      "size_bytes": 17173
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/registry/contract_snapshot.yaml",
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c",
+      "size_bytes": 8442
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/report/posterior_cardinal_contiguous_threeclass_presto_gate_report.md",
+      "sha256": "e5ecda50aa67f753fb24c7519d73a8a011fe1519472b17cd84a3c3a95906aa9a",
+      "size_bytes": 6154
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/report/validation_report.json",
+      "sha256": "5e59cba3bb1fb11b3bacf7376e59cd712d241024c35d1d4e329ded33b2e9cc9f",
+      "size_bytes": 3229
+    },
+    {
+      "path": "04_results/RESULTS/04_MODEL/PRESTO_policy_v2_complete/README.md",
+      "sha256": "98a8f76144449975f562e8ce1bc4badf4b17149752a453e3afe73afc4dfc1f40",
+      "size_bytes": 2602
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/aggregate_metrics.csv",
+      "sha256": "ab09aabbf8f85fe764cc997c92de004f948fec351bd1dfac38f36ab9872be576",
+      "size_bytes": 21600
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/analysis_qa.json",
+      "sha256": "94f38085219419500a771fff7f3d3061acc272f9484aed3865570669617c3402",
+      "size_bytes": 2106
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/calibration.csv",
+      "sha256": "e6e3f2bf7781c508bacc2fd1293378e87af89b530942bd52b1ba9f8ee6fd9dac",
+      "size_bytes": 95502
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/expected_confusion.csv",
+      "sha256": "8e048c4915758916747fc7bfd324e5a10f403456526af2ae50a2196c9bef4316",
+      "size_bytes": 115073
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/inference/one_sided_holm_summary.csv",
+      "sha256": "94714de7d573da706870247a5f31562f85d2a61153353100b7f76f7adc661357",
+      "size_bytes": 833
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/inference/repeat_deltas.csv",
+      "sha256": "be80b7f7012acb02f791f2f4652c9d9c0af95b5ffbdd71a3beafdfa1ecc17a3a",
+      "size_bytes": 93803
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/inner_candidate_scores.csv",
+      "sha256": "ab322319c6bcfd5712a45a4e7b0b20ac315829fccb5cafe39224d108eff88358",
+      "size_bytes": 8805528
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/model_fit_registry.csv",
+      "sha256": "69259c14e212f5b38a7b27804dabf1317b057d0b1f60304771a33bc4b8858a35",
+      "size_bytes": 1036929
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/oof_aggregated.csv",
+      "sha256": "236f0568415a144d68931aaeaf8dd912524007f3f2bceb270e266119ba7937d1",
+      "size_bytes": 1008625
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/oof_probabilities.csv",
+      "sha256": "7c397ae3d513ac3aa505245de9eff416d72b737a40484dee7226235cd9fb3c29",
+      "size_bytes": 12683966
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/record_level_scores.csv",
+      "sha256": "91a8c7d69eeffbc19cc7ce656c0c39124405fdde1a18898c1cd740c923b87101",
+      "size_bytes": 631844
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/repeat_metrics.csv",
+      "sha256": "f172efb1a2311e49a01fd3b970fb20d103b1581977f5ae891803d865122cd603",
+      "size_bytes": 211698
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/analyses/split_metrics.csv",
+      "sha256": "af9da63136f0d46034124355a06ace7e8a81d70fed9dbade49ed7dec3789a80c",
+      "size_bytes": 1007246
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/artifact_manifest.json",
+      "sha256": "00f4a55c6a2a3ff59be667acecb16e9e1a133af608e3ea9809908db0967c0fd6",
+      "size_bytes": 10854
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/effects/adjusted_probability_curve_audit.csv",
+      "sha256": "4c3b9e8d858d826078775060b8466a41662468796d654bf14ff6fe2cf490e607",
+      "size_bytes": 360
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/effects/adjusted_probability_curves.csv",
+      "sha256": "c1ec6fde645e9aad30b5d242a6e8237d964d0c58e6d9aceb37674f3d4cbf8b55",
+      "size_bytes": 350
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/effects/feature_release_decisions.csv",
+      "sha256": "e9af88627661dac8516f5273d70174303c0985176de49f3bf15bd212f9111757",
+      "size_bytes": 3462
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/effects/stopping_decision.json",
+      "sha256": "499d656fde8528e1e2cf8e518395698c4f36893f04ff5064a8432e9e9fa303a0",
+      "size_bytes": 567
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/folds/inner_split_manifest.csv",
+      "sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4",
+      "size_bytes": 240286
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/folds/outer_split_manifest.csv",
+      "sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a",
+      "size_bytes": 58953
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/bayesian_audit.csv",
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+      "size_bytes": 114349
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/integration_input_manifest.json",
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+      "size_bytes": 1005
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/posterior_slope_draws.csv.gz",
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+      "size_bytes": 27237289
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/ppc_binding_audit.csv",
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+      "size_bytes": 160313
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/property_proxy_qa.json",
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+      "size_bytes": 1001
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/source_input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/stage_refit.json",
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+      "size_bytes": 2275
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/target_qa.json",
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+      "size_bytes": 1991
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/inputs/target_registry.csv",
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+      "size_bytes": 101544
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/code_manifest.json",
+      "sha256": "9eefa5e2e2e8f6f52e2b15dd1d69adc7539a6ed37192dff98312b0c1011a4c7b",
+      "size_bytes": 11152
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/environment_manifest.json",
+      "sha256": "01273a54bb437d49199ca5519696cf5748fb422403cc4e5e0a3dd6c4d16ac140",
+      "size_bytes": 6275
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/posterior_cardinal_input_binding.json",
+      "sha256": "de795ca76ef51f2dbc98a98015c99b9221cdb47a21b7fef9686212734f9b0afb",
+      "size_bytes": 12467
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/reduced_feature_registry_binding.json",
+      "sha256": "245e28fc43ac12cf0413dfa8ac01150d6ac6e5a7afb31970ad3b72f0cdcf6d3c",
+      "size_bytes": 1669
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/resolved_config.yaml",
+      "sha256": "2e46020ae1f447058e954310aa88164bad391071ad96226f537c84f969e30a59",
+      "size_bytes": 21500
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/run_mode.json",
+      "sha256": "5e332097ddc918cebeae57d400b774a5603a7d4d0921aa5c6185036256462b7d",
+      "size_bytes": 180
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/source_run_verification.json",
+      "sha256": "7e0d04309c3d0878992260a3470be1cb634e75dcb4a9bfda82c66896b9785906",
+      "size_bytes": 352
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/provenance/stage_posterior_cardinal_classify.json",
+      "sha256": "5383365f671827480883fc64ba9b036b7a0a655c8a446cf499ffe6002414b5f5",
+      "size_bytes": 3233
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/posterior_cardinal_all97_v4.yaml",
+      "sha256": "dd93d316610201f4b03e676710b5315075b9728b77f3102da2df4d41c82dd8fe",
+      "size_bytes": 11754
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_15/hierarchical_class_support.csv",
+      "sha256": "53c6d5454b75d9972bb2a0051f4e1eb72df99c5588d08a591b5a67fc84c9ff37",
+      "size_bytes": 2257
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_15/hierarchical_soft_labels.csv",
+      "sha256": "9ecafaa8285452627d985adbf39fdaa63757000aab41207db31af8fd03d1a2bf",
+      "size_bytes": 17073
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_15/low_anchor_subdivision.csv",
+      "sha256": "0a118c53e9cbed95c95bc840fd7984c48a07dee986f89fc7fa197df7e52bc157",
+      "size_bytes": 8211
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_15/raw_anchor_soft_labels.csv",
+      "sha256": "084ee059e0268b539205f72d5e02ac9728dc241364d5270dc4de0d1e4e8d2311",
+      "size_bytes": 12226
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_15/raw_anchor_support.csv",
+      "sha256": "1bfd833c4dc59d08432c95c8733d192f8c63e005514caa69bc2575ea8bcaab4b",
+      "size_bytes": 2535
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_20/hierarchical_class_support.csv",
+      "sha256": "02c6834e4ca86e4cff8c1c6caf9a0247e21f196d8d1486bba5f979c2bb55e405",
+      "size_bytes": 2153
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_20/hierarchical_soft_labels.csv",
+      "sha256": "1c3a7180e236976600df7a2b874eb64a3441f45d0b19c72a3a1988bc04a64760",
+      "size_bytes": 16844
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_20/low_anchor_subdivision.csv",
+      "sha256": "6726f633955c9b27def0d49e7c4f4e54e2239c315025756d2f57774673930e13",
+      "size_bytes": 8211
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_20/raw_anchor_soft_labels.csv",
+      "sha256": "d5bc0423530f7a00ce3d44921f9fe688407f6f292dc1da2a303bcc781561e062",
+      "size_bytes": 12137
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_20/raw_anchor_support.csv",
+      "sha256": "11256baacb4f1cf1388726ed0f8dfff1231f014e38423e0db76f639d3c280a13",
+      "size_bytes": 2561
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_25/hierarchical_class_support.csv",
+      "sha256": "95838d36a4e24543a9ca47e3b73945b144b0244f9d3c35ac22d291b34f3a5649",
+      "size_bytes": 2095
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_25/hierarchical_soft_labels.csv",
+      "sha256": "ff9a5dbdd9c3e8a72774a27faabe080022f0a1c5deeeafeee1880420add543e2",
+      "size_bytes": 16481
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_25/low_anchor_subdivision.csv",
+      "sha256": "8c24bf480358ddff7a3732daf33461fd4f878fd47869935bbf90478a7a995df3",
+      "size_bytes": 8026
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_25/raw_anchor_soft_labels.csv",
+      "sha256": "9d063a2ca43b33db57a41235b37155da590b7ef38aa7a1b30c382aaeee0d9caf",
+      "size_bytes": 11987
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/registry/width_25/raw_anchor_support.csv",
+      "sha256": "963880a2b73f799fab7e6ac4289cc5b0778372bbe75a4d1bd1a0556a38f562f7",
+      "size_bytes": 2422
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/report/posterior_cardinal_report.md",
+      "sha256": "d2b9152dd925a864e9af0313bb005402e8468cdf11b729b6a576c4ed44bb2d9d",
+      "size_bytes": 15742
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724/report/validation_report.json",
+      "sha256": "2b9279ca247709b3f6a4de456034fb1ec7e9fa67e5f52e762bea50c739aa25f6",
+      "size_bytes": 2976
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/aggregate_metrics.csv",
+      "sha256": "46f4ff02481f127d76004262d940d45b8fc66f75dce63cb4928f56d7d4fed5e5",
+      "size_bytes": 2186
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/analysis_qa.json",
+      "sha256": "c1a17d2a4509f3684fc3a23a636a8e2ee48301adde02479d0817022c34416999",
+      "size_bytes": 2693
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/calibration.csv",
+      "sha256": "e011e9884847b980b1d2ed08c633722f4dfed8322fbe5c0d668389e7beb99e4d",
+      "size_bytes": 4885
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/expected_confusion.csv",
+      "sha256": "7ce01cd0d84f57706bbe0c2799d7da5db33fbfce13210cfa92ffa6c48bc65403",
+      "size_bytes": 4035
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/oof_aggregated.csv",
+      "sha256": "7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a",
+      "size_bytes": 56702
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/oof_probabilities.csv",
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3",
+      "size_bytes": 592004
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/outer_fit_audits.json",
+      "sha256": "96360cd82faa2e81c04e596221760d5543afe84b3e704165bd620906072d8894",
+      "size_bytes": 190976
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/outer_selections.csv",
+      "sha256": "aabe1c89c7a58ecdcda491097d2ba7fa2cb0ab1aa0b98ee2bc8e28d5916df8b0",
+      "size_bytes": 22413
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/policy_aggregate_metrics.csv",
+      "sha256": "33193dbf690235b46664eece313facc2189da5be57936b1d7b9c960334259d11",
+      "size_bytes": 2020
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/policy_oof_decisions.csv",
+      "sha256": "f7889304fb07a58c42972d78527931d34caf6bf108cb78b266c2f4a75cd408ca",
+      "size_bytes": 532190
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/policy_record_aggregated.csv",
+      "sha256": "fd1ba7f0a0eaf7ba563aca6e1f65fabd49f9cb5712271aedfd5e4aa833b103c7",
+      "size_bytes": 110908
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/policy_repeat_metrics.csv",
+      "sha256": "12816bdc99e10c444098e63441677cb06df32991cce14c01a281e7b99cbc76f2",
+      "size_bytes": 6309
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/policy_split_metrics.csv",
+      "sha256": "efb654168dc9001271a9ee8cfac5ce09d52f767511c8e7bbf5ea59827d3b7035",
+      "size_bytes": 24078
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/repeat_metrics.csv",
+      "sha256": "0a81811d135b9ef087d12e24d4c6ec6cdb0a2c8c9f9c8866198cdc14384b0766",
+      "size_bytes": 16649
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/analyses/split_metrics.csv",
+      "sha256": "58844123417b0a9c8c4f0e9eb4207b48d6d86f2f53d6a5848c8c4351e5506ade",
+      "size_bytes": 78582
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/artifact_manifest.json",
+      "sha256": "ac2630ade4990a9d0fad5a73457504b29ddea7ceca2dc68021b8c228632d1a58",
+      "size_bytes": 5633
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/folds/inner_split_manifest.csv",
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+      "size_bytes": 232526
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/folds/outer_split_manifest.csv",
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330",
+      "size_bytes": 57013
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/inputs/parent_code_manifest.json",
+      "sha256": "c61c4b54bf794a23a5351c662140e2fe664bec8f822d33c8b83117d04cbddad6",
+      "size_bytes": 3001
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/inputs/parent_contract_snapshot.yaml",
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c",
+      "size_bytes": 8442
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/inputs/parent_oof_probabilities.csv",
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3",
+      "size_bytes": 592004
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/provenance/code_manifest.json",
+      "sha256": "459dcd069ae4c365cb28db00e41d66288f76a7488d8f4e1ee8491cf816874769",
+      "size_bytes": 1623
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/provenance/contract_binding.json",
+      "sha256": "bd8b0b32f1f91b480cfce8bcf58987dd67e1a56ce9a882cccac3d476b0c39ba3",
+      "size_bytes": 338
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/provenance/environment_manifest.json",
+      "sha256": "7f26f5d0ab8e21e01ac921bb17d48005248c78d272d169339c7c8893cf9625be",
+      "size_bytes": 10001
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/provenance/parent_binding.json",
+      "sha256": "9f80ff4569afe3b58a3133a837e89837f25b188de46e4c39dda2a674eaa7c542",
+      "size_bytes": 3033
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/provenance/run_mode.json",
+      "sha256": "96f23c2308f08232943c2a9264cf33ea4b4cf381b60539d0815255c760b63a70",
+      "size_bytes": 133
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/registry/contract_snapshot.yaml",
+      "sha256": "85694b3ff89b10458e56cf159fa8d2da2fa771948845469c8951a14a7ee93dcd",
+      "size_bytes": 6978
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/report/presto_policy_v2_report.md",
+      "sha256": "451d47141a1661ae42ca4d9e11b8651f4aec2d5b0087cdb3d52b69427fb7a48f",
+      "size_bytes": 1960
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_presto_policy_v2_verified_20260726/report/validation_report.json",
+      "sha256": "a88c836d710188eccca43f5112777d7505e5273e539738ea854bee8a3b808f98",
+      "size_bytes": 3242
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/aggregate_metrics.csv",
+      "sha256": "8fa3e6ddec51fe58d39a81241ec45c7cf87eda5d777fffa1be9b73f768ba660b",
+      "size_bytes": 1370
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/analysis_qa.json",
+      "sha256": "cac85f8008d023e7e511ae67c18809f603f171f1e7bec95d745ed3e1f95c94b0",
+      "size_bytes": 3070
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/calibration.csv",
+      "sha256": "5f9cb6d618f7cccf3bb2379eaa8945a9d135b022bb223d703704e16265f39bae",
+      "size_bytes": 1808
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/connected_group_bootstrap.csv",
+      "sha256": "d757f204062e0ac69e772544b644847e9e86663f11604af541dbe757fa65d068",
+      "size_bytes": 149066
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/connected_group_bootstrap_summary.csv",
+      "sha256": "1ea33e225cdd6e53af298a48c647e9fcedbe9868f68270becd38bd84b73405ad",
+      "size_bytes": 586
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/expected_confusion.csv",
+      "sha256": "3402ce2716efe5a9663d3279e70567b5cbcae60bbcdc4c87c4881de49e02af00",
+      "size_bytes": 2068
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/model_fit_registry.csv",
+      "sha256": "e62ba411abe9b24e29805ee49e692a3cf543359dc1e7d88cbc09b44dff3d03b5",
+      "size_bytes": 1696915
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/oof_aggregated.csv",
+      "sha256": "45d968025aa6dfcac900feee854ec118df99fc6db0569cb90707e5a79a52a545",
+      "size_bytes": 28302
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/oof_probabilities.csv",
+      "sha256": "9be959b7d7b2737be9ae6ec662deea4bf7b2feb0c32f252994c3b1bfe2882517",
+      "size_bytes": 283415
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/optuna_inner_fold_scores.csv",
+      "sha256": "67f3f10780e9df9cf77d4ca0e9215286d8f268ac31e7939cee2ec7b04cf3311c",
+      "size_bytes": 1467300
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/optuna_trials.csv",
+      "sha256": "583fac60fce4d3c684fc634000fbc50fab917747cad36f907bb1ef4d749e1360",
+      "size_bytes": 1523038
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/outer_selections.csv",
+      "sha256": "9f91a63fe068020a40619983dcd3e42593d8d815ab2f7c09c2f70feb75172de7",
+      "size_bytes": 144297
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/record_level_scores.csv",
+      "sha256": "647fdc21ab114158c5d1b2f431144e3fdb40456a8068cccbd9ff2e032f237a65",
+      "size_bytes": 15936
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/repeat_metrics.csv",
+      "sha256": "692d682f087af022945e803d06faafa16b5dc504adf0bd3ef2a952c369e353de",
+      "size_bytes": 8533
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/split_metrics.csv",
+      "sha256": "037d1793cf94b2547149aab62c1b2613b4d34d2d5454e5bd7de64e7857fd1e16",
+      "size_bytes": 39298
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/stack_weight_summary.csv",
+      "sha256": "81f97f9ac345f5c1df0ecbee52669caf0acb62b8a339f9e17fb91c82bfb6f359",
+      "size_bytes": 983
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/stage_alpha_selections.csv",
+      "sha256": "0e43879178179bc11b862da3a246658ec417e4e3f008e76244b92fc5fa4a9ef4",
+      "size_bytes": 617374
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/stage_candidate_registry.csv",
+      "sha256": "62ba7655de667db55766924df157d9b4c05b91c5db47194fc14e782fd12916bd",
+      "size_bytes": 95777
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/stage_component_oof_predictions.csv",
+      "sha256": "0c1f7de197a912def82aae1f143eefa0221dd0dc68e7f7e00f18f33f99cf6bb4",
+      "size_bytes": 4228356
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/stage_selection_summary.csv",
+      "sha256": "66d9403d8763b459bb0649bfaf7e1d7ed0ab1aa8300fc1cb5192101994256459",
+      "size_bytes": 7181
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/analyses/stage_stack_weights.csv",
+      "sha256": "83ba7145e35f37b3508e8bddf73512032a88028ebeb19f9627f3ae073dc5eff8",
+      "size_bytes": 45208
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/artifact_manifest.json",
+      "sha256": "2fa2666250030615ce285086945c1de0b502a97a00612d3fc9e647f7d1bc6d80",
+      "size_bytes": 10628
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/folds/inner_split_manifest.csv",
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+      "size_bytes": 232526
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/folds/outer_split_manifest.csv",
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330",
+      "size_bytes": 57013
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/bayesian_audit.csv",
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+      "size_bytes": 114349
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/integration_input_manifest.json",
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+      "size_bytes": 1005
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/posterior_slope_draws.csv.gz",
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+      "size_bytes": 27237289
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/ppc_binding_audit.csv",
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+      "size_bytes": 160313
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/property_proxy_qa.json",
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+      "size_bytes": 1001
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/reduced_feature_registry/frozen_panel_registry.csv",
+      "sha256": "1f2c3a1abb2bcde2ae7a5536f4492d1e7331dbf6a22570749e68bb78257ba17b",
+      "size_bytes": 2929
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/source_input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/stage_refit.json",
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+      "size_bytes": 2275
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/target_qa.json",
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+      "size_bytes": 1991
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/target_registry.csv",
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+      "size_bytes": 101544
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/code_manifest.json",
+      "sha256": "8a15a5e7910c098176881e2bd822f84c152913f38d526b48a4a7f86f71ebcb83",
+      "size_bytes": 12210
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/contract_binding.json",
+      "sha256": "252144b7ae283733dbfd4c33d4c33dfec658b4796217b40a07ca57ed02469050",
+      "size_bytes": 755
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/environment_manifest.json",
+      "sha256": "92f23c91c4c92ee1ecc53d74d42be6ce36afca3e21b1dd801a13a94a0d96db6a",
+      "size_bytes": 8085
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/fold_manifest_binding.json",
+      "sha256": "232f051ffdf98a3ea07b30403d8b82e935091de56eed1894e094abdb07e3fc5b",
+      "size_bytes": 460
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/input_binding.json",
+      "sha256": "f600ec25776a2532bde6e1ad5ac3a5170611187352598abddf18638df8960921",
+      "size_bytes": 12227
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/input_snapshot_verification_after_modeling.json",
+      "sha256": "1a62b1acdaf09995dd36acbf985d5168a59b9be4c701a9b4905f6739674ff3bf",
+      "size_bytes": 3713
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/input_snapshot_verification_after_parse.json",
+      "sha256": "1a62b1acdaf09995dd36acbf985d5168a59b9be4c701a9b4905f6739674ff3bf",
+      "size_bytes": 3713
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/parent_contract_bindings.json",
+      "sha256": "de3093dd9b89297c8e5e065dc2a0467bbb9e297aa66a16f1257758d389527acd",
+      "size_bytes": 4185
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/reduced_feature_registry_binding.json",
+      "sha256": "e8641900dd4a43016cb1c5e9d574e142334ee924f6e057a78eda9daca90c0cd0",
+      "size_bytes": 1649
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/reduced_registry_verification_after_modeling.json",
+      "sha256": "c6dcdb9f8b685132f4e03fb24587d71b1521da8a641f3171570a884afaab9414",
+      "size_bytes": 766
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/reduced_registry_verification_after_parse.json",
+      "sha256": "c6dcdb9f8b685132f4e03fb24587d71b1521da8a641f3171570a884afaab9414",
+      "size_bytes": 766
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/resolved_config.yaml",
+      "sha256": "712be71e0f60d5a905d097efebf35ab41114084696802422e8e28ab99181a26b",
+      "size_bytes": 22359
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/run_mode.json",
+      "sha256": "17f449180bf4d14341a9bd516190f28115cbd552f0cf953ed87f1bc025b42ef8",
+      "size_bytes": 235
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/provenance/source_run_verification.json",
+      "sha256": "7e0d04309c3d0878992260a3470be1cb634e75dcb4a9bfda82c66896b9785906",
+      "size_bytes": 352
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/registry/contiguous_three_class_label_audit.json",
+      "sha256": "cdeb6b887f99c663010624617d31dc68f8a90aa07920c0268732499b08fe57bf",
+      "size_bytes": 326
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/registry/contiguous_three_class_soft_labels.csv",
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d",
+      "size_bytes": 17173
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/registry/contiguous_three_class_support.csv",
+      "sha256": "61f852861844c8e0c108253a09af25e66b07ce1b2fd9ba52ba8331b293fd2e8c",
+      "size_bytes": 253
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/registry/contract_snapshot.yaml",
+      "sha256": "afc118e36a3b96d7258e3ae729e6be6d1ef507ee09b6f3185f42e6be0c07e8a7",
+      "size_bytes": 13918
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/report/posterior_cardinal_contiguous_threeclass_report.md",
+      "sha256": "3cdfbe2b3ec1aa2d09ba281050b2be38f95f006870abf67ab3b605d53fac8b44",
+      "size_bytes": 8509
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/report/validation_report.json",
+      "sha256": "8f7c3be853b2edbe51b81c9bcad5a9100798f8b3bdf50c6d032593f14d23133f",
+      "size_bytes": 3638
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/aggregate_metrics.csv",
+      "sha256": "b3031ba6c7cdd24d226a3a003deb8551d339321712baf2415b361d4d777948c2",
+      "size_bytes": 1524
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/analysis_qa.json",
+      "sha256": "319471ec595b8aed39f229b358d6a3b034bd3fc2b19924415a00b4b5eeddb677",
+      "size_bytes": 2911
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/best_pipeline_summary.json",
+      "sha256": "8c2155e522bfefd1fbaf2bb0137d6ef4290cfa84dbd61f805ee3c247ad5a74c5",
+      "size_bytes": 795
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/calibration.csv",
+      "sha256": "a0cbee7062a9cfde22a8009b49e4e9ce6dbb569f5d89d27e6146850859bc4757",
+      "size_bytes": 2117
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/connected_group_bootstrap.csv",
+      "sha256": "c93e19f8f74250e020cee7e1e149270c6f97ff5a07469bec7845b22f2e48a085",
+      "size_bytes": 149704
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/connected_group_bootstrap_summary.csv",
+      "sha256": "822c08adc1baa5e719fc3ed7092062e5dc1d940f9ac173f75ca39988b1b93de9",
+      "size_bytes": 586
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/expected_confusion.csv",
+      "sha256": "40af5592166457fab6893140780956b47097aac14b87f52f9cf914e52be48df3",
+      "size_bytes": 2388
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/model_fit_registry.csv",
+      "sha256": "7c01e7406b26dff29cdace00a214fd2c91a6f6d74f1656c1ed7115f92dfafee6",
+      "size_bytes": 129754
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/oof_aggregated.csv",
+      "sha256": "99dcb7221873947d37d3967dfc379b8991b351c2c5a6338e1799f204e792109d",
+      "size_bytes": 30874
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/oof_probabilities.csv",
+      "sha256": "ace4f61b412ba4e13a221f6a5cc291f2336900d4aacff1330967991f058f095f",
+      "size_bytes": 401380
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/optuna_inner_fold_scores.csv",
+      "sha256": "eba39e5b5758e0c9140e6fa9b96fee179795e37f91fe36a75d9fee8e4b9e4388",
+      "size_bytes": 23017595
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/optuna_trials.csv",
+      "sha256": "01b710f0ce48394014be6fbed912014a7ba7a112be0a26e2dc5f014db3e4c04a",
+      "size_bytes": 616327
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/outer_selections.csv",
+      "sha256": "f1684d185a655796a6ae7c6f372613f7ce9b00ac8fbcbcdb7cfaec08eefac927",
+      "size_bytes": 14705
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/record_level_scores.csv",
+      "sha256": "19d01ae6dc9c7e30b6fd173b23b20169048adaf1a964670158219b7df80a7890",
+      "size_bytes": 16628
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/repeat_metrics.csv",
+      "sha256": "8076590812a3f12c1ffb5657a575efaca94477fa63316b924ad7ed50fd139466",
+      "size_bytes": 9512
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/selection_frequency.csv",
+      "sha256": "25000cfe5dbca8cac4ab3b22e960dcd32b7a0c7340e4760998814f7aea9859e4",
+      "size_bytes": 1533
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/analyses/split_metrics.csv",
+      "sha256": "c1d8b3cc475efe289754eed71f71158d2d64af71dcd833d8f4b7b4f0c4aba6ec",
+      "size_bytes": 43988
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/artifact_manifest.json",
+      "sha256": "3edd2ace718d5af25a4c506f246987c914ab232cdef02bf5b724407ddab71db4",
+      "size_bytes": 10612
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/folds/inner_split_manifest.csv",
+      "sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4",
+      "size_bytes": 240286
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/folds/outer_split_manifest.csv",
+      "sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a",
+      "size_bytes": 58953
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/bayesian_audit.csv",
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+      "size_bytes": 114349
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/integration_input_manifest.json",
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+      "size_bytes": 1005
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/posterior_slope_draws.csv.gz",
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+      "size_bytes": 27237289
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/ppc_binding_audit.csv",
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+      "size_bytes": 160313
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/property_proxy_qa.json",
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+      "size_bytes": 1001
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/reduced_feature_registry/frozen_panel_registry.csv",
+      "sha256": "1f2c3a1abb2bcde2ae7a5536f4492d1e7331dbf6a22570749e68bb78257ba17b",
+      "size_bytes": 2929
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/source_input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/stage_refit.json",
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+      "size_bytes": 2275
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/target_qa.json",
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+      "size_bytes": 1991
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/inputs/target_registry.csv",
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+      "size_bytes": 101544
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/code_manifest.json",
+      "sha256": "7d9d32f834effa2ade7438be28c5f0fed00684d4f7c586b359344b5c06be5164",
+      "size_bytes": 11537
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/contract_binding.json",
+      "sha256": "328a72c1afb654f63e7768c4e9d1479026529272f6b02821c3e538abe827259c",
+      "size_bytes": 684
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/environment_manifest.json",
+      "sha256": "b82ec563a96f24bd87d2b8440740e1c550e988b7cbe785606325572e26368f84",
+      "size_bytes": 7083
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/input_binding.json",
+      "sha256": "c019058e39f187bbd6d9666af8bafa8afa0ba72a552cb1dd388cf58268e45afa",
+      "size_bytes": 12251
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/input_snapshot_verification_after_modeling.json",
+      "sha256": "e0edc3489a1c5d88645abe5e6c7cea0c2ea533265f9a5aadcce6cad34c96468e",
+      "size_bytes": 3725
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/input_snapshot_verification_after_parse.json",
+      "sha256": "e0edc3489a1c5d88645abe5e6c7cea0c2ea533265f9a5aadcce6cad34c96468e",
+      "size_bytes": 3725
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/parent_v4_contract_binding.json",
+      "sha256": "6246a438dc80014df6270261d2bd0a79139e9f9f5c10ac330d0ed4b74c600668",
+      "size_bytes": 267
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/reduced_feature_registry_binding.json",
+      "sha256": "9adf0a12e1ab884f0e538d08b540d38a8134ee1ade5b8e4bb88a3b7c46305eef",
+      "size_bytes": 1651
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/reduced_registry_verification_after_parse.json",
+      "sha256": "fca3b815853ce59ad2ce5fc459e033433eec55e16c137b29d8d50c9c646e5204",
+      "size_bytes": 768
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/resolved_config.yaml",
+      "sha256": "8cdb95a58d71e9d151fc7b87cda75092bd1c4bfa658ffa2edfd93e8a6d7f791c",
+      "size_bytes": 22032
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/run_mode.json",
+      "sha256": "17f449180bf4d14341a9bd516190f28115cbd552f0cf953ed87f1bc025b42ef8",
+      "size_bytes": 235
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/source_run_verification.json",
+      "sha256": "7e0d04309c3d0878992260a3470be1cb634e75dcb4a9bfda82c66896b9785906",
+      "size_bytes": 352
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/stage_posterior_cardinal_threeclass_optuna.json",
+      "sha256": "c38f204174ef2b6ca052b8512aa963392f4ca9589878c0f51f0ebc187ab779d0",
+      "size_bytes": 4200
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/provenance/v4_manifest_binding.json",
+      "sha256": "9593d9f118ce9b00262b4d967bac6ed3b153c56f3fd6b5564227da665135dada",
+      "size_bytes": 497
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/contract_snapshot.yaml",
+      "sha256": "f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be",
+      "size_bytes": 9240
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/three_class_soft_labels.csv",
+      "sha256": "7d818ebdf78a4638d645c5aa11a16a2310408a858cbfa71afc5eb2af8915ff9a",
+      "size_bytes": 22420
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/three_class_support.csv",
+      "sha256": "c52d56d6514f8e5bfa2f5b58aa38573ff66e433be5174bd9f692b3559d7d6e8b",
+      "size_bytes": 319
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/three_class_support_all_widths.csv",
+      "sha256": "c52d56d6514f8e5bfa2f5b58aa38573ff66e433be5174bd9f692b3559d7d6e8b",
+      "size_bytes": 319
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/width_20/four_class_soft_labels.csv",
+      "sha256": "1c3a7180e236976600df7a2b874eb64a3441f45d0b19c72a3a1988bc04a64760",
+      "size_bytes": 16844
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/width_20/raw_anchor_soft_labels.csv",
+      "sha256": "d5bc0423530f7a00ce3d44921f9fe688407f6f292dc1da2a303bcc781561e062",
+      "size_bytes": 12137
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/width_20/three_class_soft_labels.csv",
+      "sha256": "7d818ebdf78a4638d645c5aa11a16a2310408a858cbfa71afc5eb2af8915ff9a",
+      "size_bytes": 22420
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/width_20/three_class_support.csv",
+      "sha256": "c52d56d6514f8e5bfa2f5b58aa38573ff66e433be5174bd9f692b3559d7d6e8b",
+      "size_bytes": 319
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/report/posterior_cardinal_threeclass_optuna_report.md",
+      "sha256": "b164e33ba8e95d32271a181a5bbadcff1bea8f124b93da4961f242fe7bd2fbeb",
+      "size_bytes": 6708
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/report/validation_report.json",
+      "sha256": "bab64cead826fc96b3ae0633f4ce87d846573928e274b2ff8c71ed05b1822bfc",
+      "size_bytes": 3425
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/aggregate_metrics.csv",
+      "sha256": "0875276b388cb0dce58df204022ccf0e04bf33effe800157fbc865614791c79a",
+      "size_bytes": 3545
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/analysis_qa.json",
+      "sha256": "82627e327a7db0b8352719d50a1d9650de875ca2a18deb1423e9e038586ff7cf",
+      "size_bytes": 953
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/model_fit_registry.csv",
+      "sha256": "407da21934a6aabef4af2c48048b65568938f0b257ed3edab171a525fc0cea4b",
+      "size_bytes": 2055736
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/oof_aggregated.csv",
+      "sha256": "b459d7bad969a704cb8a83bbdff791614113d6dc5025f30b832f718593bf0ef1",
+      "size_bytes": 268162
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/oof_predictions.csv",
+      "sha256": "76b7eff58ce7d30e2bbccd6e5b32e20f80bb196e3075a0bfdc2d173c3ee55028",
+      "size_bytes": 2698638
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/outer_split_manifest.csv",
+      "sha256": "50fc58f911a2972b5ca214fc7794306aaf3e125f164adaaee419d92508ce2aeb",
+      "size_bytes": 38577
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/record_level_repeated_scores.csv",
+      "sha256": "a1843bba7413c08ca10cabd4d735f249692a141a2b5efcc5477496b1dbf63458",
+      "size_bytes": 4494910
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/split_metrics.csv",
+      "sha256": "4ff1753105ba9b1fe8ca50b866a3e99cb4ca73a69285b8612042ecc569e0607c",
+      "size_bytes": 34108
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/analyses/target_draw_metrics.csv",
+      "sha256": "167677d3be255d13ae21cbf772beaf49b5fa1d940bf7842cf6ab134e6f406e2a",
+      "size_bytes": 198416
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/artifact_manifest.json",
+      "sha256": "c56643bca05b25467967c3c1c94275e4f51ef13e30443ef32128cf9f7830463f",
+      "size_bytes": 9907
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/atlas/atlas_feature_summary.csv",
+      "sha256": "86e0e0ba278a4a96d9023a958d9754d6dcf55a5213250e3261899ae3842ffc47",
+      "size_bytes": 8398
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/atlas/atlas_observations.csv",
+      "sha256": "ba2830ad1c100f38eb5e1cfde5e1b9e3287ef59d761aa877c51f38633e6b6adc",
+      "size_bytes": 823517
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/atlas/atlas_posterior_associations.csv",
+      "sha256": "adc441ee8443bf12707c9a46736b7d44d962c9692ab15adb70b2a8d3fe66aa22",
+      "size_bytes": 332604
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/atlas/atlas_qa.json",
+      "sha256": "f813119237d41c3bffe098d40d0890ff90b9ecf6083559115b1c68445287e183",
+      "size_bytes": 419
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/candidate_registry.csv",
+      "sha256": "62e218bee2e35be40595b4cc6f8ee1a93d17ccdfcf33a891432ed26f6ab93593",
+      "size_bytes": 2182
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/categorical_level_support.csv",
+      "sha256": "2ef0d6681219a5b4ed7e57125b8ee9c0f710b7452273ab9baa33878e1b2f85ef",
+      "size_bytes": 1702
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/data_geometry.csv",
+      "sha256": "5769c090e204d979cc968f75f5f6dd6fe99095ecdad91ba1dc9f0ce7ab919bed",
+      "size_bytes": 373
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/feature_exclusion_decisions.csv",
+      "sha256": "924e2a44474749e40b27c2767db58c277cdd3ea73bb93cb1d2190f3b70690e5d",
+      "size_bytes": 8960
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/feature_support_audit.csv",
+      "sha256": "eaad12b9464ae7cfb02b670a5774788dc03931bd586a24b9250b3ec591e4e7af",
+      "size_bytes": 12756
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/feature_support_redundancy_qa.json",
+      "sha256": "d57469a0a9119a61343a1737425df6957cfc0189bbba5b18141cd9ebaa357055",
+      "size_bytes": 2905
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/numeric_redundancy_pairs.csv",
+      "sha256": "5fc2acf5d8769468f6dc45de5a0bdaab2e677812d139bce23dbe48adb7e68d0b",
+      "size_bytes": 3423
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/audits/redundancy_clusters.csv",
+      "sha256": "dbd5befc83dbf397e04fa8f04d909d5f98ef47366cfbe6f00bfd22e076212336",
+      "size_bytes": 1269
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/effects/adjusted_effect_grid.csv",
+      "sha256": "f5889dd01a760fb4c304db2bd2ed491c49bc3024170b26316979095ea3c53d32",
+      "size_bytes": 383
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/effects/effect_release_registry.csv",
+      "sha256": "ffca2a15538029fd6ba9e972627a433b3a3f2f3ab0248aa2d2f99d689a622c9a",
+      "size_bytes": 4491
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/effects/effects_qa.json",
+      "sha256": "fedef8704a7b0ae46c513e724119ebb90e4e7fb58cc59db27dd7f7514de53c69",
+      "size_bytes": 204
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/figures/figure_manifest.csv",
+      "sha256": "d18a9371336ac2671e5cfa2425ff107c7cbca0bd5e13bfd5c2053b943f4ab374",
+      "size_bytes": 7678
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/bayesian_audit.csv",
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+      "size_bytes": 114349
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/integration_input_manifest.json",
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+      "size_bytes": 1005
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/posterior_slope_draws.csv.gz",
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+      "size_bytes": 27237289
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/ppc_binding_audit.csv",
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+      "size_bytes": 160313
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/property_proxy_qa.json",
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+      "size_bytes": 1001
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/records.csv",
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c",
+      "size_bytes": 258556
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/registered_panel_schema.csv",
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/source_input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/stage_refit.json",
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+      "size_bytes": 2275
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/target_qa.json",
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+      "size_bytes": 1991
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/inputs/target_registry.csv",
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+      "size_bytes": 101544
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/code_manifest.json",
+      "sha256": "0a1c6d1067113679bdce8cee116a39b54784d904e7d11cf39ae854b2c73d41e0",
+      "size_bytes": 11152
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/environment_manifest.json",
+      "sha256": "716057e775faa819b101e21d475cad1dffc2899e06dd15e4c344a49f47885f55",
+      "size_bytes": 6180
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/input_manifest.json",
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/resolved_config.yaml",
+      "sha256": "ee588725736f4f54a54c5dcc80a0c68ea208c742ccd0baa4a16bf1b0f155be27",
+      "size_bytes": 21500
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/run_mode.json",
+      "sha256": "5e332097ddc918cebeae57d400b774a5603a7d4d0921aa5c6185036256462b7d",
+      "size_bytes": 180
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/source_run_verification.json",
+      "sha256": "7e0d04309c3d0878992260a3470be1cb634e75dcb4a9bfda82c66896b9785906",
+      "size_bytes": 352
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/provenance/stage_feature_associate.json",
+      "sha256": "95618f07d8b1916379ccde636e12b3c83f315414ae4edaf5aa82ccc4dc8c67d8",
+      "size_bytes": 2119
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/engineered_feature_definitions.csv",
+      "sha256": "d69dae5d26ae6204a0eefb76e5265834a2ecc2b256d214f2b7496dfac1cb4c73",
+      "size_bytes": 2582
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/evaluation_config.json",
+      "sha256": "a622eb0f9fe8728f9f1df69961c4eed679802eb1c1701228eaeb196ea2ce1c1b",
+      "size_bytes": 1202
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/fixed_model_registry.csv",
+      "sha256": "7a6d4a56c6a3c15ba1290211772302fb27fb2bc2a153ed586e4afe3775a94046",
+      "size_bytes": 506
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/frozen_contrast_registry.csv",
+      "sha256": "1f959a501aed1d07e2b55afabb456d84cd1e3b390f642d947f809b7674a7998e",
+      "size_bytes": 1640
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/frozen_panel_registry.csv",
+      "sha256": "7efcbf59b3655eda76134d14e80ab6bd23379b4e5492aacd130a0175da73dc73",
+      "size_bytes": 2938
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/posterior_score_draws.csv",
+      "sha256": "62e87652b29d638a9aa44b4e75eb57237757d63f89777bf8f3f41fa415b2ae8e",
+      "size_bytes": 509234
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/posterior_target_policy_qa.json",
+      "sha256": "e88fa803b30b70d531252a9d80a77e30f619c70f532e2f211a5e0bc806988899",
+      "size_bytes": 575
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/registry/posterior_target_summary.csv",
+      "sha256": "830815fe1ca99955a8de5788b0a5939df06094ef0a47aecf5b32d06bbbbdd9b0",
+      "size_bytes": 14470
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/report/feature_association_report.md",
+      "sha256": "e05e88183daff97f93a0296693a033ca2c73fd7b806abd54b5ffd41c6732045b",
+      "size_bytes": 21556
+    },
+    {
+      "path": "04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_v2_20260724/report/validation_report.json",
+      "sha256": "1a663183bd750a418bdd7a84d73b3e5ae30a55c6cb261877c13d644a689647d8",
+      "size_bytes": 13582
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/ale_qa.json",
+      "sha256": "be6d25fb4033bbdb55cc023f0999f56e194d6930c5c4dd3c5d0e9a69e6ba8592",
+      "size_bytes": 1045
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/analysis_contract.yaml",
+      "sha256": "e71796d1c1adf0fb5e07afe68d26ae34868b843795bc5b20d3e243030a440afc",
+      "size_bytes": 2926
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/feature_importance_summary.csv",
+      "sha256": "bf517fc7e11ab21fcb60b2b32f3b47cec42b2fffa28ab5f25d9c35b46870cb1f",
+      "size_bytes": 2505
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/presto_policy_v2_feature_reliance.csv",
+      "sha256": "6fdf5dd0af3bb0191c45113a2b0cd7244b9485bfaa05f440a6e777c1d9153810",
+      "size_bytes": 8879
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/qa.json",
+      "sha256": "d66ad7f953a85199def2cb2534f61d0cb38ce0447b1c9ded5c608682020dfacd",
+      "size_bytes": 4083
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/README.md",
+      "sha256": "8483fd1324b2a98913972ec9c35e7b93d92b138a944460d548df9fc88b95253f",
+      "size_bytes": 4840
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/tables/connected_group_bootstrap.csv",
+      "sha256": "519a81399e81f1ed8e0835be71b4e9f72dd3d1920fb6c596b402e5f8e6a69563",
+      "size_bytes": 2279343
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/tables/cross_fitted_ale.csv",
+      "sha256": "d927f613a7e00d81a50789d1959f0e755b869c88174890b694789a7ace0d7aa1",
+      "size_bytes": 14462
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/tables/cross_fitted_ale_support.csv",
+      "sha256": "47977f8d8d63bbd3f5df5b1f92409558a84dda1f0502dd7f7f0f1107f63e6d4d",
+      "size_bytes": 4439
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/tables/permutation_replicate_metrics.csv",
+      "sha256": "fcf1207bc4637732abe9a8e74aa322e84bd8b2de60e6e8c7082a2a373c5dc2e0",
+      "size_bytes": 243466
+    },
+    {
+      "path": "04_results/RESULTS/06_FEATURE_IMPORTANCE/tables/unpermuted_record_aggregated.csv",
+      "sha256": "4a55687bcb4760412feab8f4b2e18ecb070bef3d6cf7c7d054f4c67591fe73ee",
+      "size_bytes": 12186
+    },
+    {
+      "path": "04_results/RESULTS/07_REPORT/README.md",
+      "sha256": "614111aea7307590d835e28ca1d9f21381cf3e428e8f2046a5050cb60c069b3c",
+      "size_bytes": 434
+    },
+    {
+      "path": "04_results/RESULTS/07_REPORT/report_delivery_receipt.json",
+      "sha256": "c90c26943f5220031d1d4d7e708a46c6288bd67253192e2eb0db436f49f88a4d",
+      "size_bytes": 380
+    },
+    {
+      "path": "04_results/RESULTS/08_DATA_EXPORTS/artifact_manifest.json",
+      "sha256": "b2babd1566495b766fabb732aa586866c9b6a4d9a2f1d6e857c8b46136eecdca",
+      "size_bytes": 974
+    },
+    {
+      "path": "04_results/RESULTS/08_DATA_EXPORTS/ml_dataset_context_plus_ink.csv",
+      "sha256": "7b06f9987d57a077cf02c7635656daa7eb82f5a61d0f86b3a3ec03d248aef450",
+      "size_bytes": 27465
+    },
+    {
+      "path": "04_results/RESULTS/08_DATA_EXPORTS/ml_dataset_context_plus_property_proxy_4p_estimated.csv",
+      "sha256": "a6bc4a95be71f5a57a7c5145e6970478cadca77a304c28f8426911a735f37bde",
+      "size_bytes": 30543
+    },
+    {
+      "path": "04_results/RESULTS/08_DATA_EXPORTS/README.md",
+      "sha256": "8c44131e431419c46ba4355b247b2e5347aa5a1446d02d17c7ff701855a82113",
+      "size_bytes": 529
+    },
+    {
+      "path": "04_results/RESULTS/README.md",
+      "sha256": "7a772616a7c99d08d724f1443f4d8e57dab2bd33354d4b5eda988f7e6c56a1ec",
+      "size_bytes": 936
+    },
+    {
+      "path": "README.md",
+      "sha256": "bc301ead0421ac3e5d126942253ddcbcb9456886f32cf8f942a882604e794915",
+      "size_bytes": 592
+    }
+  ],
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\Tafel_new\\Data",
+  "self_excluded_path": "artifact_manifest.json",
+  "size_bytes": 385171548,
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "03faeff3df81b2308f007fbf683c7a15060b757cf0e0c6b4ef1737a3b13e3b11"
+}

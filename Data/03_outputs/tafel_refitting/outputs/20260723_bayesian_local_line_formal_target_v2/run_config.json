@@ -1,0 +1,21 @@
+{
+  "candidate_only_not_published": false,
+  "common_estimand": "robust_bayesian_local_linear_eta_vs_log10_current",
+  "equation2_fallback": false,
+  "eta_min_V": 0.15,
+  "extrapolation": false,
+  "fallback_records": [
+    23,
+    74
+  ],
+  "fallback_rule": "unperturbed_pava_quantization_blocks_with_positive_entry",
+  "fallback_scope": "only_when_primary_rule_has_no_supported_window",
+  "interpolation": false,
+  "policy_id": "bayesian_local_line_eta015_strict_then_pava_fallback_v2",
+  "primary_rule": "strict_contiguous_observed_current_increase",
+  "publication_boundary": "formal_evidence_source_pending_named_human_ppc",
+  "selected_model_fallback": false,
+  "source_candidate_run": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Tafel_refitting/outputs/20260723_bayesian_local_line_strict_plus_fallback_merged_v2",
+  "target_name": "b_bayesian_local_line_mV_dec",
+  "window_selection_uncertainty": "16_replicate_equal_weight_posterior_mixture"
+}

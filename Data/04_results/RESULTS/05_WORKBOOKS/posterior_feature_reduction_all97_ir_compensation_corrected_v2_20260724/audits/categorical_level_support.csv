@@ -1,0 +1,17 @@
+scope,feature_name,logical_feature,level,n_records,n_connected_groups,record_fraction,independent_level_support
+all97,catalyst_active_material_type,catalyst_identity,Ir,1,1,0.010309278350515464,thin_fewer_than_five_groups
+all97,catalyst_active_material_type,catalyst_identity,IrO2,47,37,0.4845360824742268,supported
+all97,catalyst_active_material_type,catalyst_identity,RuO2,49,46,0.5051546391752577,supported
+all97,catalyst_support,catalyst_support,carbon,1,1,0.010309278350515464,thin_fewer_than_five_groups
+all97,catalyst_support,catalyst_support,none,96,80,0.9896907216494846,supported
+all97,conductive_agent_present,conductive_agent_presence,0,80,66,0.8247422680412371,supported
+all97,conductive_agent_present,conductive_agent_presence,1,17,14,0.17525773195876287,supported
+all97,electrolyte_identity,electrolyte_identity,H2SO4,2,2,0.020618556701030927,thin_fewer_than_five_groups
+all97,electrolyte_identity,electrolyte_identity,HClO4,3,2,0.030927835051546393,thin_fewer_than_five_groups
+all97,electrolyte_identity,electrolyte_identity,KHCO3,2,1,0.020618556701030927,thin_fewer_than_five_groups
+all97,electrolyte_identity,electrolyte_identity,KOH,89,75,0.9175257731958762,supported
+all97,electrolyte_identity,electrolyte_identity,NaOH,1,1,0.010309278350515464,thin_fewer_than_five_groups
+all97,ir_correction_status,ir_correction_status,corrected,38,35,0.3917525773195876,supported
+all97,ir_correction_status,ir_correction_status,not_corrected,59,45,0.6082474226804123,supported
+all97,dispersion_method,dispersion_method,ultrasonic_probe_or_homogenizer,1,1,0.010309278350515464,thin_fewer_than_five_groups
+all97,dispersion_method,dispersion_method,ultrasonication,95,78,0.979381443298969,supported

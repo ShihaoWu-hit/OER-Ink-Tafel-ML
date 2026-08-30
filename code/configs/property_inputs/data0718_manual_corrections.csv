@@ -1,0 +1,2 @@
+correction_id,record_id,source_excel_row,field_name,source_value,corrected_value,unit,status,decision_basis,confirmed_by,confirmed_date,source_reference,notes
+DATA0718-CORR-001,35,39,ionomer_volume_uL,200000,200,uL,approved,user_confirmed_treat_as_source_typographical_error,user,2026-07-18,10.1002/adfm.202301947,"Use 200 uL for curated features; retain 200000 uL in source-raw audit columns."

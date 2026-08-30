@@ -1,0 +1,4 @@
+model,scientific_name,role,fixed_before_outcome_comparison,inner_tuning_used,full_bayesian_posterior,spline_knots,spline_degree,automatic_interactions
+bayesian_intercept,training-fold Gaussian intercept prior,no-feature baseline,True,False,False,,,
+bayesian_linear,empirical-Bayes shrinkage linear model,primary block-validation model,True,False,False,,,
+gam_low_df,empirical-Bayes shrinkage low-df additive spline model,corroborating validation model and gated effect model,True,False,False,3.0,1.0,False

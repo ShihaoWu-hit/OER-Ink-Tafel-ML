@@ -1,0 +1,168 @@
+{
+  "canonical_decompressed_csv_sha256": "058f0922a199506f14081ef3ff19a2ad8213f851666cbceb1036e42617c7379a",
+  "canonical_draw_file": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_97_ir_compensation_corrected_v2_20260724/posterior_slope_draws.csv.gz",
+  "canonical_draw_file_sha256": "42188225abd6a1a76e3b08cb6e310ab322260b6b10ee9f409975d310505e24a4",
+  "canonical_source_aggregate_sha256_recorded_by_target_qa": "42188225abd6a1a76e3b08cb6e310ab322260b6b10ee9f409975d310505e24a4",
+  "draws_per_record": 8000,
+  "files": {
+    "bayesian_audit.csv": {
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+      "size_bytes": 114349,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/bayesian_audit.csv",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/bayesian_audit.csv"
+    },
+    "integration_input_manifest.json": {
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+      "size_bytes": 1005,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/integration_input_manifest.json",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/integration_input_manifest.json"
+    },
+    "posterior_slope_draws.csv.gz": {
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+      "size_bytes": 27237289,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/posterior_slope_draws.csv.gz",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/posterior_slope_draws.csv.gz"
+    },
+    "ppc_binding_audit.csv": {
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+      "size_bytes": 160313,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/ppc_binding_audit.csv",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/ppc_binding_audit.csv"
+    },
+    "property_proxy_qa.json": {
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+      "size_bytes": 1001,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/property_proxy_qa.json",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/property_proxy_qa.json"
+    },
+    "records.csv": {
+      "sha256": "b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5",
+      "size_bytes": 259013,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/records.csv",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/records.csv"
+    },
+    "registered_panel_schema.csv": {
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+      "size_bytes": 13686,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/registered_panel_schema.csv",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/data/registered_panel_schema.csv"
+    },
+    "source_input_manifest.json": {
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+      "size_bytes": 1284,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/source_input_manifest.json",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/input_manifest.json"
+    },
+    "stage_refit.json": {
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+      "size_bytes": 2275,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/stage_refit.json",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/provenance/stage_refit.json"
+    },
+    "target_qa.json": {
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+      "size_bytes": 1991,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/target_qa.json",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/target_qa.json"
+    },
+    "target_registry.csv": {
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+      "size_bytes": 101544,
+      "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/target_registry.csv",
+      "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724/targets/target_registry.csv"
+    }
+  },
+  "formal_draws_semantically_match_canonical": true,
+  "formal_evaluation_ready": true,
+  "formal_run_decompressed_csv_sha256": "058f0922a199506f14081ef3ff19a2ad8213f851666cbceb1036e42617c7379a",
+  "formal_run_draw_file_sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+  "frozen_source_file_hashes_verified": true,
+  "frozen_source_file_sha256": {
+    "bayesian_audit.csv": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+    "integration_input_manifest.json": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+    "posterior_slope_draws.csv.gz": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+    "ppc_binding_audit.csv": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+    "property_proxy_qa.json": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+    "records.csv": "b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5",
+    "registered_panel_schema.csv": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+    "source_input_manifest.json": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+    "stage_refit.json": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+    "target_qa.json": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+    "target_registry.csv": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753"
+  },
+  "mechanistic_claim_allowed": false,
+  "n_alkaline_records": 90,
+  "n_approved_targets": 97,
+  "n_connected_groups_all": 80,
+  "n_formal_ppc_approved": 97,
+  "n_posterior_draws": 776000,
+  "n_records": 97,
+  "snapshot_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs",
+  "snapshot_verification_after_validation": {
+    "files": {
+      "bayesian_audit.csv": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/bayesian_audit.csv",
+        "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86",
+        "size_bytes": 114349
+      },
+      "integration_input_manifest.json": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/integration_input_manifest.json",
+        "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2",
+        "size_bytes": 1005
+      },
+      "posterior_slope_draws.csv.gz": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/posterior_slope_draws.csv.gz",
+        "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5",
+        "size_bytes": 27237289
+      },
+      "ppc_binding_audit.csv": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/ppc_binding_audit.csv",
+        "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69",
+        "size_bytes": 160313
+      },
+      "property_proxy_qa.json": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/property_proxy_qa.json",
+        "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9",
+        "size_bytes": 1001
+      },
+      "records.csv": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/records.csv",
+        "sha256": "b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5",
+        "size_bytes": 259013
+      },
+      "registered_panel_schema.csv": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/registered_panel_schema.csv",
+        "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a",
+        "size_bytes": 13686
+      },
+      "source_input_manifest.json": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/source_input_manifest.json",
+        "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf",
+        "size_bytes": 1284
+      },
+      "stage_refit.json": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/stage_refit.json",
+        "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c",
+        "size_bytes": 2275
+      },
+      "target_qa.json": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/target_qa.json",
+        "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c",
+        "size_bytes": 1991
+      },
+      "target_registry.csv": {
+        "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs/target_registry.csv",
+        "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753",
+        "size_bytes": 101544
+      }
+    },
+    "n_files": 11,
+    "snapshot_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/inputs",
+    "status": "pass"
+  },
+  "source_run": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs/current_97_ir_compensation_corrected_v2_20260724",
+  "source_run_tree_sha256_after_snapshot": "144d60c3c6f8254c1ae7927b5702ff603730b784add5dc5398da507187a1c523",
+  "source_run_tree_sha256_before": "144d60c3c6f8254c1ae7927b5702ff603730b784add5dc5398da507187a1c523",
+  "source_run_unchanged_during_snapshot": true,
+  "target_name": "b_bayesian_local_line_mV_dec"
+}

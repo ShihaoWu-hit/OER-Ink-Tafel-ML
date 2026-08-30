@@ -1,0 +1,97 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\Tafel_refitting\\outputs\\20260723_bayesian_local_line_formal_target_v2",
+  "created_at_utc": "2026-08-29T14:33:23.630302+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "57f7a645e81cda49d30532b5626f4af59a34cec8dcd790ee5e6dd846725fdd9d",
+  "file_count": 17,
+  "size_bytes": 24418707,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "size_bytes": 10244,
+      "sha256": "4dca66c54920122fbb8084a11a1b44e39e5b25e5107c5000830b7b4811b40dc9"
+    },
+    {
+      "path": "calibration_qa.json",
+      "size_bytes": 1290,
+      "sha256": "00bf74fb322c5ef953e37a6a34e80fc1740bced5e857b4ee997e67b6d3e59356"
+    },
+    {
+      "path": "calibration_results.csv",
+      "size_bytes": 55650,
+      "sha256": "799778b3ebdf473628c0d47442b63e96ad321e3a7dfd2b862728f5de36d58a73"
+    },
+    {
+      "path": "fallback_calibration_qa.json",
+      "size_bytes": 379,
+      "sha256": "322ca3e254a1ab4728840235fad543d4d6e063d8248ead2591ee30db9de6ea69"
+    },
+    {
+      "path": "fallback_calibration_results.csv",
+      "size_bytes": 1606,
+      "sha256": "6d599d68f03742bf12b6af49931524e789f540248b83d34853c8364f12e76e17"
+    },
+    {
+      "path": "figures/bayesian_local_line_tafel_slope_kde_data.csv",
+      "size_bytes": 36077,
+      "sha256": "07d46edbde3e311ae49bc9c6cab1818bace878376076305a67439530268a934e"
+    },
+    {
+      "path": "figures/bayesian_local_line_tafel_slope_kde_metadata.json",
+      "size_bytes": 749,
+      "sha256": "7d74b80bc84406148e034b7a7f045721a1de5a606612a1b31700739c033d5f61"
+    },
+    {
+      "path": "posterior_target_draws.csv.gz",
+      "size_bytes": 23592979,
+      "sha256": "8a3c3a1daba707d8595b9322e04e9f3b29169294374093c7e46f7bb8c52f3256"
+    },
+    {
+      "path": "ppc_review.csv",
+      "size_bytes": 22854,
+      "sha256": "e9d079ea6603a9ffac1bc63b630be73bf06ba972aae24dbce78cb0f6c161d5c0"
+    },
+    {
+      "path": "qa.json",
+      "size_bytes": 1598,
+      "sha256": "233343bdfbccee4723623db7490cc043bdfc368eeb41b30552d21932b669b8ed"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 898,
+      "sha256": "d95c2b149051b312e6dad4814443c0f674c31d4c8bf9e6544693773da6bde761"
+    },
+    {
+      "path": "run_config.json",
+      "size_bytes": 959,
+      "sha256": "fafe508c6b93d716cead90b2a48adf2016302ae696dd6700196a9b01de1fc4b9"
+    },
+    {
+      "path": "run_status.json",
+      "size_bytes": 1656,
+      "sha256": "f852bd76489f81ffcf6ab0c1b2ebfcacbc7920a2840585fd997e051cc44545af"
+    },
+    {
+      "path": "selected_region_points.csv.gz",
+      "size_bytes": 548386,
+      "sha256": "e581e17c126b62f31341821f7e931966a26393476a6c86eb09a73a429059979c"
+    },
+    {
+      "path": "source_hashes.json",
+      "size_bytes": 292,
+      "sha256": "d7764ddda3d9fbf2558499fbadbaf444a2ee048951474179fab35c639ccf2945"
+    },
+    {
+      "path": "target_summary.csv",
+      "size_bytes": 63362,
+      "sha256": "f7ba5a01793af2ea1f301d68a8f88b205daf464f86596b7d10de1205d30c7d3e"
+    },
+    {
+      "path": "window_selection_replicates.csv.gz",
+      "size_bytes": 79728,
+      "sha256": "4a5ed8323a33f95beb21814b4d14e2b2cd5faa4162d01f033bb675387ec0a9be"
+    }
+  ]
+}

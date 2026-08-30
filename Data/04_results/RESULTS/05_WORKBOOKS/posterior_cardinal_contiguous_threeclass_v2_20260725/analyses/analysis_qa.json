@@ -1,0 +1,80 @@
+{
+  "analysis_role": "posthoc_prediction_oriented_sensitivity",
+  "causal_claim_allowed": false,
+  "changed_endpoint": true,
+  "class_order": [
+    "low_60_side",
+    "120_side",
+    "high_off"
+  ],
+  "classic_threeclass_v1_result_modified": false,
+  "classic_v1_frozen_fold_manifests_verified": true,
+  "contract_id": "posterior_cardinal_contiguous_threeclass_v2",
+  "contract_sha256": "afc118e36a3b96d7258e3ae729e6be6d1ef507ee09b6f3185f42e6be0c07e8a7",
+  "draws_per_record": 8000,
+  "effective_posterior_mass": {
+    "120_side": 25.734750000000002,
+    "high_off": 9.043625,
+    "low_60_side": 62.221624999999996
+  },
+  "feature_engineering_fit_inside_inner_and_outer_training_folds": true,
+  "fold_local_prior_in_every_stage_stack": true,
+  "formal_source_run_unchanged": true,
+  "formal_v4_result_modified": false,
+  "gate_and_conditional_hyperparameters_independent": true,
+  "gate_and_conditional_studies_independent": true,
+  "hard_accuracy_used_for_training_or_selection": false,
+  "immutable_parent_artifact_manifests_verified": true,
+  "immutable_parent_runs_unchanged": {
+    "classic_threeclass_result": true,
+    "v4_result": true
+  },
+  "inner_folds": 4,
+  "inner_high_off_validation_mass_range": [
+    1.018,
+    3.369625
+  ],
+  "inner_manifest_sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+  "input_snapshot_verified_after_modeling": true,
+  "may_replace_or_rescue_v4_result": false,
+  "mechanistic_claim_allowed": false,
+  "modal_record_counts": {
+    "120_side": 25,
+    "high_off": 8,
+    "low_60_side": 64
+  },
+  "n_connected_groups": 80,
+  "n_optuna_trials_complete": 3600,
+  "n_optuna_trials_total": 3600,
+  "n_outer_splits": 50,
+  "n_posterior_draws": 776000,
+  "n_records": 97,
+  "nested_oof_modal_accuracy_reaches_0_70": false,
+  "one_ml_row_per_record": true,
+  "optuna_trials_per_stage_per_outer_split": 36,
+  "outer_folds": 5,
+  "outer_high_off_validation_mass_range": [
+    1.05725,
+    3.358625
+  ],
+  "outer_manifest_sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330",
+  "outer_repeats": 10,
+  "outer_test_used_for_selection_shrinkage_or_stacking": false,
+  "posterior_argmax_used_for_training_or_selection": false,
+  "posterior_draws_expanded_as_ml_samples": false,
+  "posterior_expected_hard_accuracy_oracle_ceiling": 0.8579329896907216,
+  "posterior_expected_oracle": 0.8579329896907216,
+  "primary_metric": "full_coverage_three_class_soft_log_loss",
+  "prior_modal_accuracy_descriptive_only": 0.6597938144329897,
+  "prior_shrinkage_selected_on_grouped_inner_oof_only": true,
+  "prior_soft_log_loss": 0.8640233365690784,
+  "reduced_registry_verified_after_modeling": true,
+  "requested_accuracy_0_70_oracle_reachable": true,
+  "scientifically_releasable": false,
+  "stack_modal_accuracy_descriptive_only": 0.6804123711340206,
+  "stack_posterior_expected_hard_accuracy": 0.6505747422680414,
+  "stack_soft_log_loss": 0.8547735898606205,
+  "stage_stack_weights_selected_on_grouped_inner_oof_only": true,
+  "status": "complete_exploratory",
+  "total_nonpositive_finite_draws": 1760
+}

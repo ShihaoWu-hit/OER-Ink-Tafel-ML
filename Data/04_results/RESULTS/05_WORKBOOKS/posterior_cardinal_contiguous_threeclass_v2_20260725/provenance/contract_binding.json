@@ -1,0 +1,11 @@
+{
+  "contract_id": "posterior_cardinal_contiguous_threeclass_v2",
+  "frozen_before_first_full_fit": true,
+  "posthoc_exploratory": true,
+  "sha256": "afc118e36a3b96d7258e3ae729e6be6d1ef507ee09b6f3185f42e6be0c07e8a7",
+  "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725/registry/contract_snapshot.yaml",
+  "snapshot_sha256": "afc118e36a3b96d7258e3ae729e6be6d1ef507ee09b6f3185f42e6be0c07e8a7",
+  "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/config/contracts/posterior_cardinal_contiguous_threeclass_v2.yaml",
+  "status": "exploratory_posthoc_frozen_before_first_full_fit",
+  "structural_smoke_completed_before_full_fit": true
+}

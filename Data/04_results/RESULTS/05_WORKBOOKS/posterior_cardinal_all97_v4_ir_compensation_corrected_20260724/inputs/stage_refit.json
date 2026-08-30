@@ -1,0 +1,56 @@
+{
+  "bayesian_batch": {
+    "executed": false,
+    "reason": "hash-bound existing NUTS evidence reused by curve_id"
+  },
+  "qa": {
+    "formal_approved_target_counts": {
+      "b_bayesian_local_line_mV_dec": 97
+    },
+    "formal_evaluation_blockers": [],
+    "formal_evaluation_ready": true,
+    "hard_checks": {
+      "alkaline_primary_count_matches_registered": true,
+      "all_calibration_bound": true,
+      "all_selection_uncertainty_propagated": true,
+      "binding_checks_pass": true,
+      "one_active_target_only": true,
+      "primary_target_count_matches_registered": true,
+      "registry_has_97_rows": true
+    },
+    "n_formal_ppc_approved": 97,
+    "n_named_ppc_review_complete": 97,
+    "only_remaining_formal_gate": null,
+    "posterior_slope_draw_aggregate": {
+      "hard_checks": {
+        "curves_match_eligible": true,
+        "no_draw_duplicates": true,
+        "one_target_only": true,
+        "rows_match_eligible_times_8000": true
+      },
+      "source_aggregate_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_97_ir_compensation_corrected_v2_20260724/posterior_slope_draws.csv.gz",
+      "source_aggregate_sha256": "42188225abd6a1a76e3b08cb6e310ab322260b6b10ee9f409975d310505e24a4"
+    },
+    "ppc_review_source": {
+      "path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/01_PPC_REVIEW/ppc_review.csv",
+      "sha256": "cddb6a2001f84b897d697ce5f95cdea003e6896ff4db8b6e013c8186ad624dfa"
+    },
+    "primary_eligible_alkaline": 90,
+    "primary_eligible_all_scopes": 97,
+    "primary_target": "b_bayesian_local_line_mV_dec",
+    "primary_target_policy": {
+      "common_estimand": "robust Bayesian local-linear apparent slope",
+      "eta_min_V": 0.15,
+      "fallback": "same Bayesian local-line estimand on equal-weight unperturbed PAVA quantization blocks",
+      "window_rule": "strict observed progression; quantization-aware PAVA fallback only if unsupported",
+      "window_uncertainty": "posterior mixture over interval-perturbed selections"
+    },
+    "source_mode": "canonical_97_bayesian_local_line_target",
+    "status": "formal_evaluation_ready",
+    "target_eligible_counts": {
+      "b_bayesian_local_line_mV_dec": 97
+    }
+  },
+  "stage": "refit",
+  "status": "formal_evaluation_ready"
+}

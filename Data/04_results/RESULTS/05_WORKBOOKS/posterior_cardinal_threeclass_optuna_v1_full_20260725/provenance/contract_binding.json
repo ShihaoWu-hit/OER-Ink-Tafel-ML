@@ -1,0 +1,10 @@
+{
+  "contract_id": "posterior_cardinal_threeclass_optuna_v1",
+  "frozen_before_first_fit": true,
+  "posthoc_exploratory": true,
+  "sha256": "f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be",
+  "snapshot_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/registry/contract_snapshot.yaml",
+  "snapshot_sha256": "f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be",
+  "source_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/config/contracts/posterior_cardinal_threeclass_optuna_v1.yaml",
+  "status": "exploratory_posthoc_frozen_before_first_fit"
+}

@@ -1,0 +1,89 @@
+{
+  "analysis_id": "presto_policy_v2_stage_aware_permutation_reliance_v1",
+  "coverage": {
+    "bootstrap_repetitions": 2000,
+    "connected_groups": 80,
+    "logical_features": 9,
+    "outer_folds": 5,
+    "outer_repeats": 10,
+    "outer_splits": 50,
+    "permutations_per_feature": 100,
+    "records": 97
+  },
+  "created_at_utc": "2026-07-30T16:09:45.774963+00:00",
+  "outputs": {
+    "bootstrap": "RESULTS/05_Feature_importance/tables/connected_group_bootstrap.csv",
+    "compact_ranked_summary": "RESULTS/05_Feature_importance/feature_importance_summary.csv",
+    "figures": [
+      "RESULTS/05_Feature_importance/figures/presto_policy_v2_stage_aware_permutation_reliance.png"
+    ],
+    "permutation_metrics": "RESULTS/05_Feature_importance/tables/permutation_replicate_metrics.csv",
+    "summary": "RESULTS/05_Feature_importance/presto_policy_v2_feature_reliance.csv"
+  },
+  "scientific_scope": {
+    "analysis_role": "posthoc_descriptive_model_reliance",
+    "causal_claim_allowed": false,
+    "feature_claim_allowed": false,
+    "independent_confirmation": false,
+    "mechanistic_claim_allowed": false
+  },
+  "source": {
+    "artifact_verification": {
+      "actual_file_count": 39,
+      "actual_tree_matches": true,
+      "actual_tree_sha256": "67005476961140e6d6b8a610b700c55863465f35953c426d5b9d698d4bb04f13",
+      "algorithm_matches": true,
+      "duplicate_recorded_paths": [],
+      "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2/artifact_manifest.json",
+      "missing_files": [],
+      "modified_files": [],
+      "recorded_file_count": 39,
+      "recorded_file_count_matches": true,
+      "recorded_size_matches": true,
+      "recorded_tree_self_consistent": true,
+      "recorded_tree_sha256": "67005476961140e6d6b8a610b700c55863465f35953c426d5b9d698d4bb04f13",
+      "rows_well_formed": true,
+      "run_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2",
+      "schema_matches": true,
+      "status": "pass",
+      "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+      "unexpected_files": []
+    },
+    "policy_contract_path": "Ink_Tafel_Study/config/contracts/posterior_cardinal_contiguous_threeclass_presto_policy_v2.yaml",
+    "policy_contract_sha256": "85694b3ff89b10458e56cf159fa8d2da2fa771948845469c8951a14a7ee93dcd",
+    "presto_parent_artifact_verification": {
+      "actual_file_count": 39,
+      "actual_tree_matches": true,
+      "actual_tree_sha256": "257c7438545007a3eada169a8d2cdbcccb59a30c3b2f89803128001cf422c0db",
+      "algorithm_matches": true,
+      "duplicate_recorded_paths": [],
+      "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine/artifact_manifest.json",
+      "missing_files": [],
+      "modified_files": [],
+      "recorded_file_count": 39,
+      "recorded_file_count_matches": true,
+      "recorded_size_matches": true,
+      "recorded_tree_self_consistent": true,
+      "recorded_tree_sha256": "257c7438545007a3eada169a8d2cdbcccb59a30c3b2f89803128001cf422c0db",
+      "rows_well_formed": true,
+      "run_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine",
+      "schema_matches": true,
+      "status": "pass",
+      "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+      "unexpected_files": []
+    },
+    "refit_code_files_checked": 14,
+    "refit_code_tree_sha256": "07f22048a62cb25a5840ec70cc7651c1a12c02a39bb99828892e331c96c885cb"
+  },
+  "status": "pass",
+  "unpermuted_reproduction": {
+    "baseline_multiclass_brier": 0.27246642844873836,
+    "baseline_posterior_expected_hard_accuracy": 0.7061288659793815,
+    "baseline_predicted_high_count": 6,
+    "baseline_soft_f0_5": 0.6276740218423372,
+    "baseline_soft_log_loss": 0.8194510191296224,
+    "maximum_policy_score_abs_error": 9.71445146547012e-17,
+    "maximum_probability_abs_error": 3.3306690738754696e-16,
+    "maximum_threshold_abs_error": 0.0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "calibration_pass": true,
+  "calibration_version": "quantization_aware_fallback_recovery_smoke_v1",
+  "fallback_activation_rate_for_quantized_truth": 1.0,
+  "interval_coverage": 1.0,
+  "maximum_absolute_relative_error": 0.07202636108454423,
+  "median_absolute_relative_error": 0.0319237449139149,
+  "supported_selection_rate": 1.0,
+  "unsupported_false_positive_rate": 0.0
+}

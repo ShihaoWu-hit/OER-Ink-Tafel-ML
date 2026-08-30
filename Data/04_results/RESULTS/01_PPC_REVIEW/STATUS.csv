@@ -1,0 +1,2 @@
+target_name,total_records,structurally_eligible,quantization_aware_fallback,human_review_complete,approved,status
+b_bayesian_local_line_mV_dec,97,97,2,97,97,named_human_review_complete_all_approved

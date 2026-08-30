@@ -1,0 +1,2 @@
+panel,feature,status,n_population_records,n_common_records,common_record_coverage,minimum_supported_repeats_per_record,grid_point_count,primary_model_only,release_gate_required,continuous_feature_only,fixed_common_record_set,reason
+,,no_release_authorized,97,0,0.0,0,19,True,True,True,True,no formal continuous feature passed every frozen primary release gate

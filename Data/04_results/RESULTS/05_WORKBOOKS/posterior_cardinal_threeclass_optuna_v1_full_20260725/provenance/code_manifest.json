@@ -1,0 +1,299 @@
+{
+  "files": [
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/__init__.py",
+      "sha256": "212172f78c8c3b711479a1dcf1f36759f8637c8a4c0e078f793e162a768cfb04",
+      "size_bytes": 283
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/bayesian_evidence.py",
+      "sha256": "53528a8627b4684e2861885b0e6bc4fb034cba2c87326bfed74765b74a9ab13e",
+      "size_bytes": 24810
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/best_available_export.py",
+      "sha256": "0943cdcb1b5fa9ec434e412a3a1a70fb0193eab9186feeefccc5acf76d61f010",
+      "size_bytes": 11724
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/bibliography.py",
+      "sha256": "1cb818411c0ee1507641522a8b16c091d62accebfd7d6480ed6f0d4ada53920e",
+      "size_bytes": 5942
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_abstention.py",
+      "sha256": "e1320cdde02eb014162c01438c6f6daa960735792d3bb140605ead82d403b26f",
+      "size_bytes": 17260
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_cv.py",
+      "sha256": "34531940f2bae8aa50ba177e5665e165d7f27369189b9e507612a960e1e8d865",
+      "size_bytes": 11020
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_development.py",
+      "sha256": "0f6b6c8278d25a4285c52ffc6d415f83ef554feb58c0747680eaf90363044fd5",
+      "size_bytes": 51022
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_evaluate.py",
+      "sha256": "ba1f6727a2a025ec8c48311426467889a2704e8e9b17140c8c3412dc73ec4f4f",
+      "size_bytes": 62781
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_feature_engineering.py",
+      "sha256": "bf235240864a8cc26297b872ba66ea3aa3a1f38e0e64fef43b3bff4d17552e84",
+      "size_bytes": 30960
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_hierarchical_bayes.py",
+      "sha256": "de8b169966189f81d4807fe8b841d1eded931d15a3ba6eb2d2596fe42ed6189a",
+      "size_bytes": 54225
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_inputs.py",
+      "sha256": "8361fc9b24d26d0004c4f7c28fc8841c3ab9cf78fcc82e0d66e08336d317bc5b",
+      "size_bytes": 25894
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_labels.py",
+      "sha256": "9e6ace225ef0690e8f8de4d2b59e130e781e995a52a5d8c34faf432e1982d6c1",
+      "size_bytes": 25175
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_metrics.py",
+      "sha256": "0a809ba98962ae36854ca75cb27754791cf984bcb3ecc605edfb77830ecdb508",
+      "size_bytes": 11942
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_models.py",
+      "sha256": "5876131bc67999440ec1cbd6bcece42a0da30c18904e2b93b9d34a3fb222c422",
+      "size_bytes": 44114
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_reduced_models.py",
+      "sha256": "4f6139382b025e3396d73e9fab095b35b968e829373290738a0918743791f7bb",
+      "size_bytes": 24690
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_report.py",
+      "sha256": "8e3cd820dc769d245e35913a569b9d15f1fe3636dd6240463110f737c946d57b",
+      "size_bytes": 21654
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_stacking.py",
+      "sha256": "96ee67f3bc6108aef74f211eed488d0a9d7aa38ddbea7252b676a8b1e0d9fb21",
+      "size_bytes": 29646
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_workflow.py",
+      "sha256": "2dd1b1c507646c47f4289ccfe6a2c203590fd3e0c568e7bf50e682c0299e5dc1",
+      "size_bytes": 46853
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cli.py",
+      "sha256": "1a5ba36d774251d6cc98f2e856d50e5170523c08133656b452c0110e3c951134",
+      "size_bytes": 53725
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/config.py",
+      "sha256": "6f8a3bab756e787055a930c4f9a7d47459403fc8b89dbfff511865a44b81650f",
+      "size_bytes": 2334
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/curation.py",
+      "sha256": "091c9d33e312f7712878028a194bb0697d2f8594c87aa5b38a5d8a417a476df2",
+      "size_bytes": 44793
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/current_support.py",
+      "sha256": "b548fbd61387cf723d3c1642b5736de97c5a52d10d895fb37d7ba7d252c6781f",
+      "size_bytes": 11184
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/data0718_integration.py",
+      "sha256": "2825863b0b19d006f3b4f2e7249eb6f82aaa8dde9f8598bdcf40f773358a5c88",
+      "size_bytes": 85964
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/evaluate.py",
+      "sha256": "1e30c8a585e21bbf8c51ce416d8bdbbe0b5ffa42bb79a47f972d5188a0075853",
+      "size_bytes": 87715
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/exploratory_ml.py",
+      "sha256": "d016be5152fe232a5032942204d8d0a65f0bd1427f5c3063f21b5713f6c522bc",
+      "size_bytes": 33437
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_association.py",
+      "sha256": "6347fb07cad484f0cc1e7f47f989857d74eafa6530e96e1201804c1a69aa40cb",
+      "size_bytes": 119026
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_association_features.py",
+      "sha256": "85bef902de6a5c49c3fd9fb4f66e04f6d7ff4c587a320267718eeb7ab4a26967",
+      "size_bytes": 60027
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_association_figures.py",
+      "sha256": "122251bf7d5fb10e177609182fada20d92b0cf388582a4b566c74c4908fc1eda",
+      "size_bytes": 52385
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_association_models.py",
+      "sha256": "a286a784300aee5b9263d23ad478e809f5f6036d0239d1eee77a4d8905ce1746",
+      "size_bytes": 20097
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_development.py",
+      "sha256": "37bf298b6a0036ccb19e4da4e60a9d893d54e8fdbadcae420c80361c568de6e0",
+      "size_bytes": 46029
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_development_components.py",
+      "sha256": "f37506dad6ed0bb05f47495f1ea141b659b947a42963961ea4bafafef8adcfc2",
+      "size_bytes": 38624
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/features.py",
+      "sha256": "cf5daeb5175c20b447a078c48fe883bf39645a581ffe292ec62fee1f7b19e78b",
+      "size_bytes": 17137
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/figures.py",
+      "sha256": "f619d630aeb46ca056e6bdd52037b6f2254124253aecd25b32c814e502ecd5c4",
+      "size_bytes": 29137
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/integrated_workflow.py",
+      "sha256": "dee8a41a393190626e68b02850b55f25f1431f968bd0135ff4eb7fcf49537fd1",
+      "size_bytes": 52767
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/interpretation.py",
+      "sha256": "f7be8f9861b9340f0049041130555cbc028fa19050592713ac0b85c93eb2c71f",
+      "size_bytes": 52718
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/models.py",
+      "sha256": "269665f8d226a97cd9612aa20dc45ed75ff94d58b62c4314998c283c98994a2e",
+      "size_bytes": 18488
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/optimization_components.py",
+      "sha256": "34fa613c41eb8e9944d54564a5d876d3366796d8a9c49d92f890661cb44529d0",
+      "size_bytes": 37144
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/orthogonal_kinetics.py",
+      "sha256": "5c28740154f54a6259d8e9f2e94f57e15f54ffd48d616b29bef600abcf79f686",
+      "size_bytes": 24804
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/performance_optimization.py",
+      "sha256": "4e5c032e99f35927baf9d241d777a2ba72378e84cbf4d3581df23ddd92c71d5b",
+      "size_bytes": 82163
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/plot_style.py",
+      "sha256": "ab74b514fc6ad9c5ce1a9483a146b6844396d30bbb2ae8eee5d0d608af7361e2",
+      "size_bytes": 2383
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_classification.py",
+      "sha256": "06b747f3baf44302c7a6de36a9c65b030bd6cf1bcf6a127ba23533758c3a83b1",
+      "size_bytes": 78342
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contract.py",
+      "sha256": "77c058cbb014b86c9dc191551b600d2aa56f57514922edf0905c88133d3f74d6",
+      "size_bytes": 15729
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_curves.py",
+      "sha256": "e748426ef34c718a74f51fa3f61a6596c808be8acf6567bcd40aded6b2bd0a85",
+      "size_bytes": 47120
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_inference.py",
+      "sha256": "b7b3fcbce650f9c114512a5550bde3521d5671841acac6bf1325b6f895a0b7c3",
+      "size_bytes": 15666
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_threeclass_optuna.py",
+      "sha256": "bc0d27cb325f24f494aadb96ac3cf62da2eb1bf5ef918374c5bd44213362641a",
+      "size_bytes": 67709
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_functional.py",
+      "sha256": "729c65e5ce429001a137e2684acdc8aed5c4370de851f402bc2c548a51f344fc",
+      "size_bytes": 14480
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/properties.py",
+      "sha256": "387e6da9c2754ffc0aa1480016900208884789617a162455d8b721924c04d381",
+      "size_bytes": 28173
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/provenance.py",
+      "sha256": "a1cd5460d47536567f17e0fa23719116e6048d0c5b6c9eed01b8ab869a625cb9",
+      "size_bytes": 10932
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/refit_queue.py",
+      "sha256": "d12f07469b8a2b20a5e379bcc44725861ee117ab16ec7a1ac06cfe3fcd0fd103",
+      "size_bytes": 20865
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/report.py",
+      "sha256": "e8657ff683a599bd0bfe01b93638bb4d810e3cebf2b03c0e8162a3692ed8f4f7",
+      "size_bytes": 30756
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/solvent_properties.py",
+      "sha256": "5faf869f0f3fe6252b19ebc841eee52d2031e841cefe703df56628058cff4b77",
+      "size_bytes": 78753
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/targets.py",
+      "sha256": "3f7a94ac895febb215a7121fe143ecb24a0556b3f81bab3e21be62d33c806be1",
+      "size_bytes": 92741
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/temporal.py",
+      "sha256": "e62df4991dac2181aebf5f6ae2d62bdf64b3649250096eeb49c757902f084bab",
+      "size_bytes": 9942
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/threeclass_optuna_models.py",
+      "sha256": "d7e22e580e282daff109cd794215bb89b8fbacf2d58d53b2453ef64a16d9f3dd",
+      "size_bytes": 20790
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/uncertainty.py",
+      "sha256": "b724ce043e0244961634fd2adadce21aa4c953d046a9da810cf7f302ca4a835d",
+      "size_bytes": 7150
+    },
+    {
+      "path": "Ink_Tafel_Study/run.sh",
+      "sha256": "37eb1518b03b99af31750883df3e3d6b7a6c9640820ab7fcae5329d94fc0135e",
+      "size_bytes": 866
+    },
+    {
+      "path": "Ink_Tafel_Study/pyproject.toml",
+      "sha256": "073cdd0321169a9a04bd51211093142c8c6e22ffc02668ba1da63a4d4539bc96",
+      "size_bytes": 822
+    },
+    {
+      "path": "Ink_Tafel_Study/config/study.yaml",
+      "sha256": "3320671c683d3cd384374eab722338a15852959a59f17cd35516dcab0af91f79",
+      "size_bytes": 22843
+    },
+    {
+      "path": "Ink_Tafel_Study/docs/study_protocol.md",
+      "sha256": "77b89c87ae091c76611f861d5906c573152ef5475a04c4b76bcf3b7abd49b242",
+      "size_bytes": 47575
+    }
+  ]
+}

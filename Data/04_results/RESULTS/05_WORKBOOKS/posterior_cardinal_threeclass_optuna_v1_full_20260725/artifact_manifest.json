@@ -1,0 +1,292 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\RESULTS\\04_WORKBOOKS\\posterior_cardinal_threeclass_optuna_v1_full_20260725",
+  "created_at_utc": "2026-08-29T14:33:23.558306+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "b740606db731fd36576a670c62ae376705c2f370386424b651b5b9af3db774c2",
+  "file_count": 56,
+  "size_bytes": 52802224,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": "analyses/aggregate_metrics.csv",
+      "size_bytes": 1524,
+      "sha256": "b3031ba6c7cdd24d226a3a003deb8551d339321712baf2415b361d4d777948c2"
+    },
+    {
+      "path": "analyses/analysis_qa.json",
+      "size_bytes": 2911,
+      "sha256": "319471ec595b8aed39f229b358d6a3b034bd3fc2b19924415a00b4b5eeddb677"
+    },
+    {
+      "path": "analyses/best_pipeline_summary.json",
+      "size_bytes": 795,
+      "sha256": "8c2155e522bfefd1fbaf2bb0137d6ef4290cfa84dbd61f805ee3c247ad5a74c5"
+    },
+    {
+      "path": "analyses/calibration.csv",
+      "size_bytes": 2117,
+      "sha256": "a0cbee7062a9cfde22a8009b49e4e9ce6dbb569f5d89d27e6146850859bc4757"
+    },
+    {
+      "path": "analyses/connected_group_bootstrap.csv",
+      "size_bytes": 149704,
+      "sha256": "c93e19f8f74250e020cee7e1e149270c6f97ff5a07469bec7845b22f2e48a085"
+    },
+    {
+      "path": "analyses/connected_group_bootstrap_summary.csv",
+      "size_bytes": 586,
+      "sha256": "822c08adc1baa5e719fc3ed7092062e5dc1d940f9ac173f75ca39988b1b93de9"
+    },
+    {
+      "path": "analyses/expected_confusion.csv",
+      "size_bytes": 2388,
+      "sha256": "40af5592166457fab6893140780956b47097aac14b87f52f9cf914e52be48df3"
+    },
+    {
+      "path": "analyses/model_fit_registry.csv",
+      "size_bytes": 129754,
+      "sha256": "7c01e7406b26dff29cdace00a214fd2c91a6f6d74f1656c1ed7115f92dfafee6"
+    },
+    {
+      "path": "analyses/oof_aggregated.csv",
+      "size_bytes": 30874,
+      "sha256": "99dcb7221873947d37d3967dfc379b8991b351c2c5a6338e1799f204e792109d"
+    },
+    {
+      "path": "analyses/oof_probabilities.csv",
+      "size_bytes": 401380,
+      "sha256": "ace4f61b412ba4e13a221f6a5cc291f2336900d4aacff1330967991f058f095f"
+    },
+    {
+      "path": "analyses/optuna_inner_fold_scores.csv",
+      "size_bytes": 23017595,
+      "sha256": "eba39e5b5758e0c9140e6fa9b96fee179795e37f91fe36a75d9fee8e4b9e4388"
+    },
+    {
+      "path": "analyses/optuna_trials.csv",
+      "size_bytes": 616327,
+      "sha256": "01b710f0ce48394014be6fbed912014a7ba7a112be0a26e2dc5f014db3e4c04a"
+    },
+    {
+      "path": "analyses/outer_selections.csv",
+      "size_bytes": 14705,
+      "sha256": "f1684d185a655796a6ae7c6f372613f7ce9b00ac8fbcbcdb7cfaec08eefac927"
+    },
+    {
+      "path": "analyses/record_level_scores.csv",
+      "size_bytes": 16628,
+      "sha256": "19d01ae6dc9c7e30b6fd173b23b20169048adaf1a964670158219b7df80a7890"
+    },
+    {
+      "path": "analyses/repeat_metrics.csv",
+      "size_bytes": 9512,
+      "sha256": "8076590812a3f12c1ffb5657a575efaca94477fa63316b924ad7ed50fd139466"
+    },
+    {
+      "path": "analyses/selection_frequency.csv",
+      "size_bytes": 1533,
+      "sha256": "25000cfe5dbca8cac4ab3b22e960dcd32b7a0c7340e4760998814f7aea9859e4"
+    },
+    {
+      "path": "analyses/split_metrics.csv",
+      "size_bytes": 43988,
+      "sha256": "c1d8b3cc475efe289754eed71f71158d2d64af71dcd833d8f4b7b4f0c4aba6ec"
+    },
+    {
+      "path": "folds/inner_split_manifest.csv",
+      "size_bytes": 240286,
+      "sha256": "7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4"
+    },
+    {
+      "path": "folds/outer_split_manifest.csv",
+      "size_bytes": 58953,
+      "sha256": "5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a"
+    },
+    {
+      "path": "inputs/bayesian_audit.csv",
+      "size_bytes": 114349,
+      "sha256": "9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86"
+    },
+    {
+      "path": "inputs/integration_input_manifest.json",
+      "size_bytes": 1005,
+      "sha256": "4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2"
+    },
+    {
+      "path": "inputs/posterior_slope_draws.csv.gz",
+      "size_bytes": 27237289,
+      "sha256": "fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5"
+    },
+    {
+      "path": "inputs/ppc_binding_audit.csv",
+      "size_bytes": 160313,
+      "sha256": "29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69"
+    },
+    {
+      "path": "inputs/property_proxy_qa.json",
+      "size_bytes": 1001,
+      "sha256": "ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9"
+    },
+    {
+      "path": "inputs/records.csv",
+      "size_bytes": 258556,
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c"
+    },
+    {
+      "path": "inputs/reduced_feature_registry/frozen_panel_registry.csv",
+      "size_bytes": 2929,
+      "sha256": "1f2c3a1abb2bcde2ae7a5536f4492d1e7331dbf6a22570749e68bb78257ba17b"
+    },
+    {
+      "path": "inputs/registered_panel_schema.csv",
+      "size_bytes": 13686,
+      "sha256": "4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a"
+    },
+    {
+      "path": "inputs/source_input_manifest.json",
+      "size_bytes": 1284,
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf"
+    },
+    {
+      "path": "inputs/stage_refit.json",
+      "size_bytes": 2275,
+      "sha256": "c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c"
+    },
+    {
+      "path": "inputs/target_qa.json",
+      "size_bytes": 1991,
+      "sha256": "8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c"
+    },
+    {
+      "path": "inputs/target_registry.csv",
+      "size_bytes": 101544,
+      "sha256": "ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753"
+    },
+    {
+      "path": "provenance/code_manifest.json",
+      "size_bytes": 11537,
+      "sha256": "7d9d32f834effa2ade7438be28c5f0fed00684d4f7c586b359344b5c06be5164"
+    },
+    {
+      "path": "provenance/contract_binding.json",
+      "size_bytes": 684,
+      "sha256": "328a72c1afb654f63e7768c4e9d1479026529272f6b02821c3e538abe827259c"
+    },
+    {
+      "path": "provenance/environment_manifest.json",
+      "size_bytes": 7083,
+      "sha256": "b82ec563a96f24bd87d2b8440740e1c550e988b7cbe785606325572e26368f84"
+    },
+    {
+      "path": "provenance/input_binding.json",
+      "size_bytes": 12251,
+      "sha256": "c019058e39f187bbd6d9666af8bafa8afa0ba72a552cb1dd388cf58268e45afa"
+    },
+    {
+      "path": "provenance/input_manifest.json",
+      "size_bytes": 1284,
+      "sha256": "b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf"
+    },
+    {
+      "path": "provenance/input_snapshot_verification_after_modeling.json",
+      "size_bytes": 3725,
+      "sha256": "e0edc3489a1c5d88645abe5e6c7cea0c2ea533265f9a5aadcce6cad34c96468e"
+    },
+    {
+      "path": "provenance/input_snapshot_verification_after_parse.json",
+      "size_bytes": 3725,
+      "sha256": "e0edc3489a1c5d88645abe5e6c7cea0c2ea533265f9a5aadcce6cad34c96468e"
+    },
+    {
+      "path": "provenance/parent_v4_contract_binding.json",
+      "size_bytes": 267,
+      "sha256": "6246a438dc80014df6270261d2bd0a79139e9f9f5c10ac330d0ed4b74c600668"
+    },
+    {
+      "path": "provenance/reduced_feature_registry_binding.json",
+      "size_bytes": 1651,
+      "sha256": "9adf0a12e1ab884f0e538d08b540d38a8134ee1ade5b8e4bb88a3b7c46305eef"
+    },
+    {
+      "path": "provenance/reduced_registry_verification_after_parse.json",
+      "size_bytes": 768,
+      "sha256": "fca3b815853ce59ad2ce5fc459e033433eec55e16c137b29d8d50c9c646e5204"
+    },
+    {
+      "path": "provenance/resolved_config.yaml",
+      "size_bytes": 22032,
+      "sha256": "8cdb95a58d71e9d151fc7b87cda75092bd1c4bfa658ffa2edfd93e8a6d7f791c"
+    },
+    {
+      "path": "provenance/run_mode.json",
+      "size_bytes": 235,
+      "sha256": "17f449180bf4d14341a9bd516190f28115cbd552f0cf953ed87f1bc025b42ef8"
+    },
+    {
+      "path": "provenance/source_run_verification.json",
+      "size_bytes": 352,
+      "sha256": "7e0d04309c3d0878992260a3470be1cb634e75dcb4a9bfda82c66896b9785906"
+    },
+    {
+      "path": "provenance/stage_posterior_cardinal_threeclass_optuna.json",
+      "size_bytes": 4200,
+      "sha256": "c38f204174ef2b6ca052b8512aa963392f4ca9589878c0f51f0ebc187ab779d0"
+    },
+    {
+      "path": "provenance/v4_manifest_binding.json",
+      "size_bytes": 497,
+      "sha256": "9593d9f118ce9b00262b4d967bac6ed3b153c56f3fd6b5564227da665135dada"
+    },
+    {
+      "path": "registry/contract_snapshot.yaml",
+      "size_bytes": 9240,
+      "sha256": "f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be"
+    },
+    {
+      "path": "registry/three_class_soft_labels.csv",
+      "size_bytes": 22420,
+      "sha256": "7d818ebdf78a4638d645c5aa11a16a2310408a858cbfa71afc5eb2af8915ff9a"
+    },
+    {
+      "path": "registry/three_class_support.csv",
+      "size_bytes": 319,
+      "sha256": "c52d56d6514f8e5bfa2f5b58aa38573ff66e433be5174bd9f692b3559d7d6e8b"
+    },
+    {
+      "path": "registry/three_class_support_all_widths.csv",
+      "size_bytes": 319,
+      "sha256": "c52d56d6514f8e5bfa2f5b58aa38573ff66e433be5174bd9f692b3559d7d6e8b"
+    },
+    {
+      "path": "registry/width_20/four_class_soft_labels.csv",
+      "size_bytes": 16844,
+      "sha256": "1c3a7180e236976600df7a2b874eb64a3441f45d0b19c72a3a1988bc04a64760"
+    },
+    {
+      "path": "registry/width_20/raw_anchor_soft_labels.csv",
+      "size_bytes": 12137,
+      "sha256": "d5bc0423530f7a00ce3d44921f9fe688407f6f292dc1da2a303bcc781561e062"
+    },
+    {
+      "path": "registry/width_20/three_class_soft_labels.csv",
+      "size_bytes": 22420,
+      "sha256": "7d818ebdf78a4638d645c5aa11a16a2310408a858cbfa71afc5eb2af8915ff9a"
+    },
+    {
+      "path": "registry/width_20/three_class_support.csv",
+      "size_bytes": 319,
+      "sha256": "c52d56d6514f8e5bfa2f5b58aa38573ff66e433be5174bd9f692b3559d7d6e8b"
+    },
+    {
+      "path": "report/posterior_cardinal_threeclass_optuna_report.md",
+      "size_bytes": 6708,
+      "sha256": "b164e33ba8e95d32271a181a5bbadcff1bea8f124b93da4961f242fe7bd2fbeb"
+    },
+    {
+      "path": "report/validation_report.json",
+      "size_bytes": 3425,
+      "sha256": "bab64cead826fc96b3ae0633f4ce87d846573928e274b2ff8c71ed05b1822bfc"
+    }
+  ]
+}

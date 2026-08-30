@@ -1,0 +1,21 @@
+{
+  "above_500_count": 0,
+  "literature_comparison_n": 68,
+  "literature_spearman": 0.5377450334253655,
+  "max_mV_dec": 395.6321604352753,
+  "median_mV_dec": 66.53585354901702,
+  "min_mV_dec": 35.461822846581065,
+  "quantization_aware_fallback_records": [
+    23,
+    74
+  ],
+  "record_count": 97,
+  "records_without_literature_reported_value": 29,
+  "shared_reported_value_records": [
+    43
+  ],
+  "supported_target_count": 97,
+  "target_name": "b_bayesian_local_line_mV_dec",
+  "within_10pct_relative_error_count": 21,
+  "within_20pct_relative_error_count": 34
+}

@@ -1,0 +1,4 @@
+class_label,effective_posterior_mass,modal_record_count,modal_connected_group_count,mean_probability,width,width_id
+low_30_40_60_like,46.75125,55,48,0.4819716494845361,0.2,width_20
+120_like,16.808749999999996,16,13,0.17328608247422678,0.2,width_20
+off_cardinal,33.440000000000005,26,24,0.34474226804123714,0.2,width_20

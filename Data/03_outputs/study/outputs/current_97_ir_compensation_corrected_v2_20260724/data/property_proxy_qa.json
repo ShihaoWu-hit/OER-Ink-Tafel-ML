@@ -1,0 +1,19 @@
+{
+  "best_available_dielectric_estimated_records": 31,
+  "best_available_dielectric_strict_records": 66,
+  "canonical_records": 97,
+  "claim_boundary": "solvent-mixture property proxy only; 31 dielectric values are explicit model estimates, not measured catalyst/Nafion ink properties",
+  "estimated_panel_model_use_status": "eligible_user_approved_with_estimate_indicator",
+  "estimated_panel_user_override": {
+    "date": "2026-07-18",
+    "decision": "use_97_of_97_best_available_dielectric_with_estimate_flag",
+    "strict_values_retained_for_audit": true
+  },
+  "medium_confidence_ipa_surface_compositions": 2,
+  "medium_confidence_ipa_surface_sensitivity_required": true,
+  "property_composition_coordinates_coexist_in_registered_panel": false,
+  "records_with_all_four_best_available_values": 97,
+  "records_with_all_three_core_proxies": 97,
+  "source_backed_4p_panel_model_use_status": "excluded_pending_primary_file_hashes",
+  "status": "ready_with_user_approved_best_available_dielectric"
+}

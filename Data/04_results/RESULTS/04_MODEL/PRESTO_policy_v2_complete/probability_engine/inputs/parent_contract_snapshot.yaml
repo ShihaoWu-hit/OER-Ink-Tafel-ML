@@ -1,0 +1,141 @@
+contract_id: posterior_cardinal_contiguous_threeclass_direct_gower_v1
+contract_version: 1.0.0
+status: posthoc_development_frozen_before_packaged_run
+frozen_date: 2026-07-25
+stage: posterior-cardinal-contiguous-threeclass-direct-gower
+
+scientific_scope:
+  analysis_role: posthoc_prediction_development_sensitivity
+  population: all97
+  expected_records: 97
+  expected_connected_groups: 80
+  response_source: b_bayesian_local_line_mV_dec_posterior_soft_distribution
+  one_ml_row_per_record: true
+  posterior_draws_expanded_as_samples: false
+  may_replace_or_rescue_v4_result: false
+  may_replace_contiguous_v2_result: false
+  independent_confirmation: false
+  feature_claim_allowed: false
+  causal_claim_allowed: false
+  mechanistic_claim_allowed: false
+
+immutable_parent:
+  contract_id: posterior_cardinal_contiguous_threeclass_v2
+  contract_sha256: afc118e36a3b96d7258e3ae729e6be6d1ef507ee09b6f3185f42e6be0c07e8a7
+  default_run: RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_v2_20260725
+  expected_artifact_tree_sha256: 7b4d57129c4c5ce8a86d116743d8f4ec8ccfda9fa02db27566b1dcf2aca98b56
+  access: read_only
+  required_files:
+    inputs/records.csv: b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5
+    registry/contiguous_three_class_soft_labels.csv: 7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d
+    folds/outer_split_manifest.csv: 5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330
+    folds/inner_split_manifest.csv: 603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f
+    analyses/oof_probabilities.csv: 9be959b7d7b2737be9ae6ec662deea4bf7b2feb0c32f252994c3b1bfe2882517
+    analyses/oof_aggregated.csv: 45d968025aa6dfcac900feee854ec118df99fc6db0569cb90707e5a79a52a545
+  output_must_be_new_empty_and_disjoint_from_parent: true
+
+label_scheme:
+  inherited_from_parent_without_change: true
+  supervised_class_order:
+    - low_60_side
+    - 120_side
+    - high_off
+  soft_label_columns:
+    - q_low_60_side
+    - q_120_side
+    - q_high_off
+  prediction_columns:
+    - p_low_60_side
+    - p_120_side
+    - p_high_off
+  lower_boundary_mV_dec: 84.8528137423857
+  upper_boundary_mV_dec: 144.0
+  posterior_argmax_training_or_selection_use: forbidden
+
+outer_validation:
+  reuse_parent_manifest_exactly: true
+  folds: 5
+  repeats: 10
+  expected_manifest_sha256: 5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330
+  grouping: publication_verified_laboratory_recipe_hash_connected_components
+  outer_test_used_for_model_or_feature_selection: false
+  aggregate_repeated_oof_by_record_before_inference: true
+
+model:
+  estimator_id: direct_multiscale_soft_gower
+  response: complete_three_class_soft_probability_vector
+  architecture: direct_label_distribution_smoother
+  feature_panel: context_plus_ionomer_ratio
+  panel_choice_basis: recurring_parent_inner_selection_then_posthoc_development
+  feature_engineering:
+    source_registry: inherited_parent_hash_bound_reduced_feature_registry
+    rare_min_frequency: 3
+    fitted_on_outer_training_records_only: true
+    transformed_test_records_never_refit_preprocessing: true
+  gower:
+    numeric_and_categorical_mixed_distance: true
+    blocks: inherited_fold_local_panel_blocks
+    block_weights: equal
+    feature_weights: equal_within_block
+    neighbor_mode: knn
+    n_neighbors: [9, 15, 21, 25, 31, 40]
+    distance_power: 1.0
+    epsilon: 1.0e-12
+    exact_and_kth_distance_ties: include_all
+  multiscale_aggregation:
+    rule: arithmetic_mean_probability_vectors
+    weights: [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666]
+    selected_or_tuned_on_outer_test: false
+  additional_prior_shrinkage:
+    enabled: false
+    rationale: each_neighbor_prediction_is_already_a_convex_training_soft_label_smoother
+  optuna:
+    enabled: false
+    rationale: fixed_multiscale_average_reduces_small_inner_fold_winner_variance
+
+comparators:
+  fold_local_threeclass_soft_prior:
+    recomputed_independently_in_every_outer_training_fold: true
+  parent_stagewise_stack:
+    prediction_source: immutable_parent_oof_probabilities
+    role: read_only_paired_comparator
+    may_select_or_modify_new_model: false
+
+metrics:
+  primary: full_coverage_three_class_soft_log_loss
+  score_clip_epsilon: 1.0e-15
+  secondary:
+    - multiclass_brier_mean_sum_squared_error
+    - gate_soft_log_loss
+    - conditional_soft_log_loss_weighted_by_q_non_high
+    - posterior_expected_hard_accuracy
+  descriptive_hard_metrics:
+    - modal_accuracy
+    - balanced_accuracy
+    - macro_f1
+  hard_metrics_used_for_training_or_selection: false
+  accuracy_0_70_is_descriptive: true
+
+connected_group_inference:
+  bootstrap_repetitions: 2000
+  bootstrap_seed: 20260725
+  unit: connected_group
+  aggregate_repeated_oof_before_resampling: true
+  paired_contrasts:
+    - direct_multiscale_soft_gower_minus_fold_local_prior
+    - direct_multiscale_soft_gower_minus_parent_stagewise_stack
+
+development_boundary:
+  rationale_sources:
+    - https://doi.org/10.2307/2528823
+    - https://doi.org/10.1109/TKDE.2016.2545658
+    - https://doi.org/10.2202/1544-6115.1309
+  result_is_post_selection_development_evidence: true
+  result_requires_independent_data_or_future_precommitted_evaluation_for_confirmation: true
+  closed_dataset_has_no_independent_confirmation_set: true
+  scientifically_releasable: false
+
+smoke_mode:
+  outer_splits: 2
+  bootstrap_repetitions: 100
+  scientifically_releasable: false

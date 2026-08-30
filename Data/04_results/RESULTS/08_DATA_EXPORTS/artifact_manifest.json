@@ -1,0 +1,27 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\RESULTS\\Data",
+  "created_at_utc": "2026-08-29T14:33:23.664456+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "192192c69ecccc4cd211308d39fa2a91b6186f3072beb2b1638299cbd2db76d3",
+  "file_count": 3,
+  "size_bytes": 58537,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": "ml_dataset_context_plus_ink.csv",
+      "size_bytes": 27465,
+      "sha256": "7b06f9987d57a077cf02c7635656daa7eb82f5a61d0f86b3a3ec03d248aef450"
+    },
+    {
+      "path": "ml_dataset_context_plus_property_proxy_4p_estimated.csv",
+      "size_bytes": 30543,
+      "sha256": "a6bc4a95be71f5a57a7c5145e6970478cadca77a304c28f8426911a735f37bde"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 529,
+      "sha256": "8c44131e431419c46ba4355b247b2e5347aa5a1446d02d17c7ff701855a82113"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+scope,n_records,n_connected_groups,n_registered_candidate_predictors,candidate_to_record_ratio,candidate_to_group_ratio,n_numeric_candidates,n_categorical_candidates,n_candidates_with_any_within_group_variation,n_supported_descriptive,n_thin_or_unsupported,median_missing_fraction,n_frozen_panels,target_used
+all97,97,80,28,0.28865979381443296,0.35,22,6,7,20,8,0.0,8,False

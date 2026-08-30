@@ -1,0 +1,32 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\RESULTS\\03_TARGET_COMPARISON",
+  "created_at_utc": "2026-08-29T14:33:23.662964+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "b108af04195a70c9e059f83cc3bc2c37046811d81780186058998281c8576752",
+  "file_count": 4,
+  "size_bytes": 71667,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": "bayesian_local_line_target.csv",
+      "size_bytes": 63362,
+      "sha256": "f7ba5a01793af2ea1f301d68a8f88b205daf464f86596b7d10de1205d30c7d3e"
+    },
+    {
+      "path": "bayesian_local_line_vs_literature.csv",
+      "size_bytes": 6933,
+      "sha256": "74baf217786d0c040c94b88dd4287b93a7205af9336da5e72f85aa4fd4df4519"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 806,
+      "sha256": "4d3ee745e5f29b15ea5dbcd2f19e828f61b283dfa9cffd123d49354e8dd8d502"
+    },
+    {
+      "path": "summary.json",
+      "size_bytes": 566,
+      "sha256": "0ccb1f17da3fb4febc9d024912a336ddc458f317b2baa802c0e6c7d1b62198da"
+    }
+  ]
+}

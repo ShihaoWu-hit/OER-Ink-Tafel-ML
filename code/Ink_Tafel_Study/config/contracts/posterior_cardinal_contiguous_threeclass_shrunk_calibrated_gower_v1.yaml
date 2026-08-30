@@ -1,0 +1,167 @@
+contract_id: posterior_cardinal_contiguous_threeclass_shrunk_calibrated_gower_v1
+contract_version: 1.0.0
+status: posthoc_adaptive_development_frozen_before_packaged_run
+frozen_date: 2026-07-26
+stage: posterior-cardinal-contiguous-threeclass-shrunk-calibrated-gower
+
+scientific_scope:
+  analysis_role: posthoc_adaptive_prediction_development_sensitivity
+  population: all97
+  expected_records: 97
+  expected_connected_groups: 80
+  response_source: b_bayesian_local_line_mV_dec_posterior_soft_distribution
+  one_ml_row_per_record: true
+  posterior_draws_expanded_as_samples: false
+  class_rows_expanded_as_samples: false
+  independent_confirmation: false
+  scientifically_releasable: false
+  may_replace_or_rescue_v4_result: false
+  may_replace_contiguous_v2_result: false
+  may_replace_direct_gower_v1_result: false
+  feature_claim_allowed: false
+  causal_claim_allowed: false
+  mechanistic_claim_allowed: false
+
+immutable_parent:
+  contract_id: posterior_cardinal_contiguous_threeclass_direct_gower_v1
+  contract_sha256: 9467f660eff0efa2e664b290037a002b826234dd869a3440fd27141ca83d973c
+  default_run: Data/04_results/RESULTS/05_WORKBOOKS/posterior_cardinal_contiguous_threeclass_direct_gower_v1_20260725
+  expected_artifact_tree_sha256: 74ca8423f9a797eac5265d1e0f19119ad9bc60409cac562a0d4c5f7d2ac9484a
+  access: read_only
+  required_files:
+    inputs/records.csv: b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5
+    registry/contiguous_three_class_soft_labels.csv: 7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d
+    folds/outer_split_manifest.csv: 5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330
+    folds/inner_split_manifest.csv: 603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f
+    analyses/gower_component_oof_probabilities.csv: f79260c23c7f68fb5443061eb78aa749686ce7c428c01a13141cb342d8d8ba51
+    analyses/oof_probabilities.csv: 0dff43ad66487a63635cfd2142dfe995460e185c97d7b610dfe9df9593cac9d9
+    analyses/oof_aggregated.csv: edc2d8a0ee5fe5d7cd46b1fe780fcd3ce33f457013bc7ad132f924da87aa478d
+    registry/contract_snapshot.yaml: 9467f660eff0efa2e664b290037a002b826234dd869a3440fd27141ca83d973c
+  outer_component_predictions_reused_without_refit: true
+  output_must_be_new_empty_and_disjoint_from_parent: true
+
+label_scheme:
+  inherited_from_parent_without_change: true
+  supervised_class_order:
+    - low_60_side
+    - 120_side
+    - high_off
+  soft_label_columns:
+    - q_low_60_side
+    - q_120_side
+    - q_high_off
+  prediction_columns:
+    - p_low_60_side
+    - p_120_side
+    - p_high_off
+  posterior_argmax_training_or_probability_selection_use: forbidden
+
+outer_validation:
+  reuse_parent_manifest_exactly: true
+  folds: 5
+  repeats: 10
+  expected_manifest_sha256: 5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330
+  grouping: publication_verified_laboratory_recipe_hash_connected_components
+  outer_test_used_for_weight_calibration_or_model_selection: false
+  aggregate_repeated_oof_by_record_before_inference: true
+
+inner_validation:
+  reuse_parent_manifest_exactly: true
+  folds: 4
+  expected_manifest_sha256: 603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f
+  grouping: identical_to_outer_connected_groups
+  fit_feature_engineering_inside_each_inner_training_fold: true
+  each_outer_training_record_has_exactly_one_inner_oof_prediction: true
+  loss_aggregation: fold_equal_weighted_mean
+  each_inner_fold_total_weight: 0.25
+  hard_labels_or_hard_metrics_used_for_fit: false
+
+model:
+  estimator_id: shrunk_calibrated_direct_multiscale_soft_gower
+  base_estimator_id: direct_multiscale_soft_gower
+  feature_panel: context_plus_ionomer_ratio
+  gower:
+    inherited_from_parent_without_change: true
+    neighbor_mode: knn
+    n_neighbors: [9, 15, 21, 25, 31, 40]
+    distance_power: 1.0
+    epsilon: 1.0e-12
+  multiscale_weights:
+    fit_source: grouped_inner_oof_component_probabilities
+    constraint: nonnegative_simplex
+    identity: equal_weights
+    objective: fold_equal_mean_soft_cross_entropy_plus_lambda_times_squared_distance_from_equal_weights
+    shrinkage_lambda: 16.0
+    optimizer: scipy_SLSQP
+    maximum_iterations: 500
+    tolerance: 0.000000000001
+    failure_or_worse_raw_inner_loss_action: equal_weight_fallback
+  calibration:
+    form: identity_shrunk_shared_log_probability_slope_plus_sum_to_zero_class_intercepts
+    mapping: softmax(a_times_log_probability_plus_b)
+    free_parameters: 3
+    identity_parameters: [1.0, 0.0, 0.0]
+    intercept_parameterization: [b0, b1, negative_b0_minus_b1]
+    objective: fold_equal_mean_soft_cross_entropy_plus_lambda_times_squared_distance_from_identity
+    shrinkage_lambda: 0.25
+    slope_bounds: [0.5, 1.5]
+    free_intercept_bounds: [-0.5, 0.5]
+    optimizer: scipy_L-BFGS-B
+    maximum_iterations: 500
+    tolerance: 0.000000000001
+    failure_or_worse_raw_inner_loss_action: identity_calibration_fallback
+  probability_clip_epsilon: 0.000000000000001
+  outer_prediction:
+    component_source: immutable_parent_outer_component_oof_probabilities
+    component_soft_labels_or_outer_metrics_available_to_fit: false
+    apply_outer_training_inner_oof_weights_and_calibration_only: true
+
+comparators:
+  direct_multiscale_soft_gower:
+    reconstructed_as_exact_equal_mean_of_same_parent_outer_components: true
+  fold_local_threeclass_soft_prior:
+    recomputed_independently_in_every_outer_training_fold: true
+
+metrics:
+  primary: full_coverage_three_class_soft_log_loss
+  secondary:
+    - multiclass_brier_mean_sum_squared_error
+    - gate_soft_log_loss
+    - conditional_soft_log_loss_weighted_by_q_non_high
+    - posterior_expected_hard_accuracy
+  descriptive_hard_metrics:
+    - modal_accuracy
+    - balanced_accuracy
+    - macro_f1
+  hard_metrics_used_for_fit_or_selection: false
+
+connected_group_inference:
+  bootstrap_repetitions: 2000
+  bootstrap_seed: 20260726
+  unit: connected_group
+  aggregate_repeated_oof_before_resampling: true
+  paired_contrasts:
+    - shrunk_calibrated_gower_minus_direct_multiscale_gower
+    - shrunk_calibrated_gower_minus_fold_local_prior
+
+development_boundary:
+  method_sources:
+    - https://doi.org/10.2307/2528823
+    - https://doi.org/10.1186/1471-2105-7-91
+    - https://proceedings.mlr.press/v70/guo17a.html
+  calibration_source_boundary:
+    guo_et_al_2017_role: inspiration_for_low_dimensional_temperature_logit_calibration_only
+    exact_guo_et_al_neural_network_method_replication: false
+    declared_difference: three_parameter_posterior_soft_label_calibrator_on_grouped_inner_oof_probabilities
+  same_closed_97_record_results_seen_during_architecture_development: true
+  exploratory_inner_outer_probe_preceded_frozen_packaged_run: true
+  nested_outer_cv_does_not_cover_global_development_adaptivity: true
+  result_is_post_selection_development_evidence: true
+  independent_confirmation_requires_new_data_or_future_precommitted_evaluation: true
+  closed_dataset_has_no_independent_confirmation_set: true
+  scientifically_releasable: false
+
+smoke_mode:
+  outer_splits: 2
+  bootstrap_repetitions: 100
+  scientifically_releasable: false

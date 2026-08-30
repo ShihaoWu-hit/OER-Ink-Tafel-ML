@@ -1,0 +1,20 @@
+{
+  "analysis_role": "posthoc_cross_fitted_response_shape_not_importance",
+  "bootstrap_invalid": 0,
+  "bootstrap_requested": 2000,
+  "bootstrap_valid": 2000,
+  "curve_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/05_Feature_importance/tables/cross_fitted_ale.csv",
+  "figure_paths": [
+    "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/05_Feature_importance/figures/presto_cross_fitted_ale.png"
+  ],
+  "maximum_centered_ale_simplex_error": 1.406320962905858e-17,
+  "maximum_ionomer_high_architecture_zero_error": 5.989512927563708e-19,
+  "maximum_local_simplex_error": 3.191891195797325e-16,
+  "maximum_policy_score_refit_error": 9.71445146547012e-17,
+  "maximum_probability_refit_error": 3.3306690738754696e-16,
+  "minimum_bin_connected_groups": 9,
+  "minimum_bin_effective_record_weight": 10.0,
+  "minimum_feature_record_coverage": 0.8041237113402062,
+  "status": "pass",
+  "support_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/05_Feature_importance/tables/cross_fitted_ale_support.csv"
+}

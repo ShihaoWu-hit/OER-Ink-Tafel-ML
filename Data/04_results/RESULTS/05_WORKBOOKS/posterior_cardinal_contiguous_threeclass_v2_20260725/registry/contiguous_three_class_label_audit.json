@@ -1,0 +1,14 @@
+{
+  "effective_posterior_mass": {
+    "120_side": 25.734750000000002,
+    "high_off": 9.043625,
+    "low_60_side": 62.221624999999996
+  },
+  "modal_record_counts": {
+    "120_side": 25,
+    "high_off": 8,
+    "low_60_side": 64
+  },
+  "posterior_expected_oracle": 0.8579329896907216,
+  "total_nonpositive_finite_draws": 1760
+}

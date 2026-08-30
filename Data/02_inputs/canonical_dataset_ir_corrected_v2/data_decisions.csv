@@ -1,0 +1,14 @@
+data_domain,controlling_source,model_use,decision_reason
+record identity and DOI,Data_0718.xlsx Sheet1 + approved curve crosswalk,canonical,numeric IDs changed after the 42 split and removal of old 50
+primitive ink recipe and measurement context,Data_0718.xlsx Sheet1,canonical_after_QA,latest manually checked literature extraction
+new43 IrO2/C composite and carbon-support semantics,Data_ink_0619_42-2_IrO2C_revised.xlsx review sheet,canonical_semantic_override_with_theoretical_components_audit_only,1 mg is total IrO2/C composite; carbon support is not an extra conductive agent
+"derived ratios, fractions, areas, and loadings",recomputed from Data_0718 primitive inputs,canonical_after_QA,do not trust cached Excel formulas as the source of truth
+iR correction state,Data_0718.xlsx Sheet2,canonical_three_state,reported_corrected / reported_not_corrected / not_reported_or_unverifiable
+iR compensation fraction,Data_0718.xlsx Sheet2,audit_or_sensitivity_only,too sparse and partly nonnumeric
+"electrolyte identity, molarity, and scope",parsed from Data_0718 Sheet1 electrolyte text,canonical_context,"all 97 strings parse into identity, molarity, and acid/base scope"
+legacy article/reconstructed Tafel value,Data_0718.xlsx Sheet1 + Data_ink_0523 provenance,comparison_only,68 reported and 29 reconstructed in the legacy source; never a predictor
+primary Tafel target,Bayesian exact-2 mA complete-model functional target,provisional_until_named_PPC,functional median and 95% HDI; formal approval is still pending
+solvent-mixture property proxies,source-backed canonical property registry at 298.15 K,primary_property_panel,"viscosity, surface tension, density, best-available dielectric, and dielectric-estimated indicator are primary-panel candidates"
+legacy physics_* properties,Data_ink_0523.csv,audit_only_excluded_from_ML,legacy_unverified and materially discrepant from source-backed proxies
+"overpotential, Cdl, ECSA, and stability",Data_0718.xlsx Sheet1,descriptive_only,performance scope is currently restricted to Tafel slope
+iR compensation state,Data_0718.xlsx Sheet2 raw status plus user-confirmed data dictionary (DATA0718-IR-SEM-001),canonical_context_with_separate_evidence_state,Raw source-note* means not compensated; Record 28 remains unverifiable because the full text is inaccessible.

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ink-tafel-study"
+version = "0.2.0"
+description = "Auditable, grouped-nested-CV study of incremental ink-formulation information for OER Tafel slopes"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "matplotlib==3.11.0",
+  "numpy==2.5.1",
+  "openpyxl==3.1.5",
+  "optuna==4.9.0",
+  "pandas==3.0.3",
+  "pyarrow==21.0.0",
+  "PyYAML==6.0.3",
+  "scikit-learn==1.9.0",
+  "scipy==1.18.0",
+  "tabulate==0.10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+exploratory-ml = ["catboost==1.2.10"]
+
+[project.scripts]
+ink-tafel-study = "ink_tafel_study.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ink_tafel_study"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

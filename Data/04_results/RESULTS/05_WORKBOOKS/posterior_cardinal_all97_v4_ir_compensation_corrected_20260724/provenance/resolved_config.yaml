@@ -1,0 +1,710 @@
+study:
+  name: ink_formulation_tafel
+  version: 7.1.0-ir-semantic-revision
+  frozen_on: 2026-07-24
+  estimand: Incremental cross-publication/laboratory predictive information supplied
+    by ink formulation beyond catalyst, electrode, and measurement context.
+  causal_claim_allowed: false
+paths:
+  canonical_dataset: ../Data/canonical_97_ir_compensation_corrected_v2_20260724
+  ppc_review_registry: ../RESULTS/01_PPC_REVIEW/ppc_review.csv
+  output_root: outputs
+input_hashes:
+  enforce: true
+  tree_hash_algorithm: sha256-relative-path-size-content-v1
+  expected:
+    canonical_dataset: 9cc69a2eb89eff8546119d4678bd344f2c36f37f864b7739b4117cb61a243766
+    ppc_review_registry: cddb6a2001f84b897d697ce5f95cdea003e6896ff4db8b6e013c8186ad624dfa
+curation:
+  source_mode: canonical_97
+  expected_records: 97
+  expected_curves: 97
+  expected_evidence_curves: 97
+  unknown_lab_policy: independent_publication_group
+  alkaline_electrolytes:
+  - KOH
+  - NaOH
+targets:
+  response_transform: log10
+  primary: b_bayesian_local_line_mV_dec
+  fixed_current_mA_cm2: 2.0
+  minimum_draw_support_fraction: 0.8
+  inverse_grid_points: 2049
+  expected_primary_eligible: 97
+  expected_primary_alkaline_eligible: 90
+  expected_low_branch_eligible: 97
+  expected_single_regime_eligible: 0
+  no_extrapolation: true
+  sensitivity: []
+  single_regime_target_rule: archived_not_active
+  potential_dependent_branch_rule: archived_not_active
+  numeric_minimum_branch_forbidden: true
+  overpotential_fit_policy:
+    amendment_date: 2026-07-22
+    potential_reference: RHE
+    definition: eta_V = E_RHE - 1.23 V
+    eta_min_V: 0.15
+    lower_selection_rule: lowest_potential_supported_strictly_increasing_current_local_line_window
+    upper_selection_rule: first_endpoint_meeting_frozen_support_and_linearity_gates
+    common_current_span_required: false
+    common_decade_span_required: false
+    interpolation_allowed: false
+    extrapolation_allowed: false
+    selected_model_policy: not_used_by_target_estimand
+    prior_target_status: archived
+    common_estimand: robust_bayesian_local_linear_eta_vs_log10_current
+    selection_uncertainty: equal_weight_posterior_mixture_over_16_interval_perturbed_selections
+    fallback_policy: quantization_aware_unperturbed_pava_blocks_same_bayesian_local_line_estimand
+    fallback_scope: only_after_strict_selector_has_no_supported_window
+    fallback_records:
+    - 23
+    - 74
+    calibration_policy: strict_v3_plus_quantization_aware_fallback_recovery_v1
+  archived_legacy_posterior_class_boundaries_mV_dec:
+  - 90.0
+  - 122.0
+  exact_2mA_policy:
+    role: diagnostic_audit_only
+    included_in_ml: false
+    included_in_formal_readiness: false
+    no_extrapolation: true
+  require_named_ppc_review_for_bayesian_approved: true
+scope:
+  primary: alkaline
+  sensitivity: all_electrolytes
+  temporal_backtest_year_min: 2024
+  prospective_freeze_date: 2026-07-16
+validation:
+  group_column: cv_group_id
+  outer_folds: 5
+  outer_repeats: 10
+  inner_folds: 4
+  seeds:
+  - 42
+  - 142
+  - 242
+  - 342
+  - 442
+  - 542
+  - 642
+  - 742
+  - 842
+  - 942
+  group_bootstrap_repetitions: 2000
+  target_draw_repetitions: 100
+  primary_metric: mae_mV_dec
+  secondary_metrics:
+  - rmse_mV_dec
+  - median_ae_mV_dec
+  - spearman
+  - r2
+  model_selection_rule: one_standard_error_simplest
+models:
+  enabled:
+  - dummy_mean
+  - dummy_median
+  - bayesian_ridge
+  - gower_knn
+  - extra_trees
+  gower_knn:
+    k_grid:
+    - 3
+    - 5
+    - 7
+    - 9
+    - 11
+    - 15
+    - 21
+    distance_epsilon: 1.0e-09
+    optimize_block_weights: false
+  extra_trees:
+    n_estimators: 300
+    max_depth_grid:
+    - 2
+    - 3
+    - 4
+    min_samples_leaf_grid:
+    - 4
+    - 6
+    - 8
+  optuna_trials: 30
+feature_panels:
+  enabled:
+  - dummy
+  - catalyst_only
+  - ink_only
+  - conditions_only
+  - context
+  - context_plus_ink_amounts
+  - context_plus_ink
+  - context_plus_ink_process
+  - context_plus_property_proxy_core
+  - context_plus_property_proxy_4p_source_backed
+  - context_plus_property_proxy_4p_estimated
+  primary_comparison:
+    reference: context
+    augmented: context_plus_ink
+  solvent_composition_amendment:
+    date: 2026-07-22
+    timing: after_initial_formal_outer_results
+    decision: include_methanol_as_fifth_fraction
+    context_plus_ink_feature_count: 18
+    rationale: User-directed full five-solvent composition representation. Methanol
+      is retained explicitly even though the five fractions are sum-constrained.
+  property_protocol_amendment:
+    date: 2026-07-18
+    timing: before_formal_outer_results
+    property_increment_reference: context_plus_ink_amounts
+    property_representation_reference: context_plus_ink
+    rationale: Isolate the property-proxy increment from non-solvent ink amounts and
+      use the user-approved 97/97 best-available dielectric feature together with
+      its explicit 31-record estimation indicator.
+  property_proxy_replaces_solvent_composition: true
+  missingness_policy:
+    primary_drop_ratio_gt: 0.4
+    sensitivity_only_ratio_gt: 0.2
+    imputation_location: inside_inner_grouped_cv
+  best_available_dielectric_policy:
+    status: eligible_user_approved_with_estimate_indicator
+    complete_records: 97
+    estimated_records: 31
+    strict_values_retained_for_audit_and_sensitivity: true
+cardinal_classification:
+  status: exploratory_posthoc
+  source_target: b_bayesian_local_line_mV_dec
+  mechanistic_claim_allowed: false
+  source_snapshot_sha256:
+    records.csv: b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5
+    registered_panel_schema.csv: 4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a
+    property_proxy_qa.json: ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9
+    integration_input_manifest.json: 4ad741f5ba8de5751766c5eb02032103f05ee591c6acb392937db714b6fec1e2
+    target_registry.csv: ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753
+    posterior_slope_draws.csv.gz: fc756f5313605f69e3aa0963258d76d54f21f585622b602109f069e6bc7943a5
+    target_qa.json: 8311a5bc55a2d47feead65cbb234b81ab869548c6d16cc40fbce2479f3f4792c
+    bayesian_audit.csv: 9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86
+    ppc_binding_audit.csv: 29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69
+    stage_refit.json: c86caecbf323ec25ccc61dd3c9a59539508d4498eb985096a23b427712479a7c
+    source_input_manifest.json: b26a007b359259ed85142d7b98d28de63cc98817962ecafad25dfe0be282f4cf
+  label_scheme:
+    id: classic_hierarchical_band20_v2
+    anchors_mV_dec:
+    - 30.0
+    - 40.0
+    - 60.0
+    - 120.0
+    relative_half_width: 0.2
+    training_sensitivity_half_widths:
+    - 0.15
+    - 0.2
+    - 0.25
+    supervised_class_order:
+    - low_30_40_like
+    - 60_like
+    - 120_like
+    - off_cardinal
+    low_classic_definition: q_30_like_plus_q_40_like
+    low_anchor_subdivision:
+      status: descriptive_only_support_gated
+      min_effective_mass_per_subclass: 5.0
+      min_conditional_majority_groups_per_subclass: 5
+      affects_primary_selection: false
+    overlap_policy: nearest_anchor_in_log_space
+    nonpositive_draw_policy: off_cardinal
+    nonfinite_draw_policy: fail
+    posterior_draws_are_not_independent_samples: true
+  primary_scope: alkaline
+  sensitivity_scope: all
+  primary_panels:
+  - context
+  - context_plus_ink
+  panel_sensitivity_panels:
+  - context_plus_ink_amounts
+  - context_plus_ink_process
+  - context_plus_property_proxy_core
+  - context_plus_property_proxy_4p_estimated
+  population_sensitivity_panels:
+  - context
+  - context_plus_ink
+  primary_comparison:
+    reference: context
+    augmented: context_plus_ink
+    delta_sign: augmented_minus_reference
+  panel_sensitivity_contrasts:
+  - id: process_minus_ink
+    role: process_increment
+    reference: context_plus_ink
+    augmented: context_plus_ink_process
+  - id: property_core_minus_ink_amounts
+    role: property_increment
+    reference: context_plus_ink_amounts
+    augmented: context_plus_property_proxy_core
+  - id: property_estimated_minus_ink_amounts
+    role: property_increment
+    reference: context_plus_ink_amounts
+    augmented: context_plus_property_proxy_4p_estimated
+  - id: property_core_minus_fractions
+    role: property_representation
+    reference: context_plus_ink
+    augmented: context_plus_property_proxy_core
+  - id: property_estimated_minus_fractions
+    role: property_representation
+    reference: context_plus_ink
+    augmented: context_plus_property_proxy_4p_estimated
+  models:
+    enabled:
+    - class_prior
+    - soft_ordinal_logistic
+    - soft_multinomial_logistic
+    - soft_gower_knn
+    - soft_extra_trees
+    soft_ordinal_logistic:
+      C_grid:
+      - 0.1
+      - 1.0
+      - 10.0
+    soft_multinomial_logistic:
+      C_grid:
+      - 0.1
+      - 1.0
+      - 10.0
+    soft_gower_knn:
+      k_grid:
+      - 5
+      - 9
+      - 15
+      distance_power_grid:
+      - 1.0
+      - 2.0
+    soft_extra_trees:
+      n_estimators: 100
+      max_depth_grid:
+      - 2
+      - 3
+      min_samples_leaf_grid:
+      - 4
+      - 8
+  validation:
+    outer_folds: 5
+    outer_repeats: 10
+    inner_folds: 4
+    outer_seeds:
+    - 42
+    - 142
+    - 242
+    - 342
+    - 442
+    - 542
+    - 642
+    - 742
+    - 842
+    - 942
+    model_selection_rule: one_standard_error_simplest
+    primary_metric: soft_log_loss
+    secondary_metrics:
+    - multiclass_brier
+    - gate_soft_log_loss
+    - gate_brier
+    - conditional_soft_log_loss
+    - conditional_brier
+    - conditional_rps
+    group_bootstrap_repetitions: 2000
+    calibration_bins: 8
+  final_pipeline:
+    ink_panel_requires_bootstrap_ci_below_zero: true
+    otherwise_use_reference_panel: true
+posterior_cardinal_classification:
+  status: registered_fixed_all97_v4
+  contract_id: posterior_cardinal_all97_v4
+  contract_path: config/contracts/posterior_cardinal_all97_v4.yaml
+  contract_sha256: dd93d316610201f4b03e676710b5315075b9728b77f3102da2df4d41c82dd8fe
+cardinal_development:
+  status: exploratory_posthoc
+  active_design: fixed_ir_stack_plus_ru_ir_hierarchical_map
+  source_target: b_bayesian_local_line_mV_dec
+  relative_half_width: 0.2
+  mechanistic_claim_allowed: false
+  retired_recipe_search:
+    enabled: false
+    reason: replaced_by_fixed_recipe_comparisons
+  catalyst_strata:
+    RuO2:
+    - RuO2
+    IrO2_plus_Ir:
+    - IrO2
+    - Ir
+  ir_fixed_comparison:
+    reference_recipe: context_log
+    augmented_recipe: legacy_safe_compact
+    recipe_selection: fixed_no_joint_selector
+    base_components:
+    - soft_gower_knn
+    - soft_multinomial_logistic
+    soft_gower_knn:
+      n_neighbors: 15
+      distance_power: 1.0
+    soft_multinomial_logistic:
+      C: 1.0
+    combination: convex_weight_from_outer_training_inner_group_oof
+    optimizer: bounded_one_dimensional_convex_log_loss
+    optuna_used: false
+  hierarchical_partial_pooling:
+    enabled: true
+    implementation: two_stage_hierarchical_gaussian_prior_MAP
+    approximation: posterior_mode_not_NUTS_or_MCMC
+    catalyst_families:
+    - RuO2
+    - IrO2_plus_Ir
+    metallic_Ir_mapping: IrO2_plus_Ir
+    fixed_feature_recipes:
+    - context_log
+    - legacy_safe_compact
+    recipe_selection: fixed_no_joint_selector
+    global_feature_scale: 2.0
+    global_intercept_scale: 5.0
+    shrinkage_candidates:
+    - id: strong_pooling
+      family_feature_scale: 0.25
+      family_intercept_scale: 0.5
+    - id: moderate_pooling
+      family_feature_scale: 0.5
+      family_intercept_scale: 1.0
+    - id: weak_pooling
+      family_feature_scale: 1.0
+      family_intercept_scale: 2.0
+    shrinkage_selection: connected_group_inner_cv_one_se_strongest_pooling
+    shared_outer_and_inner_manifests_across_recipes: true
+    posterior_draws_expanded: false
+    optuna_used: false
+    max_iter: 1000
+    tolerance: 1.0e-08
+  catalyst_support_gate:
+    minimum_records: 40
+    minimum_connected_groups: 30
+    minimum_soft_class_mass: 5.0
+    minimum_groups_with_q_ge_threshold: 5
+    group_probability_threshold: 0.25
+  validation:
+    outer_folds: 5
+    outer_repeats: 10
+    inner_folds: 4
+    outer_seeds:
+    - 42
+    - 142
+    - 242
+    - 342
+    - 442
+    - 542
+    - 642
+    - 742
+    - 842
+    - 942
+    group_bootstrap_repetitions: 2000
+    calibration_bins: 8
+  abstention:
+    enabled: true
+    policy_id: fixed_normalized_predictive_entropy_v1
+    probability_source: record_aggregated_repeated_connected_group_outer_oof
+    normalized_entropy_threshold: 0.9
+    threshold_source: pre_registered_fixed_no_outer_test_label_use
+    coverage_curve_thresholds:
+    - 0.75
+    - 0.8
+    - 0.85
+    - 0.9
+    - 0.95
+    - 1.0
+    full_coverage_primary_metrics_unchanged: true
+    accepted_only_metrics_are_coverage_conditional: true
+  excluded_from_mainline:
+    clustering: exploratory_formulation_archetypes_only
+    SMOTE: true
+    deep_learning: true
+    large_CatBoost_XGBoost_search: true
+  orthogonal_registry_dir: Data/orthogonal_kinetics
+  frozen_binned_points: Tafel_refitting/outputs/20260721_112453/csv/binned_curve_points.csv
+feature_association:
+  status: exploratory_posthoc_fixed_dataset
+  source_target: b_bayesian_local_line_mV_dec
+  mechanistic_claim_allowed: false
+  causal_claim_allowed: false
+  primary_scope: all97
+  analysis_scopes:
+  - all97
+  registered_predictor_source: hash_bound_registered_panel_schema
+  feature_reduction:
+    selection_policy: fixed_context_plus_one_target_blind
+    one_feature_per_augmented_panel: true
+    outcome_driven_feature_selection_used: false
+    composition_property_coordinates_never_cooccur: true
+    hard_exclusions:
+    - catalyst_support
+    - ionomer_concentration_wt_percent
+    - conductive_agent_dose_mg_per_mgcat
+    - electrolyte_identity
+    - dispersion_method
+    - sonication_time_min
+    - drop_volume_uL
+    - electrode_area_cm2
+    - solvent_mixture_property_proxy_dielectric_constant
+    - solvent_mixture_property_proxy_dielectric_constant_estimated_flag
+    pooled_only_sources:
+    - solvent_fraction_acetone
+    - solvent_fraction_water
+    - solvent_fraction_ethanol
+    - solvent_fraction_isopropanol
+    - solvent_fraction_methanol
+    - solvent_mixture_property_proxy_surface_tension_mN_m
+    - solvent_mixture_property_proxy_density_kg_m3
+    - solvent_mixture_property_proxy_dielectric_constant_best_available
+  posterior_policy:
+    training_target: log10_formal_posterior_median
+    training_records_are_equally_weighted: true
+    posterior_draws_expanded_as_samples: false
+    score_level_target_draw_repetitions: 100
+    nonpositive_draw_policy_for_original_scale: retained
+    nonpositive_draw_policy_for_log_metrics: excluded_and_mass_reported
+  frozen_panels:
+  - context_core
+  - context_plus_catalyst_concentration
+  - context_plus_ionomer_ratio
+  - context_plus_water_organic
+  - context_plus_ethanol_isopropanol
+  - context_plus_viscosity
+  - context_plus_polarity
+  - context_plus_conductive_sensitivity
+  frozen_contrasts:
+  - id: context_minus_prior
+    block: context
+    reference: prior
+    augmented: context_core
+    role: baseline_information
+  - id: catalyst_concentration_minus_context
+    block: catalyst_concentration
+    reference: context_core
+    augmented: context_plus_catalyst_concentration
+    role: primary_single_feature_increment
+  - id: ionomer_ratio_minus_context
+    block: ionomer_to_solvent_ratio
+    reference: context_core
+    augmented: context_plus_ionomer_ratio
+    role: primary_single_feature_increment
+  - id: water_organic_minus_context
+    block: water_to_organic_balance
+    reference: context_core
+    augmented: context_plus_water_organic
+    role: primary_single_feature_increment
+  - id: ethanol_isopropanol_minus_context
+    block: ethanol_to_isopropanol_balance
+    reference: context_core
+    augmented: context_plus_ethanol_isopropanol
+    role: primary_single_feature_increment
+  - id: viscosity_minus_context
+    block: solvent_viscosity
+    reference: context_core
+    augmented: context_plus_viscosity
+    role: alternative_property_single_feature
+  - id: polarity_minus_context
+    block: solvent_polarity
+    reference: context_core
+    augmented: context_plus_polarity
+    role: alternative_property_single_feature
+  - id: conductive_minus_context
+    block: conductive_agent
+    reference: context_core
+    augmented: context_plus_conductive_sensitivity
+    role: sensitivity_increment
+  models:
+    enabled:
+    - bayesian_linear
+    - gam_low_df
+    primary_gate_model: bayesian_linear
+    corroborating_model: gam_low_df
+    effect_curve_model: gam_low_df
+    bayesian_ridge:
+      max_iter: 1000
+      tolerance: 1.0e-06
+    gam:
+      spline_knots: 3
+      spline_degree: 1
+      minimum_unique_values_for_spline: 4
+      automatic_interactions: false
+    accurate_method_name: empirical_Bayes_shrinkage_additive_spline
+  validation:
+    outer_folds: 5
+    outer_repeats: 10
+    outer_seeds:
+    - 42
+    - 142
+    - 242
+    - 342
+    - 442
+    - 542
+    - 642
+    - 742
+    - 842
+    - 942
+    group_bootstrap_repetitions: 2000
+    models_and_spline_complexity_are_fixed: true
+    inner_cv_required: false
+    primary_metric: posterior_expected_mae_mV_dec
+    secondary_metrics:
+    - posterior_expected_mae_log10
+    - posterior_expected_nll_log10
+    - median_target_mae_mV_dec
+    - rmse_mV_dec
+    - spearman
+    - r2
+  release_gate:
+    applies_to_scope: all97
+    primary_delta_sign: augmented_minus_reference
+    require_primary_estimate_below_zero: true
+    require_primary_group_bootstrap_ci95_high_below_zero: true
+    require_augmented_vs_prior_ci95_high_below_zero: true
+    minimum_repeat_improvement_fraction: 0.8
+    minimum_posterior_draw_improvement_fraction: 0.9
+    require_corroborating_model_ci95_high_below_zero: true
+    multiplicity_adjustment: holm_one_sided_primary_blocks
+    adjusted_alpha: 0.05
+    gam_only_rescue_allowed: false
+    failed_blocks_emit_effect_curves: false
+  effects:
+    grid_quantiles:
+    - 0.05
+    - 0.1
+    - 0.15
+    - 0.2
+    - 0.25
+    - 0.3
+    - 0.35
+    - 0.4
+    - 0.45
+    - 0.5
+    - 0.55
+    - 0.6
+    - 0.65
+    - 0.7
+    - 0.75
+    - 0.8
+    - 0.85
+    - 0.9
+    - 0.95
+    reference_quantile: 0.5
+    cross_fitted_g_computation: true
+    connected_group_bootstrap: true
+    extrapolation_allowed: false
+    joint_support_distance: fold_local_block_balanced_gower
+    joint_support_threshold: training_leave_one_out_nearest_distance_q95
+    minimum_common_record_joint_support_coverage: 0.8
+    categorical_adjusted_contrasts: not_released_without_prespecified_common_reference
+  atlas:
+    scopes:
+    - all97
+    panels_per_page: 6
+    fitted_smoother_allowed: false
+    target_interval: formal_posterior_95_interval
+    y_axis: logarithmic_with_numeric_mV_dec_labels
+    cardinal_reference_lines_mV_dec:
+    - 30.0
+    - 40.0
+    - 60.0
+    - 120.0
+    interpretation: marginal_descriptive_association_not_adjusted_or_causal
+performance_optimization:
+  status: archived_results_invalidated_by_bayesian_local_line_target_change
+  target: b_bayesian_local_line_mV_dec
+  primary_scope: alkaline
+  sensitivity_scope: all
+  outer_folds: 5
+  outer_repeats: 10
+  inner_folds: 4
+  outer_seeds:
+  - 42
+  - 142
+  - 242
+  - 342
+  - 442
+  - 542
+  - 642
+  - 742
+  - 842
+  - 942
+  random_seed: 42
+  selection_metric: pooled_inner_grouped_cv_mae_original_mV_dec
+  selector: joint_feature_recipe_numeric_transform_target_transform_model_hyperparameters
+  candidate_budget: 96
+  near_tie_tolerance_mV_dec: 0.1
+  group_bootstrap_repetitions: 2000
+  target_draw_repetitions: 100
+  require_catboost_candidate_for_full: true
+  target_transforms:
+  - identity
+  - log10
+  numeric_transforms:
+  - raw
+  - log
+  outer_results_may_not_select_fixed_pipeline: true
+  prospective_confirmation_required: true
+feature_development:
+  status: archived_results_invalidated_by_bayesian_local_line_target_change
+  target: b_bayesian_local_line_mV_dec
+  primary_scope: all
+  sensitivity_scope: alkaline
+  outer_folds: 5
+  outer_repeats: 10
+  inner_folds: 4
+  outer_seeds:
+  - 42
+  - 142
+  - 242
+  - 342
+  - 442
+  - 542
+  - 642
+  - 742
+  - 842
+  - 942
+  random_seed: 42
+  selection_metric: pooled_inner_grouped_cv_mae_original_mV_dec
+  selector: fixed_rbf_svr_feature_recipe_only
+  target_transform: log10
+  fixed_rbf_svr:
+    C: 1.0
+    epsilon: 0.05
+    gamma: 0.1
+  sanity_comparator: bayesian_ridge
+  near_tie_tolerance_mV_dec: 0.5
+  stable_selection_minimum_outer_folds: 30
+  group_bootstrap_repetitions: 2000
+  target_draw_repetitions: 100
+  primary_recipe_count: 8
+  sensitivity_recipe_count: 3
+  outer_results_may_not_change_frozen_recipe_catalog: true
+interpretation:
+  importance_panel: context_plus_property_proxy_4p_estimated
+  property_proxy_distance_block: joint
+  property_proxy_perturbation_partition: singleton_conditional
+  permutation_repeats: 3
+  required_scope: alkaline
+  required_targets:
+  - b_bayesian_local_line_mV_dec
+  required_model_families:
+  - bayesian_ridge
+  - gower_knn
+  - extra_trees
+  positive_split_fraction_minimum: 0.7
+  minimum_outer_splits_per_cell: 25
+  minimum_records_per_stratum: 5
+  minimum_strata: 2
+  outer_test_target_use: posthoc_metric_only
+  mechanistic_claim_allowed: false
+reporting:
+  figure_formats:
+  - png
+  - pdf
+  figure_dpi: 300
+  mechanistic_stability_required: true
+  create_neighbor_cases_only_if_knn_wins: true
+resolved_paths:
+  canonical_dataset: /Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Data/canonical_97_ir_compensation_corrected_v2_20260724
+  ppc_review_registry: /Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/01_PPC_REVIEW/ppc_review.csv
+  output_root: /Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Ink_Tafel_Study/outputs

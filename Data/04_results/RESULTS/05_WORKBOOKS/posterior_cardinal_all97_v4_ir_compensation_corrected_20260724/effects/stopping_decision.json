@@ -1,0 +1,14 @@
+{
+  "any_adjusted_probability_curve_execution_authorized": false,
+  "any_adjusted_probability_curve_release": false,
+  "any_formal_augmented_panel_beats_prior": false,
+  "any_formal_feature_passes_primary_release_gate": false,
+  "baseline_information_stop": true,
+  "context_baseline_pass": false,
+  "decision": "negative_stop_no_augmented_panel_beats_prior",
+  "feature_claim_release_stopped": true,
+  "feature_interpretation_stopped": true,
+  "n_adjusted_probability_curve_rows": 0,
+  "n_adjusted_probability_curves_released": 0,
+  "smoke_structural_only": false
+}

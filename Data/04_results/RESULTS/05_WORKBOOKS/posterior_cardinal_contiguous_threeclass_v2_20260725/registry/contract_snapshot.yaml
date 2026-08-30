@@ -1,0 +1,381 @@
+contract_id: posterior_cardinal_contiguous_threeclass_v2
+contract_version: 2.0.0
+status: exploratory_posthoc_frozen_before_first_full_fit
+frozen_date: 2026-07-25
+stage: posterior-cardinal-contiguous-threeclass
+
+scientific_scope:
+  analysis_role: posthoc_prediction_oriented_sensitivity
+  population: all97
+  expected_records: 97
+  expected_connected_groups: 80
+  response_source: b_bayesian_local_line_mV_dec
+  one_ml_row_per_record: true
+  posterior_draws_expanded_as_samples: false
+  may_replace_or_rescue_v4_result: false
+  may_replace_classic_threeclass_v1_result: false
+  causal_claim_allowed: false
+  mechanistic_claim_allowed: false
+  requested_accuracy_target_is_release_gate: false
+
+immutable_parent_boundaries:
+  source_contract_id: posterior_cardinal_all97_v4
+  source_contract_path: config/contracts/posterior_cardinal_all97_v4.yaml
+  source_contract_sha256: dd93d316610201f4b03e676710b5315075b9728b77f3102da2df4d41c82dd8fe
+  source_run: RESULTS/04_WORKBOOKS/posterior_cardinal_all97_v4_ir_compensation_corrected_20260724
+  source_run_access: read_only
+  classic_threeclass_contract_id: posterior_cardinal_threeclass_optuna_v1
+  classic_threeclass_contract_path: config/contracts/posterior_cardinal_threeclass_optuna_v1.yaml
+  classic_threeclass_contract_sha256: f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be
+  classic_threeclass_source_run: RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725
+  classic_threeclass_source_run_access: read_only
+  classic_outer_manifest:
+    path: folds/outer_split_manifest.csv
+    sha256: 5fa6629fd7a5b8d0937434d5b7cf79b18b06f9da5d4d68e274f80f92f799489a
+    reuse_for_contiguous_endpoint: false
+  classic_inner_manifest:
+    path: folds/inner_split_manifest.csv
+    sha256: 7c1776bf98151e443285c965c57151e36310f378f5a412cfe4e34f6322f8bcf4
+    reuse_for_contiguous_endpoint: false
+  parent_artifact_manifests_verified_before_input_snapshot_or_modeling: true
+  classic_fold_manifest_hashes_verified_before_modeling: true
+  cli_preflight_disjoint_from_both_parent_result_roots: true
+  output_must_be_new_empty_and_disjoint_from_parent_runs: true
+
+label_scheme:
+  id: contiguous_log_midpoint_84p8528_high144_v2
+  rationale: prediction_oriented_removal_of_72_to_96_noncardinal_gap
+  supervised_class_order:
+    - low_60_side
+    - 120_side
+    - high_off
+  soft_label_columns:
+    - q_low_60_side
+    - q_120_side
+    - q_high_off
+  prediction_columns:
+    - p_low_60_side
+    - p_120_side
+    - p_high_off
+  slope_units: mV_dec-1
+  boundaries:
+    low_60_side:
+      lower: exclusive_negative_infinity
+      upper_exclusive: 84.8528137423857
+    120_side:
+      lower_inclusive: 84.8528137423857
+      upper_inclusive: 144.0
+    high_off:
+      lower_exclusive: 144.0
+      upper: positive_infinity
+  lower_boundary_formula: sqrt(60 * 120)
+  every_draw_assigned_exactly_once: true
+  nonfinite_draw_policy: fail
+  nonpositive_finite_draw_policy: assign_to_low_60_side_and_audit_count
+  expected_draws_per_record: 8000
+  expected_total_nonpositive_draws: 1760
+  expected_effective_posterior_mass:
+    low_60_side: 62.221625
+    120_side: 25.734750
+    high_off: 9.043625
+  expected_modal_record_counts:
+    low_60_side: 64
+    120_side: 25
+    high_off: 8
+  expected_posterior_expected_oracle: 0.8579329896907216
+  preserve_one_probability_vector_per_record: true
+  posterior_argmax_training_or_tuning_use: forbidden
+  comparison_to_classic_threeclass_requires_changed_endpoint_caveat: true
+
+feature_engineering:
+  source_registry: inherited_hash_bound_v4_reduced_feature_registry
+  rare_min_frequency: 3
+  fitted_inside_every_inner_and_outer_training_fold: true
+  selectable_panels:
+    - context_core
+    - context_plus_catalyst_concentration
+    - context_plus_ionomer_ratio
+    - context_plus_water_organic
+    - context_plus_ethanol_isopropanol
+    - context_plus_viscosity
+    - context_plus_polarity
+  exactly_zero_or_one_formulation_increment_per_panel: true
+  conductive_agent_panel_in_search: false
+  broad_context_plus_ink_panel_in_search: false
+  target_derived_features_forbidden: true
+
+outer_validation:
+  folds: 5
+  repeats: 10
+  repeat_seeds: [42, 142, 242, 342, 442, 542, 642, 742, 842, 942]
+  grouping: publication_verified_laboratory_recipe_hash_connected_components
+  manifest_generation: endpoint_specific_soft_mass_balanced_connected_groups
+  soft_mass_columns:
+    - q_low_60_side
+    - q_120_side
+    - q_high_off
+  expected_full_manifest_sha256: 5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330
+  expected_full_rows: 970
+  observed_high_off_validation_mass_range: [1.05725, 3.358625]
+  outer_test_used_for_tuning_selection_shrinkage_or_stacking: false
+  aggregate_repeated_oof_by_record_before_inference: true
+
+inner_validation:
+  folds: 4
+  grouping: same_connected_groups_as_outer_validation
+  manifest_generation: endpoint_specific_soft_mass_balanced_within_each_outer_training_set
+  split_seed_formula: outer_split_seed + 10000 + outer_fold
+  expected_full_manifest_sha256: 603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f
+  expected_full_rows: 3880
+  observed_high_off_validation_mass_range: [1.018, 3.369625]
+  separate_studies:
+    - non_high_vs_high_off_gate
+    - low_60_vs_120_conditional
+  gate_objective: fold_equal_mean_binary_soft_log_loss
+  conditional_objective: fold_equal_mean_binary_soft_log_loss_weighted_by_q_non_high
+  all_feature_engineering_fit_on_inner_training_only: true
+  all_model_hyperparameters_selected_on_inner_training_only: true
+  all_prior_shrinkage_selected_on_inner_oof_only: true
+  all_convex_stack_weights_selected_on_inner_oof_only: true
+  zero_conditional_weight_records_excluded_before_feature_engineering_and_fit: true
+
+optuna:
+  enabled: true
+  placement: two_independent_stage_studies_inside_each_outer_training_split
+  direction: minimize
+  sampler: TPESampler
+  gate_sampler_seed_formula: outer_split_seed + 41000 + outer_fold
+  conditional_sampler_seed_formula: outer_split_seed + 51000 + outer_fold
+  pruner: NopPruner
+  study_n_jobs: 1
+  full_trials_per_stage_per_outer_split: 36
+  smoke_trials_per_stage_per_outer_split: 4
+  search_dimensions:
+    - feature_panel
+    - stage_model_family
+    - stage_model_hyperparameters
+  enqueue_one_default_per_panel_and_family_before_TPE: true
+  enqueue_gower_structural_coverage_before_TPE:
+    - {panel: context_core, neighbor_mode: exponential_kernel, bandwidth: 0.50}
+    - {panel: context_core, neighbor_mode: rbf_kernel, bandwidth: 0.50}
+    - {panel: context_plus_water_organic, neighbor_mode: exponential_kernel, bandwidth: 0.50, block_weight_profile: context_2x}
+    - {panel: context_plus_water_organic, neighbor_mode: rbf_kernel, bandwidth: 0.50, block_weight_profile: formulation_2x}
+  full_unenqueued_TPE_trials_per_stage_per_outer_split: 4
+  smoke_enqueue_policy: one_structural_default_per_family
+  outer_test_predictions_visible_to_study: false
+  hard_accuracy_visible_to_study: false
+  failed_trial_policy: persist_failure_and_continue
+  every_model_family_must_have_one_complete_candidate: true
+  deterministic_tie_break:
+    - lower_inner_stage_soft_log_loss
+    - lower_model_complexity_rank
+    - lower_panel_complexity_rank
+    - lower_trial_number
+
+models:
+  architecture: independently_tuned_gate_and_conditional_then_probability_composition
+  gate_target: q_non_high_equals_q_low_60_side_plus_q_120_side
+  conditional_target: q_low_60_side_divided_by_q_non_high
+  conditional_record_weight: q_non_high
+  final_probability_composition:
+    p_low_60_side: p_non_high * p_low_given_non_high
+    p_120_side: p_non_high * (1 - p_low_given_non_high)
+    p_high_off: 1 - p_non_high
+  same_model_or_hyperparameters_required_across_stages: false
+  stage_model_seeding:
+    formula: outer_split_seed + stage_seed_offset + trial_number
+    gate_stage_seed_offset: 61000
+    conditional_stage_seed_offset: 71000
+    same_seed_reused_across_inner_folds_for_one_trial: true
+  selectable_families:
+    - gaussian_prior_MAP
+    - soft_gower
+    - soft_extra_trees
+    - soft_catboost
+  complexity_rank:
+    gaussian_prior_MAP: 1
+    soft_gower: 2
+    soft_extra_trees: 3
+    soft_catboost: 4
+  gaussian_prior_MAP:
+    intercept_prior_scale: 5.0
+    feature_prior_scale:
+      distribution: log_float
+      low: 0.10
+      high: 4.00
+    max_iter: 1000
+    tolerance: 1.0e-8
+  soft_gower:
+    n_neighbors:
+      distribution: categorical
+      choices: [3, 5, 7, 9, 11, 15, 21]
+    distance_power:
+      distribution: categorical
+      choices: [1.0, 2.0]
+    neighbor_mode:
+      distribution: categorical
+      choices: [knn, exponential_kernel, rbf_kernel]
+    bandwidth:
+      distribution: categorical
+      choices: [0.10, 0.25, 0.50, 1.00, 2.00]
+    block_weight_profiles:
+      distribution: categorical
+      choices: [equal, context_2x, formulation_2x]
+    exact_and_kth_distance_ties: include_all
+    epsilon: 1.0e-12
+  soft_extra_trees:
+    n_estimators: {distribution: int, low: 300, high: 800, step: 100}
+    max_depth: {distribution: int, low: 2, high: 5}
+    min_samples_leaf: {distribution: int, low: 3, high: 12}
+    max_features: {distribution: float, low: 0.40, high: 1.00}
+    bootstrap: false
+    estimator_n_jobs: 1
+  soft_catboost:
+    loss_function: CrossEntropy
+    target_domain: closed_unit_interval
+    depth: {distribution: int, low: 2, high: 4}
+    iterations: {distribution: int, low: 100, high: 500, step: 100}
+    learning_rate: {distribution: log_float, low: 0.02, high: 0.15}
+    l2_leaf_reg: {distribution: log_float, low: 3.0, high: 50.0}
+    random_strength: 0.0
+    border_count: 32
+    allow_writing_files: false
+    thread_count: 1
+    verbose: false
+    zero_weight_records_excluded_before_fit: true
+    missing_dependency_policy: fail_closed
+
+prior_shrinkage:
+  enabled: true
+  formula: p_shrunk = alpha * p_model + (1 - alpha) * p_training_fold_prior
+  alpha_domain: [0.0, 1.0]
+  optimizer: bounded_scalar_with_explicit_endpoint_comparison
+  loss: stage_specific_inner_oof_soft_log_loss
+  prior_recomputed_from_each_inner_training_fold: true
+  outer_refit_prior_uses_complete_outer_training_only: true
+  alpha_zero_exactly_reproduces_prior: true
+  alpha_one_exactly_reproduces_model: true
+
+inner_oof_convex_stack:
+  enabled: true
+  fitted_separately_for_gate_and_conditional: true
+  candidates:
+    - fold_local_stage_prior
+    - shrunk_gaussian_prior_MAP
+    - shrunk_soft_gower
+    - shrunk_soft_extra_trees
+    - shrunk_soft_catboost
+  constraints:
+    nonnegative_weights: true
+    weights_sum_to_one: true
+  optimizer: scipy_SLSQP
+  deterministic_initialization: equal_best_single_and_prior_multistart
+  score_clip_epsilon: 1.0e-15
+  fallback: fold_local_stage_prior
+  candidates_equal_to_prior_collapsed_before_weight_fit: true
+  collapsed_candidate_reported_weight: 0.0
+  conditional_loss_weight: q_non_high
+  outer_test_used_for_stack_weights: false
+
+secondary_candidates:
+  included_in_primary_stack: false
+  low_df_GAM:
+    status: deferred
+    reason: no_frozen_fractional_target_GAM_implementation
+  shrinkage_RDA_LDA:
+    status: deferred
+    reason: standard_library_interface_requires_hard_labels
+  strong_prior_Gaussian_process:
+    status: deferred
+    reason: probability_link_and_categorical_kernel_not_frozen
+  random_forest_soft_regressor:
+    status: optional_later_sensitivity
+    reason: high_redundancy_with_extra_trees
+  TabPFN_TabFM:
+    status: isolated_later_sensitivity
+    reason: standard_classifier_interface_is_hard_label_and_dependency_not_installed
+  deep_MLP_ModernNCA_TabR:
+    status: excluded
+    reason: n97_high_variance_and_search_multiplicity
+
+baselines:
+  fold_local_soft_prior:
+    enabled: true
+    estimator: arithmetic_mean_training_soft_vector
+    smoothing: 0.0
+  always_modal_class:
+    role: descriptive_hard_baseline_only
+    may_select_model: false
+
+metrics:
+  primary: full_coverage_three_class_soft_log_loss
+  score_clip_epsilon: 1.0e-15
+  predictive_entropy_threshold: 0.90
+  secondary:
+    - multiclass_brier_mean_sum_squared_error
+    - classwise_calibration_8_equal_width_bins
+    - gate_soft_log_loss
+    - gate_brier
+    - conditional_soft_log_loss_weighted_by_q_non_high
+    - conditional_brier_weighted_by_q_non_high
+  descriptive_hard_metrics:
+    - modal_accuracy
+    - balanced_accuracy
+    - macro_f1
+    - posterior_expected_hard_accuracy
+    - oracle_posterior_expected_hard_accuracy
+  hard_metrics_may_tune_select_or_release: false
+  accuracy_0_70_is_descriptive_not_optimization_target: true
+
+connected_group_inference:
+  bootstrap:
+    full_repetitions: 2000
+    smoke_repetitions: 100
+    seed: 20260725
+    unit: connected_group
+    aggregate_repeated_oof_before_resampling: true
+    interval: percentile_2.5_97.5
+  primary_contrast: stagewise_inner_oof_stack_minus_fold_local_soft_prior
+
+required_outputs:
+  registry:
+    - contiguous_three_class_soft_labels.csv
+    - contiguous_three_class_support.csv
+    - contract_snapshot.yaml
+  folds:
+    - outer_split_manifest.csv
+    - inner_split_manifest.csv
+  analyses:
+    - optuna_trials.csv
+    - optuna_inner_fold_scores.csv
+    - stage_component_oof_predictions.csv
+    - stage_alpha_selections.csv
+    - stage_candidate_registry.csv
+    - stage_selection_summary.csv
+    - stage_stack_weights.csv
+    - model_fit_registry.csv
+    - outer_selections.csv
+    - oof_probabilities.csv
+    - oof_aggregated.csv
+    - aggregate_metrics.csv
+    - repeat_metrics.csv
+    - split_metrics.csv
+    - calibration.csv
+    - expected_confusion.csv
+    - record_level_scores.csv
+    - stack_weight_summary.csv
+    - connected_group_bootstrap.csv
+    - connected_group_bootstrap_summary.csv
+    - analysis_qa.json
+  report:
+    - posterior_cardinal_contiguous_threeclass_report.md
+    - validation_report.json
+
+smoke_mode:
+  scientifically_releasable: false
+  outer_repeats: 1
+  outer_folds: 2
+  inner_folds: 2
+  optuna_trials_per_stage_per_outer_split: 4
+  bootstrap_repetitions: 100
+  purpose: structural_execution_only

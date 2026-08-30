@@ -1,0 +1,207 @@
+{
+  "manifest_schema_version": 1,
+  "run_dir": "C:\\Users\\12814\\Desktop\\Tafel_fignew\\code_tafel\\RESULTS\\04_MODEL\\PRESTO_policy_v2_complete\\policy_v2",
+  "created_at_utc": "2026-08-29T14:33:23.342550+00:00",
+  "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+  "tree_sha256": "f343050dc36c3a3ffcf39e0dcfdd458da7e5b22bdcf03df5b721fa43456ee27e",
+  "file_count": 39,
+  "size_bytes": 8209774,
+  "self_excluded_path": "artifact_manifest.json",
+  "files": [
+    {
+      "path": "analyses/aggregate_metrics.csv",
+      "size_bytes": 2186,
+      "sha256": "46f4ff02481f127d76004262d940d45b8fc66f75dce63cb4928f56d7d4fed5e5"
+    },
+    {
+      "path": "analyses/analysis_qa.json",
+      "size_bytes": 2693,
+      "sha256": "c1a17d2a4509f3684fc3a23a636a8e2ee48301adde02479d0817022c34416999"
+    },
+    {
+      "path": "analyses/calibration.csv",
+      "size_bytes": 4885,
+      "sha256": "e011e9884847b980b1d2ed08c633722f4dfed8322fbe5c0d668389e7beb99e4d"
+    },
+    {
+      "path": "analyses/expected_confusion.csv",
+      "size_bytes": 4035,
+      "sha256": "7ce01cd0d84f57706bbe0c2799d7da5db33fbfce13210cfa92ffa6c48bc65403"
+    },
+    {
+      "path": "analyses/oof_aggregated.csv",
+      "size_bytes": 56702,
+      "sha256": "7a7885026f10bc2e1ec767015f09580bb6c9324fe034b6bf7c6380f0e6f6786a"
+    },
+    {
+      "path": "analyses/oof_probabilities.csv",
+      "size_bytes": 592004,
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3"
+    },
+    {
+      "path": "analyses/outer_fit_audits.json",
+      "size_bytes": 190976,
+      "sha256": "96360cd82faa2e81c04e596221760d5543afe84b3e704165bd620906072d8894"
+    },
+    {
+      "path": "analyses/outer_selections.csv",
+      "size_bytes": 22413,
+      "sha256": "aabe1c89c7a58ecdcda491097d2ba7fa2cb0ab1aa0b98ee2bc8e28d5916df8b0"
+    },
+    {
+      "path": "analyses/policy_aggregate_metrics.csv",
+      "size_bytes": 2020,
+      "sha256": "33193dbf690235b46664eece313facc2189da5be57936b1d7b9c960334259d11"
+    },
+    {
+      "path": "analyses/policy_connected_group_bootstrap.csv",
+      "size_bytes": 1784124,
+      "sha256": "196af927efa59373f5ea8e547c087710f8206abda701fcd045b87c61896a1b9b"
+    },
+    {
+      "path": "analyses/policy_connected_group_bootstrap_summary.csv",
+      "size_bytes": 8412,
+      "sha256": "84f95f7a55dfdf308e40d97c85c464a6b5c2c2c8751c2694d63cc26862b829d5"
+    },
+    {
+      "path": "analyses/policy_inner_selection_grid.csv",
+      "size_bytes": 270074,
+      "sha256": "230eb546f0ef85a744083123be4a3018b0dbe79624a3fe89a6cb78b8b5baed12"
+    },
+    {
+      "path": "analyses/policy_oof_decisions.csv",
+      "size_bytes": 532190,
+      "sha256": "f7889304fb07a58c42972d78527931d34caf6bf108cb78b266c2f4a75cd408ca"
+    },
+    {
+      "path": "analyses/policy_record_aggregated.csv",
+      "size_bytes": 110908,
+      "sha256": "fd1ba7f0a0eaf7ba563aca6e1f65fabd49f9cb5712271aedfd5e4aa833b103c7"
+    },
+    {
+      "path": "analyses/policy_repeat_metrics.csv",
+      "size_bytes": 6309,
+      "sha256": "12816bdc99e10c444098e63441677cb06df32991cce14c01a281e7b99cbc76f2"
+    },
+    {
+      "path": "analyses/policy_split_metrics.csv",
+      "size_bytes": 24078,
+      "sha256": "efb654168dc9001271a9ee8cfac5ce09d52f767511c8e7bbf5ea59827d3b7035"
+    },
+    {
+      "path": "analyses/probability_argmax_metrics.csv",
+      "size_bytes": 1493,
+      "sha256": "81777f25fdbae55dc594ccd5d85cfc9b40f6d9b255c9e705a23e743871456a30"
+    },
+    {
+      "path": "analyses/repeat_metrics.csv",
+      "size_bytes": 16649,
+      "sha256": "0a81811d135b9ef087d12e24d4c6ec6cdb0a2c8c9f9c8866198cdc14384b0766"
+    },
+    {
+      "path": "analyses/split_metrics.csv",
+      "size_bytes": 78582,
+      "sha256": "58844123417b0a9c8c4f0e9eb4207b48d6d86f2f53d6a5848c8c4351e5506ade"
+    },
+    {
+      "path": "folds/inner_split_manifest.csv",
+      "size_bytes": 232526,
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f"
+    },
+    {
+      "path": "folds/outer_split_manifest.csv",
+      "size_bytes": 57013,
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330"
+    },
+    {
+      "path": "inputs/parent_code_manifest.json",
+      "size_bytes": 3001,
+      "sha256": "c61c4b54bf794a23a5351c662140e2fe664bec8f822d33c8b83117d04cbddad6"
+    },
+    {
+      "path": "inputs/parent_contract_snapshot.yaml",
+      "size_bytes": 8442,
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c"
+    },
+    {
+      "path": "inputs/parent_environment_manifest.json",
+      "size_bytes": 8886,
+      "sha256": "2e767ec061490ef5ff358e92c6d780b55add428815a37289b7da5f6ea73dff77"
+    },
+    {
+      "path": "inputs/parent_oof_probabilities.csv",
+      "size_bytes": 592004,
+      "sha256": "cb86ad03e463e640fd20fe9b62eab47aa2759fa20203880e8682aa853c849ee3"
+    },
+    {
+      "path": "inputs/parent_policy_oof_decisions.csv",
+      "size_bytes": 454769,
+      "sha256": "e587ecb2cb8d5f27ec7dfbbe7d1878750b934498cbae1fe6ba01bbc905e4b5b9"
+    },
+    {
+      "path": "inputs/parent_presto_inner_oof_candidates.csv",
+      "size_bytes": 2825108,
+      "sha256": "4c8301b3a70723324a8206d9df7add91e0c619a07f6d0bde8d53669e4e9fabc7"
+    },
+    {
+      "path": "inputs/records.csv",
+      "size_bytes": 258556,
+      "sha256": "cb8bd27ffbde69bc76773aaa97d383f20f1887c778dcf983c9fa9b8fe03a6a9c"
+    },
+    {
+      "path": "provenance/code_manifest.json",
+      "size_bytes": 1623,
+      "sha256": "459dcd069ae4c365cb28db00e41d66288f76a7488d8f4e1ee8491cf816874769"
+    },
+    {
+      "path": "provenance/contract_binding.json",
+      "size_bytes": 338,
+      "sha256": "bd8b0b32f1f91b480cfce8bcf58987dd67e1a56ce9a882cccac3d476b0c39ba3"
+    },
+    {
+      "path": "provenance/environment_manifest.json",
+      "size_bytes": 10001,
+      "sha256": "7f26f5d0ab8e21e01ac921bb17d48005248c78d272d169339c7c8893cf9625be"
+    },
+    {
+      "path": "provenance/parent_binding.json",
+      "size_bytes": 3033,
+      "sha256": "9f80ff4569afe3b58a3133a837e89837f25b188de46e4c39dda2a674eaa7c542"
+    },
+    {
+      "path": "provenance/parent_refit_code_binding.json",
+      "size_bytes": 11011,
+      "sha256": "e6fab70da4014bb75725aa120a8feea564d8fc71aa318b6b4035121b39436911"
+    },
+    {
+      "path": "provenance/parent_refit_environment_binding.json",
+      "size_bytes": 3244,
+      "sha256": "37accaa41c482be81ecd075537bb2e855c20c0d2e25540d02112dfa6a571bcf1"
+    },
+    {
+      "path": "provenance/run_mode.json",
+      "size_bytes": 133,
+      "sha256": "96f23c2308f08232943c2a9264cf33ea4b4cf381b60539d0815255c760b63a70"
+    },
+    {
+      "path": "registry/contiguous_three_class_soft_labels.csv",
+      "size_bytes": 17173,
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d"
+    },
+    {
+      "path": "registry/contract_snapshot.yaml",
+      "size_bytes": 6978,
+      "sha256": "85694b3ff89b10458e56cf159fa8d2da2fa771948845469c8951a14a7ee93dcd"
+    },
+    {
+      "path": "report/presto_policy_v2_report.md",
+      "size_bytes": 1960,
+      "sha256": "451d47141a1661ae42ca4d9e11b8651f4aec2d5b0087cdb3d52b69427fb7a48f"
+    },
+    {
+      "path": "report/validation_report.json",
+      "size_bytes": 3242,
+      "sha256": "a88c836d710188eccca43f5112777d7505e5273e539738ea854bee8a3b808f98"
+    }
+  ]
+}

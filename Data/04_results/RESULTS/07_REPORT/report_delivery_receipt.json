@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "html": "RESULTS/06_REPORT/report.html",
+  "stages": {
+    "validation": "passed",
+    "package": "passed",
+    "verification": "structural_only"
+  },
+  "counts": {
+    "blocks": 16,
+    "charts": 1,
+    "metrics": 4,
+    "tables": 2
+  },
+  "browser_warning": "No installed Chromium headless shell; browser interaction and viewport verification were not run."
+}

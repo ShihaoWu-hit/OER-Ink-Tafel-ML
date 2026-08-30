@@ -1,0 +1,274 @@
+contract_id: posterior_cardinal_all97_v3
+contract_version: 3.0.0
+status: frozen_before_first_fit
+frozen_date: 2026-07-24
+stage: posterior-cardinal-classify
+amendment:
+  supersedes_contract_id: posterior_cardinal_all97_v2
+  timing: after_user_confirmed_iR_semantic_revision_and_before_first_v3_fit
+  reason: >-
+    DATA0718-IR-SEM-001 changes the model predictor from 38 corrected,
+    18 reported-not-corrected, and 41 unknown/unverifiable records to
+    38 corrected and 59 not-corrected records while preserving raw reporting
+    evidence and leaving targets, posterior draws, PPC decisions, groups, and
+    validation design unchanged.
+
+scientific_scope:
+  population: all97
+  expected_records: 97
+  expected_connected_groups: 80
+  expected_electrolyte_scope_counts:
+    alkaline: 90
+    acidic: 5
+    neutral: 2
+  response_source: b_bayesian_local_line_mV_dec
+  one_ml_row_per_record: true
+  posterior_draws_expanded_as_samples: false
+  causal_claim_allowed: false
+  mechanistic_claim_allowed: false
+
+formal_input_snapshot:
+  source_run_default: Data/03_outputs/study/outputs/current_97_ir_compensation_corrected_20260724
+  canonical_dataset: Data/02_inputs/canonical_dataset_ir_corrected_v2_ir_compensation_corrected_20260724
+  expected_draws_per_record: 8000
+  expected_total_draws: 776000
+  verify_decompressed_draw_payload_against_canonical: true
+  verify_before_parse: true
+  verify_after_parse: true
+  verify_after_modeling: true
+  verify_source_tree_unchanged: true
+  source_file_sha256:
+    records.csv: 3843b89427a388bcbae73853d6afda939d4fc9fc9c259d7e185a99fc36051ab4
+    registered_panel_schema.csv: 4efce79616e8206e0ca32e4b0aabdf292b96d0a0279f28ff13bd8f80cea4a62a
+    property_proxy_qa.json: ded2d87b844e2eaf537850ae990067a2f9dd7ff54f0a40a9fd923725d5d26af9
+    integration_input_manifest.json: bada333be1aab2938a5c754c607fae5121aa8f568576e0f110f9f09144923e0f
+    target_registry.csv: ab335dcc9ec3ed3d612325ed7cb7f0c9df3243d53515badb4710c9770df12753
+    posterior_slope_draws.csv.gz: 8c503a1c4e02414609454866b6217e2866fce14ff9f0304f2f7a78b39ca3aee8
+    target_qa.json: d0d8691a0713225cd2b021adc737b110f5d91347c051317ae563e303585303e4
+    bayesian_audit.csv: 9bf5380bd008acf0c55b2b68b65dd318f4ede9749deec205acbcd6be684c1c86
+    ppc_binding_audit.csv: 29939d672ae71f0888bd3f5e419821d3a8fab9ed2f91e8018fc391f6205f1a69
+    stage_refit.json: 3845c5aa15727313a8b24172c54b6d6d0f14b4de1b30b56ab6bf545229f7dea3
+    source_input_manifest.json: 02edf06fb02f241f59ea6d7fa1923c311e703afe0e2038bba7a2d9ba9ea48cd4
+
+reduced_feature_registry:
+  source_run: Data/04_results/RESULTS/05_WORKBOOKS/posterior_feature_reduction_all97_ir_compensation_corrected_20260724
+  engineered_feature_definitions:
+    path: registry/engineered_feature_definitions.csv
+    sha256: d960d370a2c0a2bec900eab7af8f8f63486a9791c0ca17953225feb83ab1f56b
+  frozen_panel_registry:
+    path: registry/frozen_panel_registry.csv
+    sha256: 1f2c3a1abb2bcde2ae7a5536f4492d1e7331dbf6a22570749e68bb78257ba17b
+  require_exact_code_serialization_match: true
+  context_panel: context_core
+  formal_increment_panels:
+    - context_plus_catalyst_concentration
+    - context_plus_ionomer_ratio
+    - context_plus_water_organic
+    - context_plus_ethanol_isopropanol
+    - context_plus_viscosity
+    - context_plus_polarity
+  sensitivity_only_panels:
+    - context_plus_conductive_sensitivity
+  one_feature_per_augmented_panel: true
+  composition_property_coordinates_never_cooccur: true
+
+label_scheme:
+  id: classic_hierarchical_linear_band_v1
+  anchors_mV_dec: [30.0, 40.0, 60.0, 120.0]
+  primary_relative_half_width: 0.20
+  sensitivity_relative_half_widths: [0.15, 0.25]
+  all_evaluated_relative_half_widths: [0.15, 0.20, 0.25]
+  overlap_policy: nearest_anchor_in_log_slope_space_lower_anchor_on_exact_tie
+  nonpositive_draw_policy: off_cardinal
+  nonfinite_draw_policy: fail
+  supervised_class_order:
+    - low_30_40_like
+    - 60_like
+    - 120_like
+    - off_cardinal
+  low_class_definition: q_30_like_plus_q_40_like
+  separate_30_vs_40_model:
+    enabled: false
+    minimum_effective_mass_per_subclass: 5.0
+    minimum_conditional_modal_connected_groups_per_subclass: 5
+  posterior_argmax_training_use: forbidden
+
+outer_validation:
+  folds: 5
+  repeats: 10
+  repeat_seeds: [42, 142, 242, 342, 442, 542, 642, 742, 842, 942]
+  grouping: publication_verified_laboratory_recipe_hash_connected_components
+  allocation: greedy_soft_class_mass_balance
+  allocation_objective: mean_squared_scaled_class_mass_imbalance_plus_0.25_size_imbalance
+  group_order: descending_group_size_then_seeded_random_tie_then_group_id
+  fold_tie_break: seeded_fold_permutation
+  manifest_label_source: primary_width_0.20
+  identical_manifest_across_panels_models_and_widths: true
+  aggregate_repeated_oof_by_record_before_inference: true
+
+inner_validation:
+  folds: 4
+  manifest_label_source: primary_width_0.20
+  identical_manifest_across_panels_models_and_widths: true
+  seed_formula: outer_repeat_seed_plus_10000_plus_outer_fold
+  allocation: same_greedy_soft_class_mass_balance_as_outer
+  selection_metric: fold_equal_mean_full_coverage_four_class_soft_log_loss
+  uncertainty_for_one_se: standard_error_across_four_inner_validation_folds
+  no_feature_recipe_or_model_family_search: true
+
+preprocessing:
+  rare_min_frequency: 3
+  fitted_inside_every_inner_and_outer_training_fold: true
+  parallel_backend: deterministic_independent_outer_split_threads
+
+models:
+  fold_local_prior:
+    role: baseline
+    estimator: arithmetic_mean_training_soft_vector
+    smoothing: 0.0
+    score_clip_epsilon: 1.0e-15
+  primary:
+    id: two_stage_gaussian_prior_softmax_map_v1
+    role: sole_release_controlling_model
+    inference: deterministic_gaussian_prior_MAP
+    full_bayesian_posterior_fit: false
+    posterior_sampling: false
+    optimizer: scipy_L-BFGS-B
+    max_iter: 1000
+    tolerance: 1.0e-8
+    intercept_prior_scale: 5.0
+    shared_gate_and_conditional_feature_prior_scale_grid: [0.25, 0.5, 1.0, 2.0]
+    candidate_selection: one_standard_error_strongest_shrinkage
+    deterministic_tie_break: smaller_feature_prior_scale_then_candidate_id
+    optimizer_failure_policy: candidate_fails_and_run_aborts_if_all_candidates_fail
+    binary_gate_target: q_cardinal_equals_one_minus_q_off_cardinal
+    conditional_target: normalized_q_low_q60_q120
+    conditional_record_weight: q_cardinal
+    zero_cardinal_mass_weight: 0.0
+    final_probability_composition: p_classic_equals_p_cardinal_times_p_conditional_and_p_off_equals_one_minus_p_cardinal
+  secondary:
+    id: two_stage_soft_gower_knn_v1
+    role: secondary_non_release_controlling
+    k_grid: [5, 9, 15]
+    distance_power_grid: [1.0, 2.0]
+    block_weighting: equal_across_disjoint_feature_blocks
+    candidate_selection: one_standard_error_largest_k_then_lower_distance_power
+    deterministic_tie_break: larger_k_then_lower_distance_power_then_candidate_id
+  stack:
+    enabled: false
+  catalyst_partial_pooling:
+    enabled: false
+  excluded:
+    - extra_trees
+    - catboost
+    - xgboost
+    - smote
+    - deep_learning
+    - reinforcement_learning
+    - optuna
+    - broad_model_family_search
+
+metrics:
+  primary: full_coverage_four_class_soft_log_loss
+  score_clip_epsilon: 1.0e-15
+  target_entropy: mean_negative_sum_q_log_q
+  excess_cross_entropy: soft_log_loss_minus_target_entropy_equals_mean_KL_q_to_p
+  secondary:
+    - multiclass_brier_mean_sum_squared_error
+    - classwise_calibration_8_equal_width_bins
+    - gate_soft_log_loss
+    - gate_brier
+    - conditional_soft_log_loss_weighted_by_q_cardinal
+    - conditional_brier_weighted_by_q_cardinal
+    - conditional_ranked_probability_score_weighted_by_q_cardinal
+  descriptive_hard_metrics:
+    modal_accuracy: mean_argmax_p_equals_argmax_q
+    balanced_accuracy: modal_argmax_only
+    macro_f1: modal_argmax_only
+    posterior_expected_hard_accuracy: mean_q_at_argmax_p
+    oracle_posterior_expected_hard_accuracy: mean_max_q
+    may_select_or_release_models: false
+    requested_0_70_is_not_a_selection_or_stopping_target: true
+  predictive_uncertainty:
+    normalized_entropy_threshold: 0.90
+    greater_than_threshold_label: uncertain
+    accepted_only_metrics_cannot_rescue_full_coverage_failure: true
+
+connected_group_inference:
+  bootstrap:
+    repetitions: 2000
+    seed: 20260724
+    unit: connected_group
+    sampling: sample_all_80_groups_with_replacement_and_retain_all_group_records
+    statistic: record_weighted_mean_paired_delta
+    interval: percentile_2.5_97.5
+    shared_group_draws_across_panels_and_metrics: true
+  one_sided_feature_p_values:
+    method: connected_group_Rademacher_sign_flip
+    null: no_negative_augmented_minus_context_soft_log_loss_shift
+    alternative: augmented_minus_context_soft_log_loss_below_zero
+    repetitions: 20000
+    seed: 20260725
+    group_contribution: sum_record_aggregated_log_loss_delta_within_group
+    statistic: sum_signed_group_contributions_divided_by_total_record_count
+    tail: lower_including_ties
+    finite_monte_carlo_correction: add_one_to_numerator_and_denominator
+    shared_sign_matrix_across_six_formal_features: true
+    multiplicity_family: exactly_six_formal_increment_panels
+    adjustment: Holm
+    alpha: 0.05
+    nonfinite_policy: fail_closed
+
+release_gate:
+  primary_width: 0.20
+  primary_model_only: true
+  context_baseline_requires_prior_delta_ci95_high_below_zero: true
+  each_feature_augmented_vs_prior_ci95_high_below_zero: true
+  each_feature_augmented_vs_context_ci95_high_below_zero: true
+  each_feature_holm_adjusted_one_sided_p_at_or_below: 0.05
+  each_feature_minimum_repeat_improvement_fraction: 0.80
+  repeat_statistic: all97_mean_log_loss_after_aggregating_each_repeats_five_outer_folds
+  each_feature_observed_brier_delta_at_or_below_zero: true
+  width_direction_consistency:
+    widths: [0.15, 0.20, 0.25]
+    rule: augmented_minus_context_observed_soft_log_loss_below_zero_at_every_width
+    inconsistent_label: width_sensitive
+    required_for_general_claim: true
+    required_for_curve_release: true
+  no_augmented_panel_beats_prior_action: stop_feature_interpretation_and_publish_negative_result
+  failed_feature_outputs_forbidden:
+    - SHAP
+    - PDP
+    - ranked_best_feature
+    - mechanistic_interpretation
+
+adjusted_probability_curve:
+  implementation_status: policy_frozen_not_executed_unless_release_gate_passes
+  grid_percentiles: [0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85, 0.90, 0.95]
+  reference_percentile: 0.50
+  grid_values: fold_local_outer_training_percentiles
+  feature_type: continuous_only
+  joint_support_distance: fold_local_block_balanced_Gower
+  joint_support_threshold: outer_training_leave_one_out_nearest_distance_q95
+  support_requires_grid_and_reference: true
+  minimum_common_record_coverage_fraction: 0.80
+  minimum_supported_repeats_per_common_record_at_every_grid_point: 8
+  covariate_averaging_estimand: equal_weight_empirical_standardization_over_common_all97_outer_test_records_with_observed_context_covariates
+  fold_prediction: predict_each_outer_test_record_at_fold_local_grid_and_reference
+  repeat_aggregation: average_each_records_supported_cross_fitted_probabilities_across_repeats
+  population_aggregation: equal_weight_mean_over_one_fixed_common_record_set_shared_by_all_grid_points
+  output: all_four_absolute_probabilities_and_reference_differences
+  simplex_policy: clip_only_machine_roundoff_then_renormalize_each_record_before_all_averages_and_final_row
+  extrapolation_allowed: false
+  categorical_contrasts: withheld_without_separately_frozen_common_reference
+
+smoke_mode:
+  scientifically_releasable: false
+  outer_folds: 2
+  outer_repeats: 1
+  inner_folds: 2
+  primary_candidates: first_strongest_shrinkage_only
+  secondary_candidates: first_smoothest_candidate_only
+  bootstrap_repetitions: 20
+  sign_flip_repetitions: 100
+  adjusted_probability_curves: disabled

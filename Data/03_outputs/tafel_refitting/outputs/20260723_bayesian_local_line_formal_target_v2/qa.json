@@ -1,0 +1,40 @@
+{
+  "calibration_pass": true,
+  "candidate_only_not_published": false,
+  "fallback_calibration": {
+    "calibration_pass": true,
+    "calibration_version": "quantization_aware_fallback_recovery_smoke_v1",
+    "fallback_activation_rate_for_quantized_truth": 1.0,
+    "interval_coverage": 1.0,
+    "maximum_absolute_relative_error": 0.07202636108454423,
+    "median_absolute_relative_error": 0.0319237449139149,
+    "supported_selection_rate": 1.0,
+    "unsupported_false_positive_rate": 0.0
+  },
+  "formal_evaluation_blockers": [
+    "named_ppc_review_incomplete"
+  ],
+  "formal_evaluation_ready": false,
+  "human_ppc_review_required": true,
+  "named_human_ppc_approved_count": 0,
+  "policy_id": "bayesian_local_line_eta015_strict_then_pava_fallback_v2",
+  "posterior_draw_count": 776000,
+  "posterior_median_above_500_count": 0,
+  "posterior_median_max_mV_dec": 395.6321604352753,
+  "posterior_median_median_mV_dec": 66.53585354901702,
+  "posterior_median_min_mV_dec": 35.461822846581065,
+  "publication_boundary": "formal_evidence_source_pending_named_human_ppc",
+  "quantization_aware_fallback_records": [
+    23,
+    74
+  ],
+  "record_count": 97,
+  "source_candidate_run": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/Tafel_refitting/outputs/20260723_bayesian_local_line_strict_plus_fallback_merged_v2",
+  "status": "formal_evidence_complete_pending_named_human_ppc",
+  "strict_primary_calibration_pass": true,
+  "strict_primary_records": 95,
+  "structural_qa_pass": true,
+  "structurally_eligible_count": 97,
+  "target_name": "b_bayesian_local_line_mV_dec",
+  "unsupported_records": []
+}

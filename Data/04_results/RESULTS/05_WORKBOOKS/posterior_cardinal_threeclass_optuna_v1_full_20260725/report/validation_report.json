@@ -1,0 +1,83 @@
+{
+  "methodology": "all97_posterior_soft_connected_group_nested_optuna",
+  "overall_assessment": "ready_for_posthoc_exploratory_review_not_formal_release",
+  "qa": {
+    "causal_claim_allowed": false,
+    "class_order": [
+      "low_30_40_60_like",
+      "120_like",
+      "off_cardinal"
+    ],
+    "contract_id": "posterior_cardinal_threeclass_optuna_v1",
+    "contract_sha256": "f3f54a8eab924dea5c0612dcc2d3c613cbe5c3ad216eafc21b00d2e9e1e4c2be",
+    "draws_per_record": 8000,
+    "feature_engineering_fit_inside_training_folds": true,
+    "formal_source_run_unchanged": true,
+    "formal_v4_result_modified": false,
+    "full_manifest_hashes_match_v4": true,
+    "hard_accuracy_used_for_training_or_selection": false,
+    "inner_folds": 4,
+    "input_snapshot_verified_after_modeling": true,
+    "mechanistic_claim_allowed": false,
+    "modal_accuracy_descriptive_only": true,
+    "n_connected_groups": 80,
+    "n_optuna_trials_complete": 2250,
+    "n_optuna_trials_total": 2250,
+    "n_outer_selections": 50,
+    "n_posterior_draws": 776000,
+    "n_records": 97,
+    "nested_oof_modal_accuracy": 0.5051546391752577,
+    "nested_oof_modal_accuracy_reaches_0_70": false,
+    "nested_oof_posterior_expected_hard_accuracy": 0.45823582474226804,
+    "one_ml_row_per_record": true,
+    "optuna_selection_inside_outer_training_only": true,
+    "optuna_trials_per_outer_split": 45,
+    "outer_folds": 5,
+    "outer_repeats": 10,
+    "outer_test_used_for_feature_model_or_hyperparameter_selection": false,
+    "parent_v4_contract_id": "posterior_cardinal_all97_v4",
+    "parent_v4_contract_sha256": "dd93d316610201f4b03e676710b5315075b9728b77f3102da2df4d41c82dd8fe",
+    "posterior_argmax_used_for_training_or_selection": false,
+    "posterior_draws_expanded_as_ml_samples": false,
+    "posterior_expected_hard_accuracy_oracle_ceiling": 0.7163105670103093,
+    "posthoc_exploratory_task": true,
+    "primary_effective_class_mass": {
+      "120_like": 16.808749999999996,
+      "low_30_40_60_like": 46.75125,
+      "off_cardinal": 33.440000000000005
+    },
+    "primary_metric": "full_coverage_three_class_soft_log_loss",
+    "reduced_registry_verified_after_modeling": true,
+    "requested_accuracy_0_70_oracle_reachable": true,
+    "scientifically_releasable": false,
+    "selection_summary": {
+      "feature_panel": {
+        "candidate": "context_core",
+        "selection_count": 20,
+        "selection_fraction": 0.4,
+        "stable": false
+      },
+      "global_single_best_claim_authorized": false,
+      "joint_pipeline": {
+        "candidate": "context_core::two_stage_soft_extra_trees",
+        "selection_count": 15,
+        "selection_fraction": 0.3,
+        "stable": false
+      },
+      "model_family": {
+        "candidate": "two_stage_soft_extra_trees",
+        "selection_count": 32,
+        "selection_fraction": 0.64,
+        "stable": true
+      },
+      "outer_test_metrics_used_to_choose_winner": false,
+      "overall_status": "no_stable_joint_winner",
+      "selection_basis": "frequency_of_inner_CV_selections_across_outer_training_splits",
+      "separate_validation_available": false,
+      "smoke_structural_only": false,
+      "stability_threshold": 0.5
+    },
+    "status": "complete_exploratory"
+  },
+  "report": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_threeclass_optuna_v1_full_20260725/report/posterior_cardinal_threeclass_optuna_report.md"
+}

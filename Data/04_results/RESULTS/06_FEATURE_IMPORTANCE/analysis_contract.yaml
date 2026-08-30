@@ -1,0 +1,72 @@
+analysis_id: presto_policy_v2_stage_aware_permutation_reliance_v1
+status: posthoc_descriptive_model_reliance
+created_date: 2026-07-26
+
+authoritative_parent:
+  run: RESULTS/04_MODEL/PRESTO_policy_v2_complete/policy_v2
+  contract_sha256: 85694b3ff89b10458e56cf159fa8d2da2fa771948845469c8951a14a7ee93dcd
+  artifact_tree_sha256: 67005476961140e6d6b8a610b700c55863465f35953c426d5b9d698d4bb04f13
+  refit_parent_run: RESULTS/04_MODEL/PRESTO_policy_v2_complete/probability_engine
+  refit_parent_artifact_tree_sha256: 257c7438545007a3eada169a8d2cdbcccb59a30c3b2f89803128001cf422c0db
+
+scope:
+  population: all97
+  expected_records: 97
+  expected_connected_groups: 80
+  one_ml_row_per_record: true
+  posterior_draws_expanded: false
+  class_rows_expanded: false
+  feature_claim_allowed: false
+  causal_claim_allowed: false
+  mechanistic_claim_allowed: false
+
+estimands:
+  probability_engine:
+    model: presto_high_gate_direct_gower_conditional
+    metric: full_coverage_three_class_soft_log_loss
+    importance: mean_permuted_loss_minus_unpermuted_loss
+    positive_direction: fixed_probability_engine_relies_on_feature
+  high_alert_policy:
+    policy: presto_policy_only_soft_f05_mean_margin_v2
+    metric: posterior_soft_high_f0_5
+    importance: unpermuted_f0_5_minus_mean_permuted_f0_5
+    positive_direction: fixed_high_alert_policy_relies_on_feature
+
+permutation:
+  method: marginal_logical_feature_permutation_within_each_outer_test_fold
+  unit: record
+  rationale: preserves_the_registered_97_record_equal_weight_estimand
+  connected_group_role: outer_fold_isolation_and_bootstrap_not_permutation
+  repetitions_per_feature: 100
+  seed: 20260726
+  shared_context_uses_identical_permutation_in_both_model_branches: true
+  outer_training_data_perturbed: false
+  fold_local_preprocessing_refit_after_permutation: false
+  fitted_parameters_refit_after_permutation: false
+  selected_penalty_or_threshold_changed_after_permutation: false
+
+validation:
+  outer_repeats: 10
+  outer_folds: 5
+  grouping: publication_verified_laboratory_recipe_hash_connected_components
+  aggregate_repeated_oof_by_record_before_scoring: true
+  bootstrap_unit: connected_group
+  bootstrap_repetitions: 2000
+  bootstrap_seed: 20260726
+
+logical_features:
+  - catalyst_family
+  - catalyst_loading
+  - electrolyte_molarity
+  - rotation_rate
+  - scan_rate
+  - ir_compensation
+  - electrolyte_scope
+  - solvent_polarity_coordinate
+  - ionomer_to_solvent_ratio
+
+interpretation_boundary:
+  - This estimates predictive reliance of the already selected pipeline, not a feature effect.
+  - Marginal permutation can create uncommon feature combinations and does not identify unique conditional information.
+  - Gower context and singleton formulation blocks are equally weighted; importance includes that frozen design choice.
+  - The closed-data PRESTO policy-v2 rule was globally post-selected, so bootstrap intervals are conditional and not independent confirmation.

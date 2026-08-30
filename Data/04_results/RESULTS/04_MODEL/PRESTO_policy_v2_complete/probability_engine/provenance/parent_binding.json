@@ -1,0 +1,62 @@
+{
+  "artifact_manifest_verification": {
+    "actual_file_count": 26,
+    "actual_tree_matches": true,
+    "actual_tree_sha256": "74ca8423f9a797eac5265d1e0f19119ad9bc60409cac562a0d4c5f7d2ac9484a",
+    "algorithm_matches": true,
+    "duplicate_recorded_paths": [],
+    "manifest_path": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_direct_gower_v1_20260725/artifact_manifest.json",
+    "missing_files": [],
+    "modified_files": [],
+    "recorded_file_count": 26,
+    "recorded_file_count_matches": true,
+    "recorded_size_matches": true,
+    "recorded_tree_self_consistent": true,
+    "recorded_tree_sha256": "74ca8423f9a797eac5265d1e0f19119ad9bc60409cac562a0d4c5f7d2ac9484a",
+    "rows_well_formed": true,
+    "run_dir": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_direct_gower_v1_20260725",
+    "schema_matches": true,
+    "status": "pass",
+    "tree_hash_algorithm": "sha256-relative-path-size-content-v1",
+    "unexpected_files": []
+  },
+  "parent_run": "/Users/yan/Desktop/AI4S/Ink_formulation/KNN_Tafel/RESULTS/04_WORKBOOKS/posterior_cardinal_contiguous_threeclass_direct_gower_v1_20260725",
+  "required_files": [
+    {
+      "path": "inputs/records.csv",
+      "sha256": "b51da12097f24c4efcc93096a12f37c8728d7487e17805f488243513389664c5",
+      "size_bytes": 259013
+    },
+    {
+      "path": "registry/contiguous_three_class_soft_labels.csv",
+      "sha256": "7d7ddbf7014a480eee78ccd8353ae2f1894e6eb295ce4b20b69430f66799695d",
+      "size_bytes": 17173
+    },
+    {
+      "path": "folds/outer_split_manifest.csv",
+      "sha256": "5fff88517bbbc644e7306264f7f3bb866dd1d21cfcbec0af0e230047f047d330",
+      "size_bytes": 57013
+    },
+    {
+      "path": "folds/inner_split_manifest.csv",
+      "sha256": "603e5daa6432cd8115a6c461004b6774838ef770ddacb3afb4f91ebd8db7fc2f",
+      "size_bytes": 232526
+    },
+    {
+      "path": "analyses/oof_probabilities.csv",
+      "sha256": "0dff43ad66487a63635cfd2142dfe995460e185c97d7b610dfe9df9593cac9d9",
+      "size_bytes": 433294
+    },
+    {
+      "path": "analyses/oof_aggregated.csv",
+      "sha256": "edc2d8a0ee5fe5d7cd46b1fe780fcd3ce33f457013bc7ad132f924da87aa478d",
+      "size_bytes": 41486
+    },
+    {
+      "path": "registry/contract_snapshot.yaml",
+      "sha256": "9467f660eff0efa2e664b290037a002b826234dd869a3440fd27141ca83d973c",
+      "size_bytes": 5464
+    }
+  ],
+  "status": "pass"
+}

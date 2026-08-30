@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "path": "Ink_Tafel_Study/config/contracts/posterior_cardinal_contiguous_threeclass_presto_gate_v1.yaml",
+      "sha256": "964428f61150981f15c882ba12e2df65f389f12f653e238678dcadf539ffde3c",
+      "size_bytes": 8442
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_metrics.py",
+      "sha256": "0a809ba98962ae36854ca75cb27754791cf984bcb3ecc605edfb77830ecdb508",
+      "size_bytes": 11942
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_models.py",
+      "sha256": "646f681daa9ac70f8941b15137231c959f85a76a5e9af3eaebdfcf3760332b7e",
+      "size_bytes": 48830
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/cardinal_reduced_models.py",
+      "sha256": "4f6139382b025e3396d73e9fab095b35b968e829373290738a0918743791f7bb",
+      "size_bytes": 24690
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/feature_association_features.py",
+      "sha256": "85bef902de6a5c49c3fd9fb4f66e04f6d7ff4c587a320267718eeb7ab4a26967",
+      "size_bytes": 60027
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/features.py",
+      "sha256": "cf5daeb5175c20b447a078c48fe883bf39645a581ffe292ec62fee1f7b19e78b",
+      "size_bytes": 17137
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/models.py",
+      "sha256": "269665f8d226a97cd9612aa20dc45ed75ff94d58b62c4314998c283c98994a2e",
+      "size_bytes": 18488
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contiguous_threeclass.py",
+      "sha256": "7ff7f468c0744fc028c82caf835c6de73f575762d59037eac5bfc36370a66be5",
+      "size_bytes": 105279
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contiguous_threeclass_direct_gower.py",
+      "sha256": "4cd728a33f5af801865acebb0cdbfe839775c85f663ba1f4a01eaa7050637f40",
+      "size_bytes": 41091
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_contiguous_threeclass_presto_gate.py",
+      "sha256": "6c4cca8ef42f29d4aacc1560cd6afe5d863c580a1c064345fb7459cc357a1358",
+      "size_bytes": 81698
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/posterior_cardinal_inference.py",
+      "sha256": "b7b3fcbce650f9c114512a5550bde3521d5671841acac6bf1325b6f895a0b7c3",
+      "size_bytes": 15666
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/presto_ordinal.py",
+      "sha256": "47cf245c27ecc289aeb3a13c8e61bd350a9de7084b7e128e30be1047f117a834",
+      "size_bytes": 15269
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/provenance.py",
+      "sha256": "a1cd5460d47536567f17e0fa23719116e6048d0c5b6c9eed01b8ab869a625cb9",
+      "size_bytes": 10932
+    },
+    {
+      "path": "Ink_Tafel_Study/src/ink_tafel_study/threeclass_sensitivity_models.py",
+      "sha256": "51293ba9b6c70ac64c9ac1e9d9898bdef6060c451200e96c8cab00bf788ecffd",
+      "size_bytes": 60521
+    }
+  ],
+  "tree_sha256": "07f22048a62cb25a5840ec70cc7651c1a12c02a39bb99828892e331c96c885cb"
+}

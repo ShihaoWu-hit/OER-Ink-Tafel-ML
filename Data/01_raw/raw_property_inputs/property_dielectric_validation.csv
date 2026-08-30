@@ -1,0 +1,6 @@
+validation_id,isopropanol_mass_fraction,temperature_K,dielectric_constant,evidence_tier,source_id,source_locator,model_use_status
+ipa_dielectric_validation__000,0,298.15,78.375,C_secondary_reconstruction,iapws_liquid_water_2011,IAPWS LiquidWater table at 298.15 K and 0.1 MPa,validation_only
+ipa_dielectric_validation__001,0.1,298.15,71.4,C_secondary_reconstruction,deyhimi_karimzadeh_2010_jsc,Table 2; 2-propanol mass fraction 10%,validation_only_not_authoritative_measurement
+ipa_dielectric_validation__002,0.2,298.15,64.1,C_secondary_reconstruction,deyhimi_karimzadeh_2010_jsc,Table 2; 2-propanol mass fraction 20%,validation_only_not_authoritative_measurement
+ipa_dielectric_validation__003,0.3,298.15,56.9,C_secondary_reconstruction,deyhimi_karimzadeh_2010_jsc,Table 2; 2-propanol mass fraction 30%,validation_only_not_authoritative_measurement
+ipa_dielectric_validation__004,0.4,298.15,49.7,C_secondary_reconstruction,deyhimi_karimzadeh_2010_jsc,Table 2; 2-propanol mass fraction 40%,validation_only_not_authoritative_measurement

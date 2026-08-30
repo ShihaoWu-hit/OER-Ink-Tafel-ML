@@ -1,0 +1,20 @@
+{
+  "density_scale": "raw_mV_dec_inverse_after_change_of_variables",
+  "estimand": "between_record_distribution_of_record_level_posterior_medians",
+  "included_record_count": 95,
+  "kde_method": "scipy_gaussian_kde_scott_bandwidth_on_log10_slope",
+  "maximum_mV_dec": 395.6321604352753,
+  "median_mV_dec": 66.53585354901702,
+  "minimum_mV_dec": 35.461822846581065,
+  "pdf": "contiguous_increase_bayesian_tafel_slope_kde.pdf",
+  "png": "contiguous_increase_bayesian_tafel_slope_kde.png",
+  "policy_id": "bayesian_local_line_eta015_contiguous_increase_v1",
+  "q1_mV_dec": 56.08275377422476,
+  "q3_mV_dec": 92.88973734897887,
+  "source_record_count": 97,
+  "target_name": "b_bayesian_local_line_mV_dec",
+  "unsupported_records": [
+    23,
+    74
+  ]
+}
