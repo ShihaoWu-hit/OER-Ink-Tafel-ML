@@ -1,4 +1,4 @@
-"""S7.2: nested Low-region subdivision on the 50 grouped outer splits."""
+"""Nested Low-region subdivision on the grouped outer splits."""
 import numpy as np
 import pandas as pd
 from joblib import Parallel,delayed

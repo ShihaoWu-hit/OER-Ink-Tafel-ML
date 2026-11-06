@@ -1,4 +1,4 @@
-"""S7.1 and S7.5: integrate all 8,000 draws, without creating ML samples."""
+"""Posterior resolution and region membership from record-level slope draws."""
 import numpy as np
 import pandas as pd
 from scipy.ndimage import gaussian_filter1d

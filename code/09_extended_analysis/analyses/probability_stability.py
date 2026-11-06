@@ -1,4 +1,4 @@
-"""S7.4: repeat-level reliance, full group-deletion refits and group bootstrap."""
+"""Repeat-level reliance, group-deletion refits, and group bootstrap."""
 from .common import *
 from .model_pipeline import run as run_cv
 

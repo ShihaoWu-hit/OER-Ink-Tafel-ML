@@ -1,4 +1,4 @@
-"""Compute the manuscript revision analyses using the released repository inputs."""
+"""Run statistical and model analyses using the repository inputs."""
 from pathlib import Path
 import argparse, os, subprocess, sys
 
@@ -35,7 +35,7 @@ def main():
                        'boundaries':('boundary_sensitivity',True), 'probability':('probability_stability',True),
                        'high-focus':('high_focus_stability',False), 'ale':('effect_size',True)}
             name, parallel = modules[stage]
-            import_module('tafel_si_s7.'+name).run(out/name, **({'jobs':args.jobs} if parallel else {}))
+            import_module('analyses.'+name).run(out/name, **({'jobs':args.jobs} if parallel else {}))
     return 0
 
 if __name__ == '__main__':

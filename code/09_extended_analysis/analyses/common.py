@@ -26,7 +26,7 @@ def load_inputs():
     return out
 
 def engine(name='stage_reliance'):
-    module_name='_s7_'+name
+    module_name='_extended_'+name
     if module_name in sys.modules:return sys.modules[module_name]
     path=ENGINE_DIR/f'{name}.py'
     spec=importlib.util.spec_from_file_location(module_name,path)
@@ -64,7 +64,7 @@ def regional_targets(lower,upper,split=None):
         row.update(threeclass_modal_label=['low_60_side','120_side','high_off'][int(np.argmax(vals))],
             threeclass_max_probability=float(max(vals)),threeclass_entropy=float(-sum(v*np.log(v) for v in vals if v>0)),
             lower_boundary_mV_dec=float(lower),upper_boundary_mV_dec=float(upper),
-            label_scheme_id=f'S7_L{lower:.8g}_U{upper:.8g}')
+            label_scheme_id=f'regions_L{lower:.8g}_U{upper:.8g}')
         if split is not None:row.update(q_lower_low=np.mean(x<split),q_upper_low=np.mean((x>=split)&(x<lower)))
         rows.append(row)
     return pd.DataFrame(rows).set_index('record_id',drop=False)

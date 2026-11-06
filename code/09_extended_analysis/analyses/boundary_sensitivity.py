@@ -1,4 +1,4 @@
-"""S7.3: posterior reintegration + nested retraining for all 15 L/U settings."""
+"""Posterior reintegration and nested retraining across region boundaries."""
 import numpy as np
 import pandas as pd
 from .common import *

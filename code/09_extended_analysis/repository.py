@@ -1,4 +1,4 @@
-"""Repository-relative inputs shared by the revision analyses."""
+"""Repository-relative inputs shared by the extended analyses."""
 from pathlib import Path
 import os, sys
 ROOT = Path(os.environ.get("TAFEL_REPO_ROOT", Path(__file__).resolve().parents[2])).resolve()

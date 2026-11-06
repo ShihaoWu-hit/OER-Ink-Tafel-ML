@@ -1,4 +1,4 @@
-"""S7.5: High-focus policy-score reliance using training-marginal replacements."""
+"""High-focus policy-score reliance using training-marginal replacements."""
 import numpy as np
 import pandas as pd
 from .common import *
